@@ -1,6 +1,8 @@
 techbookclub's official site
 ===================
 
+http://techbookclub.github.com/library/
+
 **The beginning of an online archive of the techbookclub collective.**
 
 Initially, a browsable archive of the material pursued by the San Francisco and New York City contingents.
