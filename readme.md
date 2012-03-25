@@ -10,6 +10,6 @@ The future:
 - Details about the collective's beginning
 - Information on how to join the club
 - Accounts for members to allow for:
-  - A voting system to elect new material
+  - A voting system to elect new material, a meeting time/date
   - Private downloads of copyrighted material
 - An Amazon affiliates account to append to public links to bring in funds for snacks/drinks at meetings
