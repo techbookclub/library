@@ -1,0 +1,87 @@
+@bodyWidth: 800px;
+@calendarWidth: 300px;
+@verticalRhythm: 35px;
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: Arial, sans-serif;
+}
+
+.calendars {
+  width: @calendarWidth;
+  margin: 0 auto;
+}
+
+.calendar table {
+  border-collapse: collapse;
+}
+
+.calendar h1 {
+  padding: 0;
+  margin: 0;
+  margin-top: @verticalRhythm;
+  line-height: @verticalRhythm;
+  font-size: 100%;
+  text-align: center;
+}
+
+.calendar td {
+  color: rgb(150, 150, 150);
+
+  text-align: center;
+  width: @calendarWidth / 7;
+  height: @verticalRhythm;
+
+  font-size: 20px;
+  border: 1px solid rgb(230, 230, 230);
+}
+
+.current {
+  width: @bodyWidth;
+  margin: @verticalRhythm auto;
+}
+
+.current h1 {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia;
+  font-style: italic;
+  font-weight: normal;
+
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: @verticalRhythm / 2;
+
+}
+
+.current ul {
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.current li {
+  width: 50%;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+}
+.current li:first-child {
+  text-align: right;
+  padding-right: @verticalRhythm / 2;
+  box-sizing: border-box;
+}
+.current li:last-child {
+  text-align: left;
+  padding-left: @verticalRhythm / 2;
+  box-sizing: border-box;
+}
+
+.current .cover {
+  height: 300px;
+}
