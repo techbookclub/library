@@ -3,19 +3,24 @@
 @headerHeight: 40px;
 @headerBookBaseline: 10px;
 
+@headerBookWidth: 60px;
 @headerBookHeight: 100px;
 @headerBookCurrentHeight: 150px;
 
 @headerBookDistance: 10px;
 
-@headerBookBorder: rgb(220, 220, 220);
-@headerBookBorderHover: darken(@headerBookBorder, 10%);
+@headerBookBorder: rgb(150, 150, 150);
+
+@headerBookShadow: 0 2px 5px rgba(0, 0, 0, .5);
 
 @bookInfoWidth: 900px;
 
 @verticalRhythm: 30px;
 
 @bodyFont: 'Skolar', Georgia, serif;
+
+@bookCoverCloseTime: 500ms;
+@bookCoverOpenTime: 250ms;
 
 body {
   margin: 0;
@@ -140,23 +145,57 @@ header .books li {
 
   position: relative;
 }
-header .books li:hover img {
-  border: 1px solid @headerBookBorderHover;
-}
-
-
-header .books img {
-  border: 1px solid @headerBookBorder;
-
+header .books .cover {
   position: relative;
   top: @headerHeight - @headerBookHeight - @headerBookBaseline;
+
+  width: @headerBookWidth;
   height: @headerBookHeight;
+
+  background: white;
 }
-header .books .selected img {
-  opacity: .2;
+header .books .cover .title-page {
+  content: '';
+  
+  position: absolute;
+  z-index: 20;
+  //border: 1px solid @headerBookBorder;
+  box-shadow: @headerBookShadow;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(200, 200, 200);
+  -webkit-transition: background @bookCoverCloseTime;
+}
+header .books .cover:hover .title-page {
+  -webkit-transition: background @bookCoverOpenTime;
+  background: white;
 }
 
-header .books li:last-child img {
-  top: @headerHeight - @headerBookCurrentHeight - @headerBookBaseline;
-  height: @headerBookCurrentHeight;
+header .books li {
+  -webkit-perspective: 500;
+}
+
+header .books .cover img {
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  box-shadow: @headerBookShadow;
+
+  z-index: 50;
+  //border: 1px solid @headerBookBorder;
+
+  width: @headerBookWidth;
+  height: @headerBookHeight;
+
+  -webkit-transition: -webkit-transform @bookCoverCloseTime;
+
+  -webkit-transform-origin: 0 50%;
+}
+header .books .cover:hover img {
+  -webkit-transition: -webkit-transform @bookCoverOpenTime;
+
+  -webkit-transform: rotateY(-50deg);
 }
