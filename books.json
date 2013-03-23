@@ -1,0 +1,33 @@
+{
+  "sf": [
+    {
+      "title": "Mr. Penumbra's 24-Hour Book Shop",
+      "date": "10-15-2012"
+    },
+    {
+      "title": "Cybernetic Revolutionaries",
+      "date": "11-15-2012"
+    },
+    {
+      "title": "Close to the machine",
+      "date": "12-15-2012"
+    }
+  ],
+
+  "nyc": [
+    {
+      "title": "These Days",
+      "date": "10-15-2012"
+    },
+    {
+      "title": "On the Couch: The Great American Novel by Bill Couch also Notable for Having a Very Long Name",
+      "date": "11-15-2012"
+    },
+    {
+      "title": "Close to the machine",
+      "date": "01-15-2013"
+    }
+
+  ]
+
+}
