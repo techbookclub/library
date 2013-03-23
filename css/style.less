@@ -22,6 +22,8 @@
 @bookCoverCloseTime: 500ms;
 @bookCoverOpenTime: 250ms;
 
+@captionColor: rgb(128, 128, 128);
+
 body {
   margin: 0;
   padding: 0;
@@ -29,10 +31,6 @@ body {
   font-family: Arial, sans-serif;
 
   background: @background;
-
-  //background: -webkit-linear-gradient(rgba(255, 0, 0, .25), transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent);
-  //background-size: 100% @verticalRhythm;
-  //background-position: 0 0;  
 
   font-family: @bodyFont;
 }
@@ -99,17 +97,36 @@ body {
       letter-spacing: 5px;
       font-weight: 600;
 
-
       font-size: 18px;
     }
   }
 }
 
 .book-subinfo {
-  font-size: 20px;
-  line-height: 30px;
-}
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
 
+  & h1 {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+
+    //background: black;
+    color: @captionColor;
+    padding: 0 10px;
+    margin-left: -1500px;
+    padding-left: 1500px;
+
+    font-weight: 400;
+    outline: 1px solid fadeout(@captionColor, 50%);
+  }
+  & .story {
+    padding-left: 150px;
+    -webkit-columns: 2;
+    -webkit-column-gap: @verticalRhythm;
+  }
+}
 
 
 /* Header */
@@ -123,79 +140,77 @@ header {
   background: black;
 
   height: @headerHeight;
-}
 
-header .books {
-  text-align: right;
-  margin: 0;
-  padding: 0;
-  height: @headerHeight;
-  list-style: none;
-}
-header .books li {
-  display: inline-block;
-  list-style: none;
-  height: @headerHeight;
-  margin: 0;
-  padding: 0;
+  & .books {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    height: @headerHeight;
+    list-style: none;
 
-  margin-right: @headerBookDistance;
+    & li {
+      display: inline-block;
+      list-style: none;
+      height: @headerHeight;
+      margin: 0;
+      padding: 0;
 
-  cursor: pointer;
+      margin-right: @headerBookDistance;
 
-  position: relative;
-}
-header .books .cover {
-  position: relative;
-  top: @headerHeight - @headerBookHeight - @headerBookBaseline;
+      cursor: pointer;
 
-  width: @headerBookWidth;
-  height: @headerBookHeight;
+      position: relative;
 
-  background: white;
-}
-header .books .cover .title-page {
-  content: '';
-  
-  position: absolute;
-  z-index: 20;
-  //border: 1px solid @headerBookBorder;
-  box-shadow: @headerBookShadow;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background: rgb(200, 200, 200);
-  -webkit-transition: background @bookCoverCloseTime;
-}
-header .books .cover:hover .title-page {
-  -webkit-transition: background @bookCoverOpenTime;
-  background: white;
-}
+      -webkit-perspective: 500;
+    }
+    & .cover {
+      position: relative;
+      top: @headerHeight - @headerBookHeight - @headerBookBaseline;
 
-header .books li {
-  -webkit-perspective: 500;
-}
+      width: @headerBookWidth;
+      height: @headerBookHeight;
 
-header .books .cover img {
-  position: absolute;
-  left: 0;
-  top: 0;
+      background: white;
 
-  box-shadow: @headerBookShadow;
+      & .title-page {
+        content: '';
+        
+        position: absolute;
+        z-index: 20;
+        box-shadow: @headerBookShadow;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: rgb(200, 200, 200);
+        -webkit-transition: background @bookCoverCloseTime;
+      }
+      &:hover .title-page {
+        -webkit-transition: background @bookCoverOpenTime;
+        background: white;
+      }
 
-  z-index: 50;
-  //border: 1px solid @headerBookBorder;
+      & img {
+        position: absolute;
+        left: 0;
+        top: 0;
 
-  width: @headerBookWidth;
-  height: @headerBookHeight;
+        box-shadow: @headerBookShadow;
 
-  -webkit-transition: -webkit-transform @bookCoverCloseTime;
+        z-index: 50;
 
-  -webkit-transform-origin: 0 50%;
-}
-header .books .cover:hover img {
-  -webkit-transition: -webkit-transform @bookCoverOpenTime;
+        width: @headerBookWidth;
+        height: @headerBookHeight;
 
-  -webkit-transform: rotateY(-50deg);
+        -webkit-transition: -webkit-transform @bookCoverCloseTime;
+
+        -webkit-transform-origin: 0 50%;
+      }
+      &:hover img {
+        -webkit-transition: -webkit-transform @bookCoverOpenTime;
+
+        -webkit-transform: rotateY(-50deg);
+      }
+    }
+  }
 }
