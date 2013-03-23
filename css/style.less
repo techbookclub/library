@@ -17,7 +17,8 @@
 
 @verticalRhythm: 30px;
 
-@bodyFont: 'Skolar', Georgia, serif;
+@serif: 'Skolar', Georgia, serif;
+@sansSerif: 'Myriad Pro', Arial, sans-serif;
 
 @bookCoverCloseTime: 500ms;
 @bookCoverOpenTime: 250ms;
@@ -34,7 +35,10 @@ body {
 
   background: @background;
 
-  font-family: @bodyFont;
+  font-family: @serif;
+}
+a {
+  color: inherit;
 }
 
 /* Book info */
@@ -90,6 +94,8 @@ body {
       font-size: 36px;
       font-weight: 600;
 
+      font-style: italic;
+
       color: lighten(@coverHighlightColor, 20%);
     }
     & .author {
@@ -97,11 +103,13 @@ body {
       margin: 0;
       line-height: @verticalRhythm;
 
+      font-family: @sansSerif;
+
       font-weight: 400;
 
       font-size: 18px;
       text-transform: uppercase;
-      letter-spacing: 5px;
+      letter-spacing: 4px;
       font-weight: 600;
     }
   }
@@ -120,15 +128,30 @@ body {
     color: @coverHighlightColor;
     padding: 0 10px;
 
+    padding-top: 3px;
+
+    font-family: @sansSerif;
     font-size: 18px;
     text-transform: uppercase;
-    letter-spacing: 5px;
-    font-weight: 400;
+    letter-spacing: 4px;
+    font-weight: 500;
+  }
+  & p,
+  & ul {
+    padding-left: 150px;
+    padding-bottom: @verticalRhythm;
+    margin-bottom: @verticalRhythm;
+  }
+  & p:not(:last-child),
+  & u:not(:last-child) {
+    border-bottom: 1px solid fadeout(@coverHighlightColor, 80%);    
   }
   & .story {
-    padding-left: 150px;
     -webkit-columns: 2;
-    -webkit-column-gap: @verticalRhythm;
+    -webkit-column-gap: @verticalRhythm * 2;
+  }
+  & ul {
+    list-style: none;
   }
 }
 
@@ -140,6 +163,8 @@ header {
   bottom: 0;
   left: 0;
   right: 0;
+
+  z-index: 999;
 
   background: black;
 
