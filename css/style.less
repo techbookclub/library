@@ -11,13 +11,84 @@
 @headerBookBorder: rgb(220, 220, 220);
 @headerBookBorderHover: darken(@headerBookBorder, 10%);
 
+@bookInfoWidth: 900px;
+
+@verticalRhythm: 30px;
+
+@bodyFont: 'Skolar', Georgia, serif;
+
 body {
   margin: 0;
   padding: 0;
 
   font-family: Arial, sans-serif;
+
+  background: @background;
+
+  //background: -webkit-linear-gradient(rgba(255, 0, 0, .25), transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent);
+  //background-size: 100% @verticalRhythm;
+  //background-position: 0 0;  
+
+  font-family: @bodyFont;
 }
 
+/* Book info */
+
+.book-info {
+  margin: @verticalRhythm auto;
+
+  width: @bookInfoWidth;
+}
+.book-cover {
+  float: left;
+  width: 400px;
+  margin-right: 20px;
+}
+.book-cover img {
+  width: 400px;
+}
+.metadata {
+  display: block;
+
+  margin-left: @verticalRhythm + 400px;
+
+  padding-top: 8px;
+}
+
+.metadata .title {
+  padding: 0;
+  margin: 0;
+  line-height: 68px;
+
+  margin-top: @verticalRhythm;
+
+  font-size: 72px;
+  font-weight: 500;
+}
+.metadata .subtitle {
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  line-height: 42px;
+  font-size: 36px;
+  font-weight: 600;
+}
+.metadata .author {
+  padding: 0;
+  margin: 0;
+  line-height: @verticalRhythm;
+
+  font-weight: 400;
+
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 600;
+
+
+  font-size: 18px;
+}
+
+/* Header */
 
 header {
   position: fixed;
@@ -47,6 +118,8 @@ header .books li {
   margin-right: @headerBookDistance;
 
   cursor: pointer;
+
+  position: relative;
 }
 header .books li:hover img {
   border: 1px solid @headerBookBorderHover;
@@ -60,8 +133,11 @@ header .books img {
   top: @headerHeight - @headerBookHeight - @headerBookBaseline;
   height: @headerBookHeight;
 }
+header .books .selected img {
+  opacity: .2;
+}
 
-header .books .current img {
+header .books li:last-child img {
   top: @headerHeight - @headerBookCurrentHeight - @headerBookBaseline;
   height: @headerBookCurrentHeight;
 }
