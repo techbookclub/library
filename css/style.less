@@ -34,23 +34,29 @@ body {
 
 /* Book info */
 
+.book-subinfo {
+  margin: @verticalRhythm auto;
+  width: @bookInfoWidth;
+}
+
 .book-info {
   margin: @verticalRhythm auto;
-
   width: @bookInfoWidth;
+
+  overflow: hidden;
 }
 .book-cover {
   float: left;
-  width: 400px;
+  width: 380px;
   margin-right: 20px;
 }
 .book-cover img {
-  width: 400px;
+  width: 380px;
 }
 .metadata {
   display: block;
 
-  margin-left: @verticalRhythm + 400px;
+  margin-left: @verticalRhythm + 380px;
 
   padding-top: 8px;
 }
