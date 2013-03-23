@@ -1,0 +1,152 @@
+[
+  {
+    "location": "sf",
+    "books": [
+      {
+        "title": "Mr. Penumbra's 24-Hour Book Shop",
+        "author": "Robin Sloan",
+        "date": "10-15-2012",
+        "readmill_id": 9780374708832
+      },
+      {
+        "title": "Cybernetic Revolutionaries",
+        "author": "Eden Medina",
+        "date": "11-15-2012"
+      },
+      {
+        "title": "Close to the Machine",
+        "author": "Ellen Ullman",
+        "date": "12-15-2012"
+      },
+      {
+        "title": "Story",
+        "author": "Robert McKee",
+        "date": "12-15-2011"
+      }
+    ],
+    "readmill_books": [
+      {
+        "book": {
+          "permalink": "cybernetic-revolutionaries",
+          "title": "Cybernetic Revolutionaries",
+          "author": "Eden Medina",
+          "story": null,
+          "assets": {
+            "items": [
+
+            ]
+          },
+          "language": null,
+          "id": 78131,
+          "published_at": null,
+          "identifier": null,
+          "permalink_url": "https://readmill.com/books/cybernetic-revolutionaries",
+          "cover_url": "https://d15fum6h02z48v.cloudfront.net/assets/default-cover-medium-783d4f50bcee0684bace309dd29c7929.png"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "close-to-the-machine",
+          "title": "Close to the machine",
+          "author": "Ellen Ullman",
+          "story": null,
+          "assets": {
+            "items": [
+
+            ]
+          },
+          "language": null,
+          "id": 29667,
+          "published_at": null,
+          "identifier": "0872863328",
+          "permalink_url": "https://readmill.com/books/close-to-the-machine",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/3642b90b9be51db488093b66e5587875-medium.png?1346003695"
+        },
+        "status": 200
+      }
+    ]
+  },
+  {
+    "location": "nyc",
+    "books": [
+      {
+        "title": "These Days",
+        "author": "Jack Cheng",
+        "date": "10-15-2012"
+      },
+      {
+        "title": "The Information",
+        "author": "James Gleick",
+        "date": "11-15-2012"
+      },
+      {
+        "title": "Close to the machine",
+        "author": "Ellen Ullman",
+        "date": "01-15-2013"
+      }
+    ],
+    "readmill_books": [
+      {
+        "book": {
+          "permalink": "these-days",
+          "title": "These Days",
+          "author": "Cheng, Jack",
+          "story": null,
+          "assets": {
+            "items": [
+
+            ]
+          },
+          "language": null,
+          "id": 77273,
+          "published_at": null,
+          "identifier": null,
+          "permalink_url": "https://readmill.com/books/these-days",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/3d989e35122f357f223c8b7e8c7ea975-medium.png?1363386909"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "the-information",
+          "title": "The Information",
+          "author": "James Gleick",
+          "story": "James Gleick, the author of the bestsellers Chaos and Genius, brings us his crowning work: a revelatory chronicle that shows how information has become the modern era’s defining quality—the blood, the fuel, the vital principle of our world.The story of information begins in a time profoundly unlike our own, when every thought and utterance vanished as soon as it was born. From the invention of scripts and alphabets to the long misunderstood “talking drums” of Africa, James Gleick tells the story of information technologies that changed the very nature of human consciousness. He provides portraits of the key figures contributing to the inexorable development of our modern understanding of information: Charles Babbage, the idiosyncratic inventor of the first great mechanical computer; Ada Byron, the poet’s brilliant and doomed daughter, who became the first true programmer; pivotal figures like Samuel Morse and Alan Turing; and Claude Shannon, the creator of information theory itself.An then the information age comes upon us. Citizens of this world become experts willy-nilly: aficionados of bits and bytes. And they sometimes feel they are drowning, swept by a deluge of signs and signals, news and images, blogs and tweets. The Information is the story of how we got here and where we are heading. It will transform readers’ view of its subject.James Gleick is our leading chronicler of science and modern technology. His first book, Chaos, a National Book Award finalist, has been translated into twenty-five languages. His best-selling biographies, Genius: The Life and Science of Richard Feynman and Isaac Newton, were short-listed for the Pulitzer Prize. The Information was seven years in the making. Gleick divides his time between New York and Florida.",
+          "assets": {
+            "items": [
+
+            ]
+          },
+          "language": "en",
+          "id": 1043,
+          "published_at": "2011-03-03",
+          "identifier": "0007432526",
+          "permalink_url": "https://readmill.com/books/the-information",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/af84a9dd8b24a7125fd8c2d3dde1eec7-medium.png?1351859456"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "close-to-the-machine",
+          "title": "Close to the machine",
+          "author": "Ellen Ullman",
+          "story": null,
+          "assets": {
+            "items": [
+
+            ]
+          },
+          "language": null,
+          "id": 29667,
+          "published_at": null,
+          "identifier": "0872863328",
+          "permalink_url": "https://readmill.com/books/close-to-the-machine",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/3642b90b9be51db488093b66e5587875-medium.png?1346003695"
+        },
+        "status": 200
+      }
+    ]
+  }
+]
