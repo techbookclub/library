@@ -131,19 +131,59 @@
     "location": "nyc",
     "books": [
       {
-        "title": "These Days",
-        "author": "Jack Cheng",
-        "date": "10-15-2012"
+        "title": "Tenth of December",
+        "author": "George Saunders",
+        "date": "04-15-2013"
       },
       {
-        "title": "The Information",
-        "author": "James Gleick",
-        "date": "11-15-2012"
+        "title": "Mr. Penumbra's 24-Hour Bookstore",
+        "author": "Robin Sloan",
+        "date": "02-15-2013"
       },
       {
-        "title": "Close to the machine",
+        "title": "Close to the Machine: Technophilia and its Discontents",
         "author": "Ellen Ullman",
-        "date": "01-15-2013"
+        "date": "12-15-2012"
+      },
+      {
+        "title": "Do Androids Dream of Electric Sheep",
+        "author": "Philip K. Dick",
+        "date": "08-15-2012"
+      },
+      {
+        "title": "Design Patterns Reader",
+        "author": "techbookclub",
+        "date": "06-15-2012"
+      },
+      {
+        "title": "Piano: The Making of a Steinway Concert Grand",
+        "author": "James Barron",
+        "date": "03-15-2012"
+      },
+      {
+        "title": "The Information: A History, A Theory, A Flood",
+        "author": "James Gleick",
+        "date": "01-15-2012"
+      },
+      {
+        "title": "Lapham's Quarterly: The Future",
+        "author": "Lewis H. Lapham",
+        "date": "10-15-2011"
+      },
+      {
+        "title": "River of Shadows",
+        "author": "Rebecca Solnit",
+        "date": "09-15-2011"
+      },
+      {
+        "title": "Newsgames: Journalism at Play",
+        "author": "Ian Bogost",
+        "date": "07-15-2011"
+      },
+      {
+        "title": "Living With Complexity",
+        "author": "Don Norman",
+        "date": "06-15-2011"
       }
     ]
   }
