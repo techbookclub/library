@@ -7,7 +7,16 @@ http://techbookclub.github.com/library/
 
 Initially, a browsable archive of the material pursued by the San Francisco and New York City contingents.
 
-The future:
+Building the Site
+-------------------
+Make sure you have the "bundler" gem installed. Then run:
+
+  bundle
+  bundle exec build
+
+
+The Future
+-------------------
 
 - Details about the collective's beginning
 - Information on how to join the club
