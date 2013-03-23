@@ -158,7 +158,26 @@ a {
 
 /* Header */
 
+header:hover {
+  -webkit-transform: translateY(0);
+  -webkit-transition-delay: 0;
+}
+
+header::before {
+  content: '';
+  top: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: @headerHeight;
+  background: black;
+}
+
 header {
+  -webkit-transition: -webkit-transform 250ms;
+  -webkit-transform: translateY(80px);
+  -webkit-transition-delay: 1000ms;
+
   position: fixed;
   bottom: 0;
   left: 0;
@@ -166,7 +185,7 @@ header {
 
   z-index: 999;
 
-  background: black;
+  border-top: 150px solid transparent;
 
   height: @headerHeight;
 
