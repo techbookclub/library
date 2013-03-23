@@ -11,8 +11,8 @@ Building the Site
 -------------------
 Make sure you have the "bundler" gem installed. Then run:
 
-  bundle
-  bundle exec build
+    bundle
+    bundle exec ./build
 
 
 The Future
