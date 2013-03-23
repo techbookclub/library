@@ -3,25 +3,126 @@
     "location": "sf",
     "books": [
       {
+        "title": "Cybernetic Revolutionaries: Technology and Politics in Allende's Chile",
+        "author": "Eden Medina",
+        "date": "04-15-2013"
+      },
+      {
+        "title": "Close to the Machine: Technophilia and its Discontents",
+        "author": "Ellen Ullman",
+        "date": "01-15-2013"
+      },
+      {
+        "title": "The Signal and the Noise",
+        "author": "Nate Silver",
+        "date": "12-15-2012"
+      },
+      {
         "title": "Mr. Penumbra's 24-Hour Book Shop",
         "author": "Robin Sloan",
         "date": "10-15-2012",
         "readmill_id": 9780374708832
       },
       {
-        "title": "Cybernetic Revolutionaries",
-        "author": "Eden Medina",
-        "date": "11-15-2012"
+        "title": "Hackers: Heroes of the Computer Revolution",
+        "author": "Steven Levy",
+        "date": "07-15-2012"
       },
       {
-        "title": "Close to the Machine",
-        "author": "Ellen Ullman",
-        "date": "12-15-2012"
+        "title": "How to Do Things With Videogames",
+        "author": "Ian Bogost",
+        "date": "03-15-2012"
       },
       {
-        "title": "Story",
+        "title": "Fordlandia: The Rise and Fall of Henry Ford's Forgotten Jungle City",
+        "author": "Greg Grandin",
+        "date": "01-15-2012"
+      },
+      {
+        "title": "Design Patterns Reader",
+        "author": "techbookclub",
+        "date": "10-15-2011",
+      },
+      {
+        "title": "The Filter Bubble: What the Internet is Hiding From You",
+        "author": "Eli Pariser",
+        "date": "07-15-2011"
+      },
+      {
+        "title": "Powering the Dream: The History and Promise of Green Technology",
+        "author": "Alexis Madrigal",
+        "date": "05-15-2011"
+      },
+      {
+        "title": "Extraordinary Perception",
+        "author": "techbookclub",
+        "date": "04-15-2011",
+        "link": "http://extraordinaryperception.tumblr.com/"
+      },
+      {
+        "title": "Reality is Broken: Why Games Make Us Better and How They Can Change the World",
+        "author": "Jane McGonigal",
+        "date": "03-15-2011"
+      },
+      {
+        "title": "The Architecture Machine",
+        "author": "Nicholas Negroponte",
+        "date": "01-15-2011"
+      },
+      {
+        "title": "Where Good Ideas Come From: The Natural History of Innovation",
+        "author": "Steven Johnson",
+        "date": "11-15-2010"
+      },
+      {
+        "title": "Toyota Production System: Beyond Large-Scale Production",
+        "author": "Taiichi Ohno",
+        "date": "09-15-2010"
+      },
+      {
+        "title": "Delivering Happiness: A Path to Profits, Passion, and Purpose",
+        "author": "Tony Hsieh",
+        "date": "08-15-2010"
+      },
+      {
+        "title": "Proust Was a Neuroscientist",
+        "author": "Jonah Lehrer",
+        "date": "07-15-2010"
+      },
+      {
+        "title": "The Culture Code: An Ingenious Way to Understand Why People Around the World Live and Buy as They Do",
+        "author": "Clotaire Rapaille",
+        "date": "05-15-2010"
+      },
+      {
+        "title": "Story: Substance, Structure, Style, and the Principles of Screenwriting",
         "author": "Robert McKee",
-        "date": "12-15-2011"
+        "date": "03-15-2010"
+      },
+      {
+        "title": "A Theory of Fun for Game Design",
+        "author": "Raph Koster",
+        "date": "02-15-2010"
+      },
+      {
+        "title": "Always Be Testing: The Complete Guide to Google Website Optimizer",
+        "author": "Bryan Eisenberg and John Quarto-vonTivadar",
+        "date": "01-15-2010"
+      },
+      {
+        "title": "Content Strategy for the Web",
+        "author": "Kristina Halvorson",
+        "date": "11-15-2009"
+      },
+      {
+        "title": "The Back of the Napkin: Solving Problems and Selling Ideas With Pictures",
+        "author": "Dan Roam",
+        "date": "10-15-2009"
+      },
+      {
+        "title": "Web Analytics: An Hour A Day",
+        "author": "Avinash Kaushik",
+        "date": "08-15-2009"
       }
     ]
   },
