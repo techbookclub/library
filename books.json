@@ -1,33 +1,49 @@
-{
-  "sf": [
-    {
-      "title": "Mr. Penumbra's 24-Hour Book Shop",
-      "date": "10-15-2012"
-    },
-    {
-      "title": "Cybernetic Revolutionaries",
-      "date": "11-15-2012"
-    },
-    {
-      "title": "Close to the machine",
-      "date": "12-15-2012"
-    }
-  ],
+[
+  {
+    "location": "sf",
+    "books": [
+      {
+        "title": "Mr. Penumbra's 24-Hour Book Shop",
+        "author": "Robin Sloan",
+        "date": "10-15-2012",
+        "readmill_id": 9780374708832
+      },
+      {
+        "title": "Cybernetic Revolutionaries",
+        "author": "Eden Medina",
+        "date": "11-15-2012"
+      },
+      {
+        "title": "Close to the Machine",
+        "author": "Ellen Ullman",
+        "date": "12-15-2012"
+      },
+      {
+        "title": "Story",
+        "author": "Robert McKee",
+        "date": "12-15-2011"
+      }
+    ]
+  },
 
-  "nyc": [
-    {
-      "title": "These Days",
-      "date": "10-15-2012"
-    },
-    {
-      "title": "On the Couch: The Great American Novel by Bill Couch also Notable for Having a Very Long Name",
-      "date": "11-15-2012"
-    },
-    {
-      "title": "Close to the machine",
-      "date": "01-15-2013"
-    }
-
-  ]
-
-}
+  {
+    "location": "nyc",
+    "books": [
+      {
+        "title": "These Days",
+        "author": "Jack Cheng",
+        "date": "10-15-2012"
+      },
+      {
+        "title": "The Information",
+        "author": "James Gleick",
+        "date": "11-15-2012"
+      },
+      {
+        "title": "Close to the machine",
+        "author": "Ellen Ullman",
+        "date": "01-15-2013"
+      }
+    ]
+  }
+]
