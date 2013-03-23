@@ -24,6 +24,8 @@
 
 @captionColor: rgb(128, 128, 128);
 
+@coverHighlightColor: #478cb6;
+
 body {
   margin: 0;
   padding: 0;
@@ -77,6 +79,8 @@ body {
 
       font-size: 72px;
       font-weight: 500;
+
+      color: @coverHighlightColor;
     }
     & .subtitle {
       padding: 0;
@@ -85,6 +89,8 @@ body {
       line-height: 42px;
       font-size: 36px;
       font-weight: 600;
+
+      color: lighten(@coverHighlightColor, 20%);
     }
     & .author {
       padding: 0;
@@ -111,18 +117,13 @@ body {
     margin: 0;
     padding: 0;
 
-    color: @captionColor;
+    color: @coverHighlightColor;
     padding: 0 10px;
-    margin-left: -1500px;
-    padding-left: 1500px;
 
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
     font-weight: 400;
-    outline: 1px solid fadeout(@captionColor, 50%);
-
-      font-size: 18px;
-      text-transform: uppercase;
-      letter-spacing: 5px;
-      font-weight: 400;
   }
   & .story {
     padding-left: 150px;
