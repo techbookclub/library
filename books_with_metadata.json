@@ -20,8 +20,32 @@
       {
         "title": "Mr. Penumbra's 24-Hour Book Shop",
         "author": "Robin Sloan",
-        "date": "10-15-2012",
-        "readmill_id": 9780374708832
+        "custom_content": {
+          "book": {
+            "permalink": "mr-penumbras-24-hour-bookstore-a-novel",
+            "title": "Mr. Penumbra's 24-Hour Bookstore: A Novel",
+            "author": "Robin Sloan",
+            "story": "A gleeful and exhilarating tale of global conspiracy, complex code-breaking, high-tech data visualization, young love, rollicking adventure, and the secret to eternal life—mostly set in a hole-in-the-wall San Francisco bookstore. The Great Recession has shuffled Clay Jannon out of his life as a San Francisco Web-design drone—and serendipity, sheer curiosity, and the ability to climb a ladder like a monkey has landed him a new gig working the night shift at Mr. Penumbra’s 24-Hour Bookstore. But after just a few days on the job, Clay begins to realize that this store is even more curious than the name suggests. With irresistible brio and dazzling intelligence, Robin Sloan has crafted a literary adventure story for the twenty-first century, evoking both the fairy-tale charm of Haruki Murakami and the enthusiastic novel-of-ideas wizardry of Neal Stephenson or a young Umberto Eco, but with a unique and feisty sensibility that’s rare to the world of literary fiction. ",
+            "assets": {
+              "items": [
+                {
+                  "asset": {
+                    "uri": "http://www.kobobooks.com/ebook/Mr-Penumbras-24-Hour-Bookstore/book-5bwHdRkof0umnzPWgQUBIQ/page1.html?s=RDSX2Dx6nkepv1QO2Af0Og&r=1",
+                    "acquisition_type": "store",
+                    "vendor": ""
+                  }
+                }
+              ]
+            },
+            "language": "",
+            "id": 33736,
+            "published_at": "",
+            "identifier": "9780374708832",
+            "permalink_url": "https://readmill.com/books/mr-penumbras-24-hour-bookstore-a-novel",
+            "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/d0ec737f9fbdc5de731f2bfedae9a763-medium.png?1349203108"
+          }
+        },
+        "date": "10-15-2012"
       },
       {
         "title": "Hackers: Heroes of the Computer Revolution",
@@ -165,6 +189,31 @@
           "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/8f930796eeeafbe23fe09dec9523496b-medium.png?1352767765"
         },
         "status": 200
+      },
+      {
+        "book": {
+          "permalink": "mr-penumbras-24-hour-bookstore-a-novel",
+          "title": "Mr. Penumbra's 24-Hour Bookstore: A Novel",
+          "author": "Robin Sloan",
+          "story": "A gleeful and exhilarating tale of global conspiracy, complex code-breaking, high-tech data visualization, young love, rollicking adventure, and the secret to eternal life—mostly set in a hole-in-the-wall San Francisco bookstore. The Great Recession has shuffled Clay Jannon out of his life as a San Francisco Web-design drone—and serendipity, sheer curiosity, and the ability to climb a ladder like a monkey has landed him a new gig working the night shift at Mr. Penumbra’s 24-Hour Bookstore. But after just a few days on the job, Clay begins to realize that this store is even more curious than the name suggests. With irresistible brio and dazzling intelligence, Robin Sloan has crafted a literary adventure story for the twenty-first century, evoking both the fairy-tale charm of Haruki Murakami and the enthusiastic novel-of-ideas wizardry of Neal Stephenson or a young Umberto Eco, but with a unique and feisty sensibility that’s rare to the world of literary fiction. ",
+          "assets": {
+            "items": [
+              {
+                "asset": {
+                  "uri": "http://www.kobobooks.com/ebook/Mr-Penumbras-24-Hour-Bookstore/book-5bwHdRkof0umnzPWgQUBIQ/page1.html?s=RDSX2Dx6nkepv1QO2Af0Og&r=1",
+                  "acquisition_type": "store",
+                  "vendor": ""
+                }
+              }
+            ]
+          },
+          "language": "",
+          "id": 33736,
+          "published_at": "",
+          "identifier": "9780374708832",
+          "permalink_url": "https://readmill.com/books/mr-penumbras-24-hour-bookstore-a-novel",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/d0ec737f9fbdc5de731f2bfedae9a763-medium.png?1349203108"
+        }
       },
       {
         "book": {
@@ -530,27 +579,67 @@
     "location": "nyc",
     "books": [
       {
-        "title": "These Days",
-        "author": "Jack Cheng",
-        "date": "10-15-2012"
+        "title": "Tenth of December",
+        "author": "George Saunders",
+        "date": "04-15-2013"
       },
       {
-        "title": "The Information",
-        "author": "James Gleick",
-        "date": "11-15-2012"
+        "title": "Mr. Penumbra's 24-Hour Bookstore",
+        "author": "Robin Sloan",
+        "date": "02-15-2013"
       },
       {
-        "title": "Close to the machine",
+        "title": "Close to the Machine: Technophilia and its Discontents",
         "author": "Ellen Ullman",
-        "date": "01-15-2013"
+        "date": "12-15-2012"
+      },
+      {
+        "title": "Do Androids Dream of Electric Sheep",
+        "author": "Philip K. Dick",
+        "date": "08-15-2012"
+      },
+      {
+        "title": "Design Patterns Reader",
+        "author": "techbookclub",
+        "date": "06-15-2012"
+      },
+      {
+        "title": "Piano: The Making of a Steinway Concert Grand",
+        "author": "James Barron",
+        "date": "03-15-2012"
+      },
+      {
+        "title": "The Information: A History, A Theory, A Flood",
+        "author": "James Gleick",
+        "date": "01-15-2012"
+      },
+      {
+        "title": "Lapham's Quarterly: The Future",
+        "author": "Lewis H. Lapham",
+        "date": "10-15-2011"
+      },
+      {
+        "title": "River of Shadows",
+        "author": "Rebecca Solnit",
+        "date": "09-15-2011"
+      },
+      {
+        "title": "Newsgames: Journalism at Play",
+        "author": "Ian Bogost",
+        "date": "07-15-2011"
+      },
+      {
+        "title": "Living With Complexity",
+        "author": "Don Norman",
+        "date": "06-15-2011"
       }
     ],
     "readmill_books": [
       {
         "book": {
-          "permalink": "these-days",
-          "title": "These Days",
-          "author": "Cheng, Jack",
+          "permalink": "tenth-of-december",
+          "title": "TENTH OF DECEMBER",
+          "author": "George Saunders",
           "story": null,
           "assets": {
             "items": [
@@ -558,31 +647,37 @@
             ]
           },
           "language": null,
-          "id": 77273,
+          "id": 75189,
           "published_at": null,
           "identifier": null,
-          "permalink_url": "https://readmill.com/books/these-days",
-          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/3d989e35122f357f223c8b7e8c7ea975-medium.png?1363386909"
+          "permalink_url": "https://readmill.com/books/tenth-of-december",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/b780d31f30f5da70552802883cc7adeb-medium.png?1363057655"
         },
         "status": 200
       },
       {
         "book": {
-          "permalink": "the-information",
-          "title": "The Information",
-          "author": "James Gleick",
-          "story": "James Gleick, the author of the bestsellers Chaos and Genius, brings us his crowning work: a revelatory chronicle that shows how information has become the modern era’s defining quality—the blood, the fuel, the vital principle of our world.The story of information begins in a time profoundly unlike our own, when every thought and utterance vanished as soon as it was born. From the invention of scripts and alphabets to the long misunderstood “talking drums” of Africa, James Gleick tells the story of information technologies that changed the very nature of human consciousness. He provides portraits of the key figures contributing to the inexorable development of our modern understanding of information: Charles Babbage, the idiosyncratic inventor of the first great mechanical computer; Ada Byron, the poet’s brilliant and doomed daughter, who became the first true programmer; pivotal figures like Samuel Morse and Alan Turing; and Claude Shannon, the creator of information theory itself.An then the information age comes upon us. Citizens of this world become experts willy-nilly: aficionados of bits and bytes. And they sometimes feel they are drowning, swept by a deluge of signs and signals, news and images, blogs and tweets. The Information is the story of how we got here and where we are heading. It will transform readers’ view of its subject.James Gleick is our leading chronicler of science and modern technology. His first book, Chaos, a National Book Award finalist, has been translated into twenty-five languages. His best-selling biographies, Genius: The Life and Science of Richard Feynman and Isaac Newton, were short-listed for the Pulitzer Prize. The Information was seven years in the making. Gleick divides his time between New York and Florida.",
+          "permalink": "mr-penumbras-24-hour-bookstore-a-novel",
+          "title": "Mr. Penumbra's 24-Hour Bookstore: A Novel",
+          "author": "Robin Sloan",
+          "story": "A gleeful and exhilarating tale of global conspiracy, complex code-breaking, high-tech data visualization, young love, rollicking adventure, and the secret to eternal life—mostly set in a hole-in-the-wall San Francisco bookstore. The Great Recession has shuffled Clay Jannon out of his life as a San Francisco Web-design drone—and serendipity, sheer curiosity, and the ability to climb a ladder like a monkey has landed him a new gig working the night shift at Mr. Penumbra’s 24-Hour Bookstore. But after just a few days on the job, Clay begins to realize that this store is even more curious than the name suggests. With irresistible brio and dazzling intelligence, Robin Sloan has crafted a literary adventure story for the twenty-first century, evoking both the fairy-tale charm of Haruki Murakami and the enthusiastic novel-of-ideas wizardry of Neal Stephenson or a young Umberto Eco, but with a unique and feisty sensibility that’s rare to the world of literary fiction. ",
           "assets": {
             "items": [
-
+              {
+                "asset": {
+                  "uri": "http://www.kobobooks.com/ebook/Mr-Penumbras-24-Hour-Bookstore/book-5bwHdRkof0umnzPWgQUBIQ/page1.html?s=RDSX2Dx6nkepv1QO2Af0Og&r=1",
+                  "acquisition_type": "store",
+                  "vendor": ""
+                }
+              }
             ]
           },
-          "language": "en",
-          "id": 1043,
-          "published_at": "2011-03-03",
-          "identifier": "0007432526",
-          "permalink_url": "https://readmill.com/books/the-information",
-          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/af84a9dd8b24a7125fd8c2d3dde1eec7-medium.png?1351859456"
+          "language": "",
+          "id": 33736,
+          "published_at": "",
+          "identifier": "9780374708832",
+          "permalink_url": "https://readmill.com/books/mr-penumbras-24-hour-bookstore-a-novel",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/d0ec737f9fbdc5de731f2bfedae9a763-medium.png?1349203108"
         },
         "status": 200
       },
@@ -603,6 +698,78 @@
           "identifier": "0872863328",
           "permalink_url": "https://readmill.com/books/close-to-the-machine",
           "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/3642b90b9be51db488093b66e5587875-medium.png?1346003695"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "do-androids-dream-of-electric-sheep",
+          "title": "Do Androids Dream of Electric Sheep?",
+          "author": "Philip K. Dick",
+          "story": "\"The most consistently brilliant science fiction writer in the world.\"--John Brunner. Do Androids Dream of Electric Sheep? was published in 1968. Grim and foreboding, even today it is a masterpiece ahead of its time.By 2021, the World War had killed millions, driving entire species into extinction and sending mankind off-planet. Those who remained coveted any living creature, and for people who couldn't afford one, companies built incredibly realistic simulacrae: horses, birds, cats, sheep. . . They even built humans.Emigrees to Mars received androids so sophisticated it was impossible to tell them from true men or women. Fearful of the havoc these artificial humans could wreak, the government banned them from Earth. But when androids didn't want to be identified, they just blended in. Rick Deckard was an officially sanctioned bounty hunter whose job was to find rogue androids, and to retire them. But cornered, androids tended to fight back, with deadly results.\"[Dick] sees all the sparkling and terrifying possibilities. . . that other authors shy away from.\"--Paul Williams Rolling Stone",
+          "assets": {
+            "items": [
+              {
+                "asset": {
+                  "uri": "http://www.kobobooks.com/ebook/Do-Androids-Dream-Of-Electric/book-4c0IWWqcxUukUiYuQ6eJ4Q/page1.html?s=8BnWjluqaU6a96HXYup9rg&r=4",
+                  "acquisition_type": "store",
+                  "vendor": ""
+                }
+              }
+            ]
+          },
+          "language": null,
+          "id": 5187,
+          "published_at": null,
+          "identifier": "0345404475",
+          "permalink_url": "https://readmill.com/books/do-androids-dream-of-electric-sheep",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/98e712e3ca8cd2bd45aad1cf5ad66c7e-medium.png?1352909636"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "the-information-a-history-a-theory-a-flood",
+          "title": "The Information: A History, a Theory, a Flood",
+          "author": "James Gleick",
+          "story": "James Gleick, the author of the bestsellers Chaos and Ge­nius, brings us his crowning work: a revelatory chronicle that shows how information has become the modern era’s defining quality—the blood, the fuel, the vital principle of our world.  The story of information begins in a time profoundly unlike our own, when every thought and utterance vanished as soon as it was born. From the invention of scripts and alphabets to the long misunderstood “talk­ing drums” of Africa, James Gleick tells the story of information technologies that changed the very nature of human consciousness. He provides portraits of the key figures contributing to the inexorable develop­ment of our modern understanding of information: Charles Babbage, the idiosyncratic inventor of the first great mechanical computer; Ada Byron, the po­et’s brilliant and doomed daughter, who became the first true programmer; pivotal figures like Samuel Morse and Alan Turing; and Claude Shannon, the cre­ator of information theory itself.  And then the information age comes upon us. Citi­zens of this world become experts willy-nilly: aficiona­dos of bits and bytes. And they sometimes feel they are drowning, swept by a deluge of signs and signals, news and images, blogs and tweets. The Information is the story of how we got here and where we are heading. It will transform readers’ view of its subject.",
+          "assets": {
+            "items": [
+              {
+                "asset": {
+                  "uri": "http://www.kobobooks.com/ebook/The-Information-History-Theory-Flood/book-BHloEUx4hk2OsFVxmh9Jdg/page1.html",
+                  "acquisition_type": "store",
+                  "vendor": "amazon.com"
+                }
+              }
+            ]
+          },
+          "language": "en",
+          "id": 193,
+          "published_at": "2011-03-01",
+          "identifier": "0375423729",
+          "permalink_url": "https://readmill.com/books/the-information-a-history-a-theory-a-flood",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/ad17d59c749819636dc7827df56c585d-medium.png?1351869276"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "living-with-complexity",
+          "title": "Living with Complexity",
+          "author": "Donald A. Norman",
+          "story": "If only today’s technology were simpler! It’s the universal lament, but it’s wrong. We don't want simplicity. Simple tools are not up to the task. The world is complex; our tools need to match that complexity.Simplicity turns out to be more complex than we thought. In this provocative and informative book, Don Norman writes that the complexity of our technology must mirror the complexity and richness of our lives. It’s not complexity that’s the problem, it’s bad design. Bad design complicates things unnecessarily and confuses us. Good design can tame complexity.Norman gives us a crash course in the virtues of complexity. But even such simple things as salt and pepper shakers, doors, and light switches become complicated when we have to deal with many of them, each somewhat different. Managing complexity, says Norman, is a partnership. Designers have to produce things that tame complexity. But we too have to do our part: we have to take the time to learn the structure and practice the skills. This is how we mastered reading and writing, driving a car, and playing sports, and this is how we can master our complex tools.Complexity is good. Simplicity is misleading. The good life is complex, rich, and rewarding—but only if it is understandable, sensible, and meaningful.",
+          "assets": {
+            "items": [
+
+            ]
+          },
+          "language": "en",
+          "id": 4385,
+          "published_at": "2010-10-31",
+          "identifier": "0262014866",
+          "permalink_url": "https://readmill.com/books/living-with-complexity",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/b35cd35e1ded99f110daf351a386e3f0-medium.png?1332521022"
         },
         "status": 200
       }
