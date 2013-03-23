@@ -34,9 +34,11 @@ body {
 
 /* Book info */
 
-.book-subinfo {
+.main {
   margin: @verticalRhythm auto;
-  width: @bookInfoWidth;
+  width: @bookInfoWidth;  
+
+  margin-bottom: @verticalRhythm * 2 + @headerHeight;
 }
 
 .book-info {
@@ -44,55 +46,66 @@ body {
   width: @bookInfoWidth;
 
   overflow: hidden;
+
+  display: table;
+
+  & .book-cover {
+    display: table-cell;
+    width: 380px;
+    margin-right: 20px;
+
+    & img {
+      width: 380px;
+    }
+  }
+  & .metadata {
+    display: table-cell;
+
+    vertical-align: middle;
+
+    padding-left: @verticalRhythm;
+
+    & .title {
+      padding: 0;
+      margin: 0;
+      line-height: 68px;
+
+      margin-top: @verticalRhythm;
+
+      font-size: 72px;
+      font-weight: 500;
+    }
+    & .subtitle {
+      padding: 0;
+      margin: 0;
+      margin-top: 10px;
+      line-height: 42px;
+      font-size: 36px;
+      font-weight: 600;
+    }
+    & .author {
+      padding: 0;
+      margin: 0;
+      line-height: @verticalRhythm;
+
+      font-weight: 400;
+
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      font-weight: 600;
+
+
+      font-size: 18px;
+    }
+  }
 }
-.book-cover {
-  float: left;
-  width: 380px;
-  margin-right: 20px;
-}
-.book-cover img {
-  width: 380px;
-}
-.metadata {
-  display: block;
 
-  margin-left: @verticalRhythm + 380px;
-
-  padding-top: 8px;
+.book-subinfo {
+  font-size: 20px;
+  line-height: 30px;
 }
 
-.metadata .title {
-  padding: 0;
-  margin: 0;
-  line-height: 68px;
 
-  margin-top: @verticalRhythm;
-
-  font-size: 72px;
-  font-weight: 500;
-}
-.metadata .subtitle {
-  padding: 0;
-  margin: 0;
-  margin-top: 10px;
-  line-height: 42px;
-  font-size: 36px;
-  font-weight: 600;
-}
-.metadata .author {
-  padding: 0;
-  margin: 0;
-  line-height: @verticalRhythm;
-
-  font-weight: 400;
-
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  font-weight: 600;
-
-
-  font-size: 18px;
-}
 
 /* Header */
 
