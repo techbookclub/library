@@ -1,6 +1,7 @@
 @background: rgb(248, 248, 248);
 
-@headerHeight: 40px;
+@headerHeight: 160px;
+@headerShelfHeight: 40px;
 @headerBookBaseline: 10px;
 
 @headerBookWidth: 60px;
@@ -8,6 +9,9 @@
 @headerBookCurrentHeight: 150px;
 
 @headerBookDistance: 10px;
+
+@headerHideMove: 80px;
+@headerHideDelay: 1000ms;
 
 @headerBookBorder: rgb(150, 150, 150);
 
@@ -31,8 +35,6 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: Arial, sans-serif;
-
   background: @background;
 
   font-family: @serif;
@@ -46,8 +48,6 @@ a {
 .main {
   margin: @verticalRhythm auto;
   width: @bookInfoWidth;  
-
-  margin-bottom: @verticalRhythm * 2 + @headerHeight;
 }
 
 .book-info {
@@ -149,6 +149,15 @@ a {
   & .story {
     -webkit-columns: 2;
     -webkit-column-gap: @verticalRhythm * 2;
+
+    -moz-columns: 2;
+    -moz-column-gap: @verticalRhythm * 2;
+
+    -ms-columns: 2;
+    -ms-column-gap: @verticalRhythm * 2;
+
+    columns: 2;
+    column-gap: @verticalRhythm * 2;
   }
   & ul {
     list-style: none;
@@ -158,43 +167,80 @@ a {
 
 /* Header */
 
-header:hover {
+header.floating:hover {
   -webkit-transform: translateY(0);
   -webkit-transition-delay: 0;
+
+  -moz-transform: translateY(0);
+  -moz-transition-delay: 0;
+
+  -ms-transform: translateY(0);
+  -ms-transition-delay: 0;
+
+  transform: translateY(0);
+  transition-delay: 0;
 }
 
 header::before {
   content: '';
-  top: 0;
+  bottom: 0;
   position: absolute;
   left: 0;
   right: 0;
-  height: @headerHeight;
+  height: @headerShelfHeight;
   background: black;
 }
 
-header {
-  -webkit-transition: -webkit-transform 250ms;
-  -webkit-transform: translateY(80px);
-  -webkit-transition-delay: 1000ms;
-
+header.floating {
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
 
+  -webkit-transition: -webkit-transform 250ms;
+  -webkit-transform: translateY(@headerHideMove);
+  -webkit-transition-delay: @headerHideDelay;
+
+  -moz-transition: -moz-transform 250ms;
+  -moz-transform: translateY(@headerHideMove);
+  -moz-transition-delay: @headerHideDelay;
+
+  -ms-transition: -ms-transform 250ms;
+  -ms-transform: translateY(@headerHideMove);
+  -ms-transition-delay: @headerHideDelay;
+
+  transition: transform 250ms;
+  transform: translateY(@headerHideMove);
+  transition-delay: @headerHideDelay;
+}
+
+header {
+  position: relative;
+  font-size: 0;
+
   z-index: 999;
 
-  border-top: 150px solid transparent;
+  background: 
+    -webkit-linear-gradient(fadeout(@background, 100%) 0%, @background 70%);
+  background: 
+    -moz-linear-gradient(fadeout(@background, 100%) 0%, @background 70%);
+  background: 
+    -ms-linear-gradient(fadeout(@background, 100%) 0%, @background 70%);
+  background: 
+    linear-gradient(fadeout(@background, 100%) 0%, @background 70%);
 
   height: @headerHeight;
 
   & .books {
     text-align: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
     margin: 0;
     padding: 0;
     height: @headerHeight;
     list-style: none;
+    display: block;
 
     & li {
       display: inline-block;
@@ -210,6 +256,9 @@ header {
       position: relative;
 
       -webkit-perspective: 500;
+      -moz-perspective: 500;
+      -ms-perspective: 500;
+      perspective: 500;
     }
     & .cover {
       position: relative;
@@ -232,9 +281,15 @@ header {
         bottom: 0;
         background: rgb(200, 200, 200);
         -webkit-transition: background @bookCoverCloseTime;
+        -moz-transition: background @bookCoverCloseTime;
+        -ms-transition: background @bookCoverCloseTime;
+        transition: background @bookCoverCloseTime;
       }
       &:hover .title-page {
         -webkit-transition: background @bookCoverOpenTime;
+        -moz-transition: background @bookCoverOpenTime;
+        -ms-transition: background @bookCoverOpenTime;
+        transition: background @bookCoverOpenTime;
         background: white;
       }
 
@@ -242,6 +297,7 @@ header {
         position: absolute;
         left: 0;
         top: 0;
+        display: block;
 
         box-shadow: @headerBookShadow;
 
@@ -251,13 +307,25 @@ header {
         height: @headerBookHeight;
 
         -webkit-transition: -webkit-transform @bookCoverCloseTime;
+        -moz-transition: -moz-transform @bookCoverCloseTime;
+        -ms-transition: -ms-transform @bookCoverCloseTime;
+        transition: transform @bookCoverCloseTime;
 
         -webkit-transform-origin: 0 50%;
+        -moz-transform-origin: 0 50%;
+        -ms-transform-origin: 0 50%;
+        transform-origin: 0 50%;
       }
       &:hover img {
         -webkit-transition: -webkit-transform @bookCoverOpenTime;
+        -moz-transition: -moz-transform @bookCoverOpenTime;
+        -ms-transition: -ms-transform @bookCoverOpenTime;
+        transition: transform @bookCoverOpenTime;
 
         -webkit-transform: rotateY(-50deg);
+        -moz-transform: rotateY(-50deg);
+        -ms-transform: rotateY(-50deg);
+        transform: rotateY(-50deg);
       }
     }
   }
