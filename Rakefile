@@ -33,7 +33,15 @@ task :build_book_metadata do
           next
         end
       end
-      readmill_object['book'].merge! :club => club['location'], :date_read => format_book_date(book['date'])
+
+      split_title = readmill_object['book']['title'].split(':')
+
+      readmill_object['book'].merge!(
+        :club => club['location'],
+        :date_read => format_book_date(book['date']),
+        :title => split_title[0],
+        :subtitle => split_title[1]
+      )
       readmillified[index]['readmill_books'] ||= []
       readmillified[index]['readmill_books'].push(readmill_object['book'])
     end
@@ -54,11 +62,11 @@ task :build_markdown do
   book_data.each do |club|
     club['readmill_books'].each do |book|
       path = book_filepath(PROJECT_ROOT, book)
-      unless File.exist? path
+      # unless File.exist? path
         File.open path, 'w' do |file|
           file << Mustache.render(markdown_template, book)
         end
-      end
+      # end
     end
   end
 end
