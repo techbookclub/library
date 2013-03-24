@@ -40,6 +40,10 @@ body {
 }
 a {
   color: inherit;
+
+  &:hover {
+    text-shadow: 0 0 1px rgba(0, 0, 0, .5);
+  }
 }
 
 /* Book info */
@@ -47,6 +51,8 @@ a {
 .main {
   margin: @verticalRhythm auto;
   width: @bookInfoWidth;  
+
+  margin-bottom: @verticalRhythm * 5;
 }
 
 .book-info {
