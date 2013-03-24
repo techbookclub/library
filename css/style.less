@@ -71,6 +71,7 @@ a {
 
     & img {
       width: 380px;
+      border: 1px solid fadeout(@coverHighlightColor, 80%);
     }
   }
   & .metadata {
@@ -279,8 +280,6 @@ header {
 
       margin-right: @headerBookDistance;
 
-      cursor: pointer;
-
       position: relative;
 
       -webkit-perspective: 500;
@@ -318,6 +317,9 @@ header {
         -moz-transition-delay: 250ms;
         -ms-transition-delay: 250ms;
         transition-delay: 250ms;  
+      }
+      &:not(.selected) {
+        cursor: pointer;    
       }
       &:not(.selected):hover .title-page {
         -webkit-transition: background @bookCoverOpenTime;
