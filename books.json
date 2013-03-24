@@ -77,9 +77,19 @@
         "date": "10-15-2011"
       },
       {
-        "title": "The Filter Bubble: What the Internet is Hiding From You",
+        "title": "The Filter Bubble: What the Internet Is Hiding from You",
         "author": "Eli Pariser",
-        "date": "07-15-2011"
+        "date": "07-15-2011",
+        "custom_content": {
+          "book": {
+            "title": "The Filter Bubble: What the Internet Is Hiding from You",
+            "author": "Eli Pariser",
+            "story": "",
+            "published_at": "",
+            "permalink_url": "http://www.amazon.com/The-Filter-Bubble-Internet-Hiding/dp/1594203008/",
+            "cover_url": "http://www.brainpickings.org/wp-content/uploads/2011/05/thefilterbubble.jpg"
+          }
+        }
       },
       {
         "title": "Powering the Dream: The History and Promise of Green Technology",
