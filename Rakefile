@@ -52,8 +52,10 @@ task :build_markdown do
   markdown_template = File.read('markdown_template.mustache')
 
   book_data.each do |club|
+    pp club['readmill_books'].first
+    puts
     club['readmill_books'].each do |book|
-      File.open book_filename(PROJECT_ROOT, book), 'w' do |file|
+      File.open book_filepath(PROJECT_ROOT, book), 'w' do |file|
         file << Mustache.render(markdown_template, book)
       end
     end

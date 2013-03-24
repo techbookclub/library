@@ -23,9 +23,11 @@ module Helpers
     value
   end
 
-  def book_filename(root, book_hash)
+  def book_filepath(root, book_hash)
     date_read = book_hash['date_read']
+    club = book_hash['club']
     slug = to_slug(book_hash['title'])
-    "#{root}/#{date_read}-#{slug}.md"
+
+    "#{root}/_posts/#{club}/books/#{date_read}-#{slug}.md"
   end
 end
