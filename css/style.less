@@ -117,7 +117,7 @@ a {
 .book-subinfo {
   font-weight: 300;
   font-size: 18px;
-  line-height: 26px;
+  line-height: 28px;
 
   & h1 {
     position: absolute;
@@ -166,29 +166,6 @@ a {
 
 /* Header */
 
-header.floating:hover,
-header.floating.fixed-hover {
-  -webkit-transform: translateY(0);
-  -moz-transform: translateY(0);
-  -ms-transform: translateY(0);
-  transform: translateY(0);
-
-  -webkit-transition-delay: 0;
-  -moz-transition-delay: 0;
-  -ms-transition-delay: 0;
-  transition-delay: 0;  
-}
-
-header::before {
-  content: '';
-  bottom: 0;
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: @headerShelfHeight;
-  background: black;
-}
-
 header {
   position: relative;
   font-size: 0;
@@ -205,6 +182,16 @@ header {
     linear-gradient(fadeout(@background, 100%) 0%, @background 70%);
 
   height: @headerHeight;
+
+  &::before {
+    content: '';
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: @headerShelfHeight;
+    background: black;
+  }
 
   &.floating {
     position: fixed;
@@ -227,6 +214,18 @@ header {
     transition: transform 250ms;
     transform: translateY(@headerHideMove);
     transition-delay: @headerHideDelay;
+  }
+  &.floating:hover,
+  &.floating.fixed-hover {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+
+    -webkit-transition-delay: 0;
+    -moz-transition-delay: 0;
+    -ms-transition-delay: 0;
+    transition-delay: 0;  
   }
 
   & h1 {
