@@ -167,7 +167,8 @@ a {
 
 /* Header */
 
-header.floating:hover {
+header.floating:hover,
+header.floating.fixed-hover {
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
   -ms-transform: translateY(0);
@@ -228,6 +229,18 @@ header {
     linear-gradient(fadeout(@background, 100%) 0%, @background 70%);
 
   height: @headerHeight;
+
+  & h1 {
+    font-family: @sansSerif;
+    font-weight: 300;
+    bottom: -10px;
+    left: 20px;
+    height: @headerShelfHeight;
+    line-height: @headerShelfHeight;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+  }
 
   & .books {
     text-align: right;
