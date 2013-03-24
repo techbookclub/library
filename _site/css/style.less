@@ -145,15 +145,15 @@ a {
     letter-spacing: 4px;
     font-weight: 500;
   }
-  & p,
-  & ul {
+  & > p,
+  & > section,
+  & > ul {
     padding-left: 150px;
     padding-top: @verticalRhythm;
     margin-bottom: @verticalRhythm;
     border-top: 1px solid fadeout(@coverHighlightColor, 80%);    
   }
-
-  & .story {
+  & > section {
     -webkit-columns: 2;
     -webkit-column-gap: @verticalRhythm * 2;
 
@@ -165,6 +165,11 @@ a {
 
     columns: 2;
     column-gap: @verticalRhythm * 2;
+  }
+  & > section > p {
+    margin: 0;
+    margin-bottom: @verticalRhythm;
+    padding: 0;
   }
   & ul {
     list-style: none;

@@ -7,3 +7,4 @@ lsi: false
 multiviews: false
 exclude: ['Gemfile', 'Gemfile.lock', 'books.json', 'books_with_metadata.json', 'build', 'ext.rb', 'readme.md']
 dateformat: "%b %e %Y, %H:%M (%z)"
+markdown: maruku
