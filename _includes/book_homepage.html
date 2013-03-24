@@ -1,9 +1,9 @@
 <section class='main'>
   <section class='book-info'>
     <div class='book-cover'>
-      <a class='cover' href="{{page.url}}" title="{{page.title}}">
+      <a class='cover' href="{{page.url}}">
         <div class='title-page'></div>
-        <img src="{{page.cover_path}}">
+        <img src="{{page.cover_url}}">
       </a>
     </div>
     <div class='metadata'>
@@ -11,11 +11,15 @@
         {{page.author}}
       </h2>
       <h1 class='title'>
-        {{page.title}}
+        <a href="{{page.url}}">
+          {{page.title}}
+        </a>
       </h1>
       {% if page.subtitle %}
       <h1 class='subtitle'>
-        {{page.subtitle}}
+        <a href="{{page.url}}">
+          {{page.subtitle}}
+        </a>
       </h1>
       {% endif %}
     </div>

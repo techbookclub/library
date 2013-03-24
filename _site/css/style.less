@@ -5,7 +5,7 @@
 @headerBookBaseline: 10px;
 
 @headerBookWidth: 60px;
-@headerBookHeight: 100px;
+@headerBookHeight: 88px;
 
 @headerBookDistance: 10px;
 
@@ -19,6 +19,7 @@
 @bookInfoWidth: 900px;
 
 @bookCoverWidth: 380px;
+@bookCoverHeight: 560px;
 
 @verticalRhythm: 30px;
 
@@ -66,7 +67,6 @@ a {
 
   padding: 0;
   margin: 0;
-  overflow: hidden;
 }
 .nyc-vs-sf li:first-child {
   padding-right: @verticalRhythm;
@@ -89,9 +89,11 @@ a {
   margin-bottom: @verticalRhythm;
   width: @bookInfoWidth;
 
-  overflow: hidden;
-
   display: table;
+
+  & a {
+    text-decoration: none;
+  }
 
   & .book-cover {
     display: table-cell;
@@ -306,6 +308,9 @@ header {
     color: white;
     font-size: 16px;
 
+    & a {
+      text-decoration: none;
+    }
     & span:nth-child(1) {
       color: rgb(200, 200, 200);
     }
@@ -323,6 +328,7 @@ header {
     text-align: right;
     position: absolute;
     right: 20px;
+    left: 150px;
     bottom: 0;
     margin: 0;
     padding: 0;
@@ -348,13 +354,11 @@ header {
     }
 
     & .cover {
-      display: block;
-      position: relative;
-      top: @headerHeight - @headerBookHeight - @headerBookBaseline;
-
       width: @headerBookWidth;
       height: @headerBookHeight;
+      top: @headerHeight - @headerBookHeight - @headerBookBaseline;
 
+<<<<<<< HEAD
       background: white;
 
       & .title-page {
@@ -393,65 +397,126 @@ header {
         transition-delay: 0;
 
         background: white;
-      }
-
+=======
       & img {
-        position: absolute;
-        left: 0;
-        top: 0;
-        display: block;
-
-        box-shadow: @headerBookShadow;
-
-        z-index: 50;
-
         width: @headerBookWidth;
         height: @headerBookHeight;
-
-        -webkit-transition: -webkit-transform @bookCoverCloseTime;
-        -moz-transition: -moz-transform @bookCoverCloseTime;
-        -ms-transition: -ms-transform @bookCoverCloseTime;
-        transition: transform @bookCoverCloseTime;
-
-        -webkit-transition-delay: 250ms;
-        -moz-transition-delay: 250ms;
-        -ms-transition-delay: 250ms;
-        transition-delay: 250ms;
-
-        -webkit-transform-origin: 0 50%;
-        -moz-transform-origin: 0 50%;
-        -ms-transform-origin: 0 50%;
-        transform-origin: 0 50%;
-      }
-      &:not(.selected):hover img {
-        -webkit-transition: -webkit-transform @bookCoverOpenTime;
-        -moz-transition: -moz-transform @bookCoverOpenTime;
-        -ms-transition: -ms-transform @bookCoverOpenTime;
-        transition: transform @bookCoverOpenTime;
-
-        -webkit-transition-delay: 0;
-        -moz-transition-delay: 0;
-        -ms-transition-delay: 0;
-        transition-delay: 0;
-
-        -webkit-transform: rotateY(-50deg);
-        -moz-transform: rotateY(-50deg);
-        -ms-transform: rotateY(-50deg);
-        transform: rotateY(-50deg);
-      }
-      &.cover.selected::after {
-        content: '';
-        position: absolute;
-        z-index: 99;
-        left: 0;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        background: fadeout(@coverHighlightColor, 50%);
+>>>>>>> b2c2d64429562c6a5bfcf5975680aa822f1890a8
       }
     }
   }
 }
+
+
+.homepage .book-cover {
+  -webkit-perspective: 1200;
+  -moz-perspective: 1200;
+  -ms-perspective: 1200;
+  perspective: 1200;
+}
+.cover {
+  display: block;
+  position: relative;
+
+  width: @bookCoverWidth * @homepageRatio;
+  height: @bookCoverHeight * @homepageRatio;
+
+  background: white;
+
+  & .title-page {
+    content: '';
+
+    position: absolute;
+    z-index: 20;
+    box-shadow: @headerBookShadow;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(200, 200, 200);
+    -webkit-transition: background @bookCoverCloseTime;
+    -moz-transition: background @bookCoverCloseTime;
+    -ms-transition: background @bookCoverCloseTime;
+    transition: background @bookCoverCloseTime;
+
+    -webkit-transition-delay: 250ms;
+    -moz-transition-delay: 250ms;
+    -ms-transition-delay: 250ms;
+    transition-delay: 250ms;
+  }
+  &:not(.selected) {
+    cursor: pointer;    
+  }
+  &:not(.selected):hover .title-page {
+    -webkit-transition: background @bookCoverOpenTime;
+    -moz-transition: background @bookCoverOpenTime;
+    -ms-transition: background @bookCoverOpenTime;
+    transition: background @bookCoverOpenTime;
+
+    -webkit-transition-delay: 0;
+    -moz-transition-delay: 0;
+    -ms-transition-delay: 0;
+    transition-delay: 0;
+
+    background: white;
+  }
+
+  & img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+
+    width: @bookCoverWidth * @homepageRatio;
+    height: @bookCoverHeight * @homepageRatio;
+
+    box-shadow: @headerBookShadow;
+
+    z-index: 50;
+
+    -webkit-transition: -webkit-transform @bookCoverCloseTime;
+    -moz-transition: -moz-transform @bookCoverCloseTime;
+    -ms-transition: -ms-transform @bookCoverCloseTime;
+    transition: transform @bookCoverCloseTime;
+
+    -webkit-transition-delay: 250ms;
+    -moz-transition-delay: 250ms;
+    -ms-transition-delay: 250ms;
+    transition-delay: 250ms;
+
+    -webkit-transform-origin: 0 50%;
+    -moz-transform-origin: 0 50%;
+    -ms-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+  }
+  &:not(.selected):hover img {
+    -webkit-transition: -webkit-transform @bookCoverOpenTime;
+    -moz-transition: -moz-transform @bookCoverOpenTime;
+    -ms-transition: -ms-transform @bookCoverOpenTime;
+    transition: transform @bookCoverOpenTime;
+
+    -webkit-transition-delay: 0;
+    -moz-transition-delay: 0;
+    -ms-transition-delay: 0;
+    transition-delay: 0;
+
+    -webkit-transform: rotateY(-50deg);
+    -moz-transform: rotateY(-50deg);
+    -ms-transform: rotateY(-50deg);
+    transform: rotateY(-50deg);
+  }
+  &.cover.selected::after {
+    content: '';
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: fadeout(@coverHighlightColor, 50%);
+  }
+}
+
 
 ::selection {
   background: fadeout(@coverHighlightColor, 75%);
