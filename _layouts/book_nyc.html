@@ -1,0 +1,15 @@
+---
+layout: base
+---
+{% include book.html %}
+
+<header>
+  <h1>
+    <a href='/'><span>tech</span><span>book</span><span>club</span></a> <span class="city">{{page.categories}}</span>
+  </h1>
+  <ul class='books'>
+    {% for post in site.categories.nyc reversed %}
+      {% include book_nav.html %}
+    {% endfor %}
+  </ul>
+</header>

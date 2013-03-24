@@ -1,52 +1,24 @@
-<!doctype html>
-<html class="no-js" lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>techbookclub</title>
-  <meta name="description" content="">
+---
+layout: base
+---
 
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="css/style.css">
+<h1>
+  <span>tech</span><span>book</span><span>club</span>
+</h1>
 
-  <script src="js/libs/modernizr-2.5.3.min.js"></script>
-</head>
-<body>
-  <div class="header">
-    <div class="container">
-      <h1>techbookclub</h1>
-      <ul class="locations pull-left">
-        <li><a href="#">San Francisco</a></li>
-        <li><a href="#">New York City</a></li>
-      </ul>
-      <ul class="info pull-right">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Join</a></li>
-      </ul>
-    </div>
-  </div>
-  
-  <div class="vertical-slider">
-    <ol class="list-books list"></ol>
-  </div>
-  
-  <div class="horizontal-slider">
-    <ol class="list-covers list"></ol>
-  </div>
+<ol class='nyc-vs-sf'>
+  <li>
+    {% for page in site.categories.sf limit: 1 %}
+      {% include book_homepage.html %}
+    {% endfor %}
+  <li>
+    {% for page in site.categories.nyc limit: 1 %}
+      {% include book_homepage.html %}
+    {% endfor %}
+</ol>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script src="js/libs/hogan-1.0.5.min.js"></script>
-  
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
-
-  <script src="js/plugins.js"></script>
-  <script src="js/script.js"></script>
-
-  <script>
-    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g,s)}(document,'script'));
-  </script>
-</body>
-</html>
+<header>
+  <h1>
+    <span>tech</span><span>book</span><span>club</span>
+  </h1>
+</header>

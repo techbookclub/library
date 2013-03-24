@@ -1,0 +1,52 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    classifier (1.3.3)
+      fast-stemmer (>= 1.0.0)
+    columnize (0.3.6)
+    directory_watcher (1.5.1)
+    fast-stemmer (1.0.2)
+    httparty (0.10.2)
+      multi_json (~> 1.0)
+      multi_xml (>= 0.5.2)
+    jekyll (0.12.1)
+      classifier (~> 1.3)
+      directory_watcher (~> 1.1)
+      kramdown (~> 0.14)
+      liquid (~> 2.3)
+      maruku (~> 0.5)
+      pygments.rb (~> 0.3.2)
+    json (1.7.7)
+    kramdown (0.14.2)
+    linecache (0.46)
+      rbx-require-relative (> 0.0.4)
+    liquid (2.5.0)
+    maruku (0.6.1)
+      syntax (>= 1.0.0)
+    multi_json (1.7.2)
+    multi_xml (0.5.3)
+    mustache (0.99.4)
+    posix-spawn (0.3.6)
+    pygments.rb (0.3.7)
+      posix-spawn (~> 0.3.6)
+      yajl-ruby (~> 1.1.0)
+    rake (10.0.3)
+    rbx-require-relative (0.0.9)
+    ruby-debug (0.10.4)
+      columnize (>= 0.1)
+      ruby-debug-base (~> 0.10.4.0)
+    ruby-debug-base (0.10.4)
+      linecache (>= 0.3)
+    syntax (1.0.0)
+    yajl-ruby (1.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  httparty
+  jekyll
+  json
+  mustache
+  rake
+  ruby-debug
