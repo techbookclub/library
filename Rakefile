@@ -76,5 +76,6 @@ task :build_jekyll do
   `jekyll`
 end
 
-desc "Poll Readmill for "
-task :add_new_book => [:build_book_metadata, :build_markdown, :build_jekyll]
+task :rebuild_from_local_json => [:build_markdown, :build_jekyll]
+
+task :add_new_book => [:build_book_metadata, :rebuild_from_local_json]
