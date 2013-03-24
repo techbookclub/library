@@ -1,7 +1,7 @@
 ---
 layout: book_sf
 category: sf
-date_read: "12-15-2012"
+date_read: "2012-12-15"
 title: "The Signal and the Noise"
 author: "Nate Silver"
 summary: "Another techbookclub selection..."

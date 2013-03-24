@@ -1,7 +1,7 @@
 ---
 layout: book_sf
 category: sf
-date_read: "01-15-2013"
+date_read: "2013-01-15"
 title: "Close to the machine"
 author: "Ellen Ullman"
 summary: "Another techbookclub selection..."

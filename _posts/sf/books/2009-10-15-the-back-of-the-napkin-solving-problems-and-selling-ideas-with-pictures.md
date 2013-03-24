@@ -1,7 +1,7 @@
 ---
 layout: book_sf
 category: sf
-date_read: "10-15-2009"
+date_read: "2009-10-15"
 title: "The Back of the Napkin: Solving Problems and Selling Ideas with Pictures"
 author: "Dan Roam"
 summary: "Another techbookclub selection..."

@@ -1,7 +1,7 @@
 ---
 layout: book_sf
 category: sf
-date_read: "11-15-2009"
+date_read: "2009-11-15"
 title: "Content strategy for the web"
 author: "Kristina Halvorson"
 summary: "Another techbookclub selection..."

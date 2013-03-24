@@ -1,14 +1,16 @@
 ---
 layout: book_sf
 category: sf
-date_read: "07-15-2011"
-title: "The Filter Bubble: What the Internet Is Hiding From You"
+date_read: "2011-07-15"
+title: "The Filter Bubble: What the Internet Is Hiding from You"
 author: "Eli Pariser"
 summary: "Another techbookclub selection..."
-cover_url: https://readmill-assets.s3.amazonaws.com/covers/4422305a143b67c9749b2efabc8497ab-original.png?1363265901
-permalink_url: https://readmill.com/books/the-filter-bubble-what-the-internet-is-hiding-from-you
+cover_url: http://www.brainpickings.org/wp-content/uploads/2011/05/thefilterbubble.jpg
+permalink_url: http://www.amazon.com/The-Filter-Bubble-Internet-Hiding/dp/1594203008/
 ---
 
 # Why?
 A little bit about why we read this book.
+
+# Summary
 

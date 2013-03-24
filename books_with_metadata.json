@@ -5,6 +5,18 @@
       {
         "title": "Cybernetic Revolutionaries: Technology and Politics in Allende's Chile",
         "author": "Eden Medina",
+        "custom_content": {
+          "book": {
+            "club": "sf",
+            "title": "Cybernetic Revolutionaries: Technology and Politics in Allende's Chile",
+            "author": "Eden Medina",
+            "story": "In Cybernetic Revolutionaries, Eden Medina tells the history of two intersecting utopian visions, one political and one technological. The first was Chile's experiment with peaceful socialist change under Salvador Allende; the second was the simultaneous attempt to build a computer system that would manage Chile's economy. Neither vision was fully realized—Allende's government ended with a violent military coup; the system, known as Project Cybersyn, was never completely implemented—but they hold lessons for today about the relationship between technology and politics. Drawing on extensive archival material and interviews, Medina examines the cybernetic system envisioned by the Chilean government—which was to feature holistic system design, decentralized management, human-computer interaction, a national telex network, near real-time control of the growing industrial sector, and modeling the behavior of dynamic systems. She also describes, and documents with photographs, the network's Star Trek-like operations room, which featured swivel chairs with armrest control panels, a wall of screens displaying data, and flashing red lights to indicate economic emergencies. Studying project Cybersyn today helps us understand not only the technological ambitions of a government in the midst of political change but also the limitations of the Chilean revolution. This history further shows how human attempts to combine the political and the technological with the goal of creating a more just society can open new technological, intellectual, and political possibilities. Technologies, Medina writes, are historical texts; when we read them we are reading history.",
+            "date_read": "2013-04-15",
+            "published_at": "",
+            "permalink_url": "http://www.amazon.com/Cybernetic-Revolutionaries-Technology-Politics-Allendes/dp/0262016494/",
+            "cover_url": "http://www.cyberneticrevolutionaries.com/wp-content/uploads/2011/10/cr_jkt-802x1024.jpg"
+          }
+        },
         "date": "04-15-2013"
       },
       {
@@ -26,21 +38,10 @@
             "permalink": "mr-penumbras-24-hour-bookstore-a-novel",
             "title": "Mr. Penumbra's 24-Hour Bookstore: A Novel",
             "author": "Robin Sloan",
-            "story": "A gleeful and exhilarating tale of global conspiracy, complex code-breaking, high-tech data visualization, young love, rollicking adventure, and the secret to eternal life—mostly set in a hole-in-the-wall San Francisco bookstore. The Great Recession has shuffled Clay Jannon out of his life as a San Francisco Web-design drone—and serendipity, sheer curiosity, and the ability to climb a ladder like a monkey has landed him a new gig working the night shift at Mr. Penumbra’s 24-Hour Bookstore. But after just a few days on the job, Clay begins to realize that this store is even more curious than the name suggests. With irresistible brio and dazzling intelligence, Robin Sloan has crafted a literary adventure story for the twenty-first century, evoking both the fairy-tale charm of Haruki Murakami and the enthusiastic novel-of-ideas wizardry of Neal Stephenson or a young Umberto Eco, but with a unique and feisty sensibility that’s rare to the world of literary fiction. ",
-            "assets": {
-              "items": [
-                {
-                  "asset": {
-                    "uri": "http://www.kobobooks.com/ebook/Mr-Penumbras-24-Hour-Bookstore/book-5bwHdRkof0umnzPWgQUBIQ/page1.html?s=RDSX2Dx6nkepv1QO2Af0Og&r=1",
-                    "acquisition_type": "store",
-                    "vendor": ""
-                  }
-                }
-              ]
-            },
+            "story": "A gleeful and exhilarating tale of global conspiracy, complex code-breaking, high-tech data visualization, young love, rollicking adventure, and the secret to eternal life—mostly set in a hole-in-the-wall San Francisco bookstore. The Great Recession has shuffled Clay Jannon out of his life as a San Francisco Web-design drone—and serendipity, sheer curiosity, and the ability to climb a ladder like a monkey has landed him a new gig working the night shift at Mr. Penumbra’s 24-Hour Bookstore. But after just a few days on the job, Clay begins to realize that this store is even more curious than the name suggests. With irresistible brio and dazzling intelligence, Robin Sloan has crafted a literary adventure story for the twenty-first century, evoking both the fairy-tale charm of Haruki Murakami and the enthusiastic novel-of-ideas wizardry of Neal Stephenson or a young Umberto Eco, but with a unique and feisty sensibility that’s rare to the world of literary fiction.",
             "language": "",
             "id": 33736,
-            "date_read": "10-15-2012",
+            "date_read": "2012-10-15",
             "published_at": "",
             "identifier": "9780374708832",
             "permalink_url": "https://readmill.com/books/mr-penumbras-24-hour-bookstore-a-novel",
@@ -52,6 +53,18 @@
       {
         "title": "Hackers: Heroes of the Computer Revolution",
         "author": "Steven Levy",
+        "custom_content": {
+          "book": {
+            "club": "sf",
+            "title": "Hackers: Heroes of the Computer Revolution",
+            "author": "Steven Levy",
+            "story": "Hackers traces the exploits of innovators from the research labs in the late 1950s to the rise of the home computer in the mid-1980s. It's a fascinating story of brilliant and eccentric nerds such as Steve Wozniak, Ken Williams, and John Draper who took risks, bent the rules, and took the world in a radical new direction. “Hacker” is often a derogatory term today, but 40 years ago, it referred to people who found clever and unorthodox solutions to computer engineering problems—a practice that became known as “the hacker ethic.” In this book, Levy takes you from the true hackers of MIT's Tech Model Railroad Club to the DIY culture that spawned the first personal computers -- the Altair and the Apple II -- and finally to the gaming culture of the early '80s. From students finagling access to clunky computer-card machines to engineers uncovering the secrets of what would become the Internet, Hackers captures a seminal period in history when underground activities blazed a trail for today's digital world. This book is not just for geeks—it's for everyone interested in origins of the computer revolution.",
+            "date_read": "2012-07-15",
+            "published_at": "",
+            "permalink_url": "http://www.amazon.com/Hackers-Computer-Revolution-Anniversary-Edition/dp/1449388396/",
+            "cover_url": "http://www.stevenlevy.com/wp-content/uploads/2006/09/steven-levy-hackers-heroes-of-the-computer-revolution.jpg"
+          }
+        },
         "date": "07-15-2012"
       },
       {
@@ -65,25 +78,48 @@
         "date": "01-15-2012"
       },
       {
-        "title": "Design Patterns Reader",
-        "author": "techbookclub",
+        "title": "A Pattern Language",
+        "author": "Christopher Alexander",
         "date": "10-15-2011"
       },
       {
-        "title": "The Filter Bubble: What the Internet is Hiding From You",
+        "title": "The Filter Bubble: What the Internet Is Hiding from You",
         "author": "Eli Pariser",
+        "custom_content": {
+          "book": {
+            "club": "sf",
+            "title": "The Filter Bubble: What the Internet Is Hiding from You",
+            "author": "Eli Pariser",
+            "story": "",
+            "date_read": "2011-07-15",
+            "published_at": "",
+            "permalink_url": "http://www.amazon.com/The-Filter-Bubble-Internet-Hiding/dp/1594203008/",
+            "cover_url": "http://www.brainpickings.org/wp-content/uploads/2011/05/thefilterbubble.jpg"
+          }
+        },
         "date": "07-15-2011"
       },
       {
         "title": "Powering the Dream: The History and Promise of Green Technology",
         "author": "Alexis Madrigal",
+        "custom_content": {
+          "book": {
+            "club": "sf",
+            "title": "Powering the Dream: The History and Promise of Green Technology",
+            "author": "Alexis Madrigal",
+            "story": "Few today realize that electric cabs dominated Manhattan's streets in the 1890s; that Boise, Idaho, had a geothermal heating system in 1910; or that the first megawatt turbine in the world was built in 1941 by the son of publishing magnate G. P. Putnam—a feat that would not be duplicated for another forty years. Likewise, while many remember the oil embargo of the 1970s, few are aware that it led to a corresponding explosion in green-technology research that was only derailed when energy prices later dropped. In other words: We've been here before. Although we may have failed, America has had the chance to put our world on a more sustainable path. Americans have, in fact, been inventing green for more than a century. Half compendium of lost opportunities, half hopeful look toward the future, Powering the Dream tells the stories of the brilliant, often irascible inventors who foresaw our current problems, tried to invent cheap and energy renewable solutions, and drew the blueprint for a green future.",
+            "date_read": "2011-05-15",
+            "published_at": "",
+            "permalink_url": "http://www.amazon.com/Powering-Dream-History-Promise-Technology/dp/B006CDDHOK/",
+            "cover_url": "http://lindseyhoshaw.files.wordpress.com/2011/04/madrigal_9780306818851_3001.jpg"
+          }
+        },
         "date": "05-15-2011"
       },
       {
         "title": "Extraordinary Perception",
-        "author": "techbookclub",
-        "date": "04-15-2011",
-        "link": "http://extraordinaryperception.tumblr.com/"
+        "author": "Unknown Author",
+        "date": "04-15-2011"
       },
       {
         "title": "Reality is Broken: Why Games Make Us Better and How They Can Change the World",
@@ -93,6 +129,18 @@
       {
         "title": "The Architecture Machine",
         "author": "Nicholas Negroponte",
+        "custom_content": {
+          "book": {
+            "club": "sf",
+            "title": "The Architecture Machine: Toward a More Human Environment",
+            "author": "Nicholas Negroponte",
+            "story": "The use of computers to aid the architectural designer and urban planner is already beyond the experimental stage and part of the workaday routine of many professionals. There are, for example, machines that transform two-dimensional drawings into three-dimensional perspective displays and others that check myriad aspects of a design against specifications and tolerance requirements. The Architecture Machine looks several machine generations ahead of these to a future in which genuine man-machine dialogue is achieved, when man and machine will act together on something closer to equal terms toward a common goal, each contributing his-its own characteristic faculty.",
+            "date_read": "2011-01-15",
+            "published_at": "",
+            "permalink_url": "http://www.amazon.com/The-Architecture-Machine-Toward-Environment/dp/0262640104",
+            "cover_url": "http://ecx.images-amazon.com/images/I/41g6Qle4jML.jpg"
+          }
+        },
         "date": "01-15-2011"
       },
       {
@@ -103,6 +151,18 @@
       {
         "title": "Toyota Production System: Beyond Large-Scale Production",
         "author": "Taiichi Ohno",
+        "custom_content": {
+          "book": {
+            "club": "sf",
+            "title": "Toyota Production System: Beyond Large-Scale Production",
+            "author": "Taiichi Ohno",
+            "story": "In this classic text, Taiichi Ohno—inventor of the Toyota Production System and Lean manufacturing—shares the genius that sets him apart as one of the most disciplined and creative thinkers of our time. Combining his candid insights with a rigorous analysis of Toyota's attempts at Lean production, Ohno's book explains how Lean principles can improve any production endeavor. A historical and philosophical description of just-in-time and Lean manufacturing, this work is a must read for all students of human progress. On a more practical level, it continues to provide inspiration and instruction for those seeking to improve efficiency through the elimination of waste.",
+            "date_read": "2010-09-15",
+            "published_at": "",
+            "permalink_url": "http://www.amazon.com/Toyota-Production-System-Beyond-Large-Scale/dp/0915299143/",
+            "cover_url": "http://www.doubleday.com.au/image.aspx?isbn=9780915299140&size=L"
+          }
+        },
         "date": "09-15-2010"
       },
       {
@@ -118,6 +178,18 @@
       {
         "title": "The Culture Code: An Ingenious Way to Understand Why People Around the World Live and Buy as They Do",
         "author": "Clotaire Rapaille",
+        "custom_content": {
+          "book": {
+            "club": "sf",
+            "title": "The Culture Code: An Ingenious Way to Understand Why People Around the World Live and Buy as They Do",
+            "author": "Clotaire Rapaille",
+            "story": "In The Culture Code, Dr. Rapaille decodes two dozen of our most fundamental archetypes—ranging from sex to money to health to America itself—to give us “a new set of glasses” with which to view our actions and motivations. Why are we so often disillusioned by love? Why is fat a solution rather than a problem? Why do we reject the notion of perfection? Why is fast food in our lives to stay? The answers are in the Codes. Understanding the Codes gives us unprecedented freedom over our lives. It lets us do business in dramatically new ways. And it finally explains why people around the world really are different, and reveals the hidden clues to understanding us all.",
+            "date_read": "2010-05-15",
+            "published_at": "",
+            "permalink_url": "http://www.amazon.com/Culture-Code-Ingenious-Understand-People/dp/0767920570/",
+            "cover_url": "http://torquelaunch.com/wp-content/uploads/2012/06/The-Culture-Code.png"
+          }
+        },
         "date": "05-15-2010"
       },
       {
@@ -133,6 +205,18 @@
       {
         "title": "Always Be Testing: The Complete Guide to Google Website Optimizer",
         "author": "Bryan Eisenberg and John Quarto-vonTivadar",
+        "custom_content": {
+          "book": {
+            "club": "sf",
+            "title": "Always Be Testing: The Complete Guide to Google Website Optimizer",
+            "author": "Bryan Eisenberg and John Quarto-vonTivadar",
+            "story": "Take the guesswork out of your online marketing efforts. Let Always Be Testing: The Complete Guide to Google Website Optimizer show you why you should test, how to test, and what to test on your site, and ultimately, help you discover what is best for your site and your bottom line.",
+            "date_read": "2010-01-15",
+            "published_at": "",
+            "permalink_url": "http://www.amazon.com/Always-Be-Testing-Complete-Optimizer/dp/0470290633/",
+            "cover_url": "http://javiergodoy2.files.wordpress.com/2008/06/00099906_medium.jpeg"
+          }
+        },
         "date": "01-15-2010"
       },
       {
@@ -154,6 +238,16 @@
     "readmill_books": [
       {
         "club": "sf",
+        "title": "Cybernetic Revolutionaries: Technology and Politics in Allende's Chile",
+        "author": "Eden Medina",
+        "story": "In Cybernetic Revolutionaries, Eden Medina tells the history of two intersecting utopian visions, one political and one technological. The first was Chile's experiment with peaceful socialist change under Salvador Allende; the second was the simultaneous attempt to build a computer system that would manage Chile's economy. Neither vision was fully realized—Allende's government ended with a violent military coup; the system, known as Project Cybersyn, was never completely implemented—but they hold lessons for today about the relationship between technology and politics. Drawing on extensive archival material and interviews, Medina examines the cybernetic system envisioned by the Chilean government—which was to feature holistic system design, decentralized management, human-computer interaction, a national telex network, near real-time control of the growing industrial sector, and modeling the behavior of dynamic systems. She also describes, and documents with photographs, the network's Star Trek-like operations room, which featured swivel chairs with armrest control panels, a wall of screens displaying data, and flashing red lights to indicate economic emergencies. Studying project Cybersyn today helps us understand not only the technological ambitions of a government in the midst of political change but also the limitations of the Chilean revolution. This history further shows how human attempts to combine the political and the technological with the goal of creating a more just society can open new technological, intellectual, and political possibilities. Technologies, Medina writes, are historical texts; when we read them we are reading history.",
+        "date_read": "2013-04-15",
+        "published_at": "",
+        "permalink_url": "http://www.amazon.com/Cybernetic-Revolutionaries-Technology-Politics-Allendes/dp/0262016494/",
+        "cover_url": "http://www.cyberneticrevolutionaries.com/wp-content/uploads/2011/10/cr_jkt-802x1024.jpg"
+      },
+      {
+        "club": "sf",
         "permalink": "close-to-the-machine",
         "title": "Close to the machine",
         "author": "Ellen Ullman",
@@ -165,7 +259,7 @@
         },
         "language": null,
         "id": 29667,
-        "date_read": "01-15-2013",
+        "date_read": "2013-01-15",
         "published_at": null,
         "identifier": "0872863328",
         "permalink_url": "https://readmill.com/books/close-to-the-machine",
@@ -184,7 +278,7 @@
         },
         "language": null,
         "id": 37097,
-        "date_read": "12-15-2012",
+        "date_read": "2012-12-15",
         "published_at": null,
         "identifier": "9781101595954",
         "permalink_url": "https://readmill.com/books/the-signal-and-the-noise",
@@ -195,21 +289,10 @@
         "permalink": "mr-penumbras-24-hour-bookstore-a-novel",
         "title": "Mr. Penumbra's 24-Hour Bookstore: A Novel",
         "author": "Robin Sloan",
-        "story": "A gleeful and exhilarating tale of global conspiracy, complex code-breaking, high-tech data visualization, young love, rollicking adventure, and the secret to eternal life—mostly set in a hole-in-the-wall San Francisco bookstore. The Great Recession has shuffled Clay Jannon out of his life as a San Francisco Web-design drone—and serendipity, sheer curiosity, and the ability to climb a ladder like a monkey has landed him a new gig working the night shift at Mr. Penumbra’s 24-Hour Bookstore. But after just a few days on the job, Clay begins to realize that this store is even more curious than the name suggests. With irresistible brio and dazzling intelligence, Robin Sloan has crafted a literary adventure story for the twenty-first century, evoking both the fairy-tale charm of Haruki Murakami and the enthusiastic novel-of-ideas wizardry of Neal Stephenson or a young Umberto Eco, but with a unique and feisty sensibility that’s rare to the world of literary fiction. ",
-        "assets": {
-          "items": [
-            {
-              "asset": {
-                "uri": "http://www.kobobooks.com/ebook/Mr-Penumbras-24-Hour-Bookstore/book-5bwHdRkof0umnzPWgQUBIQ/page1.html?s=RDSX2Dx6nkepv1QO2Af0Og&r=1",
-                "acquisition_type": "store",
-                "vendor": ""
-              }
-            }
-          ]
-        },
+        "story": "A gleeful and exhilarating tale of global conspiracy, complex code-breaking, high-tech data visualization, young love, rollicking adventure, and the secret to eternal life—mostly set in a hole-in-the-wall San Francisco bookstore. The Great Recession has shuffled Clay Jannon out of his life as a San Francisco Web-design drone—and serendipity, sheer curiosity, and the ability to climb a ladder like a monkey has landed him a new gig working the night shift at Mr. Penumbra’s 24-Hour Bookstore. But after just a few days on the job, Clay begins to realize that this store is even more curious than the name suggests. With irresistible brio and dazzling intelligence, Robin Sloan has crafted a literary adventure story for the twenty-first century, evoking both the fairy-tale charm of Haruki Murakami and the enthusiastic novel-of-ideas wizardry of Neal Stephenson or a young Umberto Eco, but with a unique and feisty sensibility that’s rare to the world of literary fiction.",
         "language": "",
         "id": 33736,
-        "date_read": "10-15-2012",
+        "date_read": "2012-10-15",
         "published_at": "",
         "identifier": "9780374708832",
         "permalink_url": "https://readmill.com/books/mr-penumbras-24-hour-bookstore-a-novel",
@@ -217,22 +300,13 @@
       },
       {
         "club": "sf",
-        "permalink": "hackers-heroes-of-the-computer-revolution-1",
         "title": "Hackers: Heroes of the Computer Revolution",
         "author": "Steven Levy",
-        "story": null,
-        "assets": {
-          "items": [
-
-          ]
-        },
-        "language": null,
-        "id": 58239,
-        "date_read": "07-15-2012",
-        "published_at": null,
-        "identifier": null,
-        "permalink_url": "https://readmill.com/books/hackers-heroes-of-the-computer-revolution-1",
-        "cover_url": "https://d15fum6h02z48v.cloudfront.net/assets/default-cover-medium-783d4f50bcee0684bace309dd29c7929.png"
+        "story": "Hackers traces the exploits of innovators from the research labs in the late 1950s to the rise of the home computer in the mid-1980s. It's a fascinating story of brilliant and eccentric nerds such as Steve Wozniak, Ken Williams, and John Draper who took risks, bent the rules, and took the world in a radical new direction. “Hacker” is often a derogatory term today, but 40 years ago, it referred to people who found clever and unorthodox solutions to computer engineering problems—a practice that became known as “the hacker ethic.” In this book, Levy takes you from the true hackers of MIT's Tech Model Railroad Club to the DIY culture that spawned the first personal computers -- the Altair and the Apple II -- and finally to the gaming culture of the early '80s. From students finagling access to clunky computer-card machines to engineers uncovering the secrets of what would become the Internet, Hackers captures a seminal period in history when underground activities blazed a trail for today's digital world. This book is not just for geeks—it's for everyone interested in origins of the computer revolution.",
+        "date_read": "2012-07-15",
+        "published_at": "",
+        "permalink_url": "http://www.amazon.com/Hackers-Computer-Revolution-Anniversary-Edition/dp/1449388396/",
+        "cover_url": "http://www.stevenlevy.com/wp-content/uploads/2006/09/steven-levy-hackers-heroes-of-the-computer-revolution.jpg"
       },
       {
         "club": "sf",
@@ -247,7 +321,7 @@
         },
         "language": null,
         "id": 5345,
-        "date_read": "03-15-2012",
+        "date_read": "2012-03-15",
         "published_at": null,
         "identifier": null,
         "permalink_url": "https://readmill.com/books/how-to-do-things-with-videogames",
@@ -266,7 +340,7 @@
         },
         "language": null,
         "id": 12267,
-        "date_read": "01-15-2012",
+        "date_read": "2012-01-15",
         "published_at": null,
         "identifier": "9780312429621",
         "permalink_url": "https://readmill.com/books/fordlandia-the-rise-and-fall-of-henry-fords-forgotten-jungle-city",
@@ -274,9 +348,9 @@
       },
       {
         "club": "sf",
-        "permalink": "the-filter-bubble-what-the-internet-is-hiding-from-you",
-        "title": "The Filter Bubble: What the Internet Is Hiding From You",
-        "author": "Eli Pariser",
+        "permalink": "a-pattern-language",
+        "title": "A Pattern Language",
+        "author": "Christopher Alexander",
         "story": null,
         "assets": {
           "items": [
@@ -284,31 +358,57 @@
           ]
         },
         "language": null,
-        "id": 4866,
-        "date_read": "07-15-2011",
+        "id": 13398,
+        "date_read": "2011-10-15",
         "published_at": null,
-        "identifier": "9780141969923",
-        "permalink_url": "https://readmill.com/books/the-filter-bubble-what-the-internet-is-hiding-from-you",
-        "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/4422305a143b67c9749b2efabc8497ab-original.png?1363265901"
+        "identifier": "0195019199",
+        "permalink_url": "https://readmill.com/books/a-pattern-language",
+        "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/4bbebfe057b2be0d624529d76eed33a2-original.png?1344331472"
       },
       {
         "club": "sf",
-        "permalink": "powering-the-dream-the-history-and-promise-of-green-technology",
+        "title": "The Filter Bubble: What the Internet Is Hiding from You",
+        "author": "Eli Pariser",
+        "story": "",
+        "date_read": "2011-07-15",
+        "published_at": "",
+        "permalink_url": "http://www.amazon.com/The-Filter-Bubble-Internet-Hiding/dp/1594203008/",
+        "cover_url": "http://www.brainpickings.org/wp-content/uploads/2011/05/thefilterbubble.jpg"
+      },
+      {
+        "club": "sf",
         "title": "Powering the Dream: The History and Promise of Green Technology",
         "author": "Alexis Madrigal",
+        "story": "Few today realize that electric cabs dominated Manhattan's streets in the 1890s; that Boise, Idaho, had a geothermal heating system in 1910; or that the first megawatt turbine in the world was built in 1941 by the son of publishing magnate G. P. Putnam—a feat that would not be duplicated for another forty years. Likewise, while many remember the oil embargo of the 1970s, few are aware that it led to a corresponding explosion in green-technology research that was only derailed when energy prices later dropped. In other words: We've been here before. Although we may have failed, America has had the chance to put our world on a more sustainable path. Americans have, in fact, been inventing green for more than a century. Half compendium of lost opportunities, half hopeful look toward the future, Powering the Dream tells the stories of the brilliant, often irascible inventors who foresaw our current problems, tried to invent cheap and energy renewable solutions, and drew the blueprint for a green future.",
+        "date_read": "2011-05-15",
+        "published_at": "",
+        "permalink_url": "http://www.amazon.com/Powering-Dream-History-Promise-Technology/dp/B006CDDHOK/",
+        "cover_url": "http://lindseyhoshaw.files.wordpress.com/2011/04/madrigal_9780306818851_3001.jpg"
+      },
+      {
+        "club": "sf",
+        "permalink": "extraordinary-perception",
+        "title": "Extraordinary Perception",
+        "author": "Unknown Author",
         "story": null,
         "assets": {
           "items": [
-
+            {
+              "asset": {
+                "uri": "http://readlists.com/66f5c32b",
+                "acquisition_type": "store",
+                "vendor": null
+              }
+            }
           ]
         },
         "language": null,
-        "id": 12275,
-        "date_read": "05-15-2011",
+        "id": 80196,
+        "date_read": "2011-04-15",
         "published_at": null,
         "identifier": null,
-        "permalink_url": "https://readmill.com/books/powering-the-dream-the-history-and-promise-of-green-technology",
-        "cover_url": "https://d15fum6h02z48v.cloudfront.net/assets/default-cover-medium-783d4f50bcee0684bace309dd29c7929.png"
+        "permalink_url": "https://readmill.com/books/extraordinary-perception",
+        "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/31e27c71513599703de0cebfd13723fd-original.png?1364080807"
       },
       {
         "club": "sf",
@@ -329,11 +429,21 @@
         },
         "language": "en",
         "id": 425,
-        "date_read": "03-15-2011",
+        "date_read": "2011-03-15",
         "published_at": "2011-01-20",
         "identifier": "9780143120612",
         "permalink_url": "https://readmill.com/books/reality-is-broken-why-games-make-us-better-and-how-they-can-change-the-world",
         "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/5df66799a99ac3a57efb10564002e3ce-original.png?1332519058"
+      },
+      {
+        "club": "sf",
+        "title": "The Architecture Machine: Toward a More Human Environment",
+        "author": "Nicholas Negroponte",
+        "story": "The use of computers to aid the architectural designer and urban planner is already beyond the experimental stage and part of the workaday routine of many professionals. There are, for example, machines that transform two-dimensional drawings into three-dimensional perspective displays and others that check myriad aspects of a design against specifications and tolerance requirements. The Architecture Machine looks several machine generations ahead of these to a future in which genuine man-machine dialogue is achieved, when man and machine will act together on something closer to equal terms toward a common goal, each contributing his-its own characteristic faculty.",
+        "date_read": "2011-01-15",
+        "published_at": "",
+        "permalink_url": "http://www.amazon.com/The-Architecture-Machine-Toward-Environment/dp/0262640104",
+        "cover_url": "http://ecx.images-amazon.com/images/I/41g6Qle4jML.jpg"
       },
       {
         "club": "sf",
@@ -354,7 +464,7 @@
         },
         "language": "en",
         "id": 304,
-        "date_read": "11-15-2010",
+        "date_read": "2010-11-15",
         "published_at": "2010-10-05",
         "identifier": "1594487715",
         "permalink_url": "https://readmill.com/books/where-good-ideas-come-from-the-natural-history-of-innovation",
@@ -362,22 +472,13 @@
       },
       {
         "club": "sf",
-        "permalink": "toyota-production-system-beyond-large-scale-production",
         "title": "Toyota Production System: Beyond Large-Scale Production",
-        "author": "Taiichi Ohno, Norman Bodek, Norman Bodek",
-        "story": null,
-        "assets": {
-          "items": [
-
-          ]
-        },
-        "language": null,
-        "id": 78133,
-        "date_read": "09-15-2010",
-        "published_at": null,
-        "identifier": null,
-        "permalink_url": "https://readmill.com/books/toyota-production-system-beyond-large-scale-production",
-        "cover_url": "https://d15fum6h02z48v.cloudfront.net/assets/default-cover-medium-783d4f50bcee0684bace309dd29c7929.png"
+        "author": "Taiichi Ohno",
+        "story": "In this classic text, Taiichi Ohno—inventor of the Toyota Production System and Lean manufacturing—shares the genius that sets him apart as one of the most disciplined and creative thinkers of our time. Combining his candid insights with a rigorous analysis of Toyota's attempts at Lean production, Ohno's book explains how Lean principles can improve any production endeavor. A historical and philosophical description of just-in-time and Lean manufacturing, this work is a must read for all students of human progress. On a more practical level, it continues to provide inspiration and instruction for those seeking to improve efficiency through the elimination of waste.",
+        "date_read": "2010-09-15",
+        "published_at": "",
+        "permalink_url": "http://www.amazon.com/Toyota-Production-System-Beyond-Large-Scale/dp/0915299143/",
+        "cover_url": "http://www.doubleday.com.au/image.aspx?isbn=9780915299140&size=L"
       },
       {
         "club": "sf",
@@ -392,7 +493,7 @@
         },
         "language": "en",
         "id": 455,
-        "date_read": "08-15-2010",
+        "date_read": "2010-08-15",
         "published_at": "2012-01-24",
         "identifier": "9780446576314",
         "permalink_url": "https://readmill.com/books/delivering-happiness",
@@ -411,7 +512,7 @@
         },
         "language": null,
         "id": 7332,
-        "date_read": "07-15-2010",
+        "date_read": "2010-07-15",
         "published_at": null,
         "identifier": "9780547394282",
         "permalink_url": "https://readmill.com/books/proust-was-a-neuroscientist",
@@ -419,22 +520,13 @@
       },
       {
         "club": "sf",
-        "permalink": "the-culture-code-an-ingenious-way-to-understand-why-people-around-the-world-live-and-buy-as-they-do",
         "title": "The Culture Code: An Ingenious Way to Understand Why People Around the World Live and Buy as They Do",
         "author": "Clotaire Rapaille",
-        "story": null,
-        "assets": {
-          "items": [
-
-          ]
-        },
-        "language": null,
-        "id": 18092,
-        "date_read": "05-15-2010",
-        "published_at": null,
-        "identifier": null,
-        "permalink_url": "https://readmill.com/books/the-culture-code-an-ingenious-way-to-understand-why-people-around-the-world-live-and-buy-as-they-do",
-        "cover_url": "https://d15fum6h02z48v.cloudfront.net/assets/default-cover-medium-783d4f50bcee0684bace309dd29c7929.png"
+        "story": "In The Culture Code, Dr. Rapaille decodes two dozen of our most fundamental archetypes—ranging from sex to money to health to America itself—to give us “a new set of glasses” with which to view our actions and motivations. Why are we so often disillusioned by love? Why is fat a solution rather than a problem? Why do we reject the notion of perfection? Why is fast food in our lives to stay? The answers are in the Codes. Understanding the Codes gives us unprecedented freedom over our lives. It lets us do business in dramatically new ways. And it finally explains why people around the world really are different, and reveals the hidden clues to understanding us all.",
+        "date_read": "2010-05-15",
+        "published_at": "",
+        "permalink_url": "http://www.amazon.com/Culture-Code-Ingenious-Understand-People/dp/0767920570/",
+        "cover_url": "http://torquelaunch.com/wp-content/uploads/2012/06/The-Culture-Code.png"
       },
       {
         "club": "sf",
@@ -449,7 +541,7 @@
         },
         "language": null,
         "id": 11786,
-        "date_read": "03-15-2010",
+        "date_read": "2010-03-15",
         "published_at": null,
         "identifier": "9780062039828",
         "permalink_url": "https://readmill.com/books/story-style-structure-substance-and-the-principles-of-screenwriting",
@@ -468,7 +560,7 @@
         },
         "language": "en",
         "id": 795,
-        "date_read": "02-15-2010",
+        "date_read": "2010-02-15",
         "published_at": "2005",
         "identifier": "1932111972",
         "permalink_url": "https://readmill.com/books/theory-of-fun-for-game-design",
@@ -476,22 +568,13 @@
       },
       {
         "club": "sf",
-        "permalink": "always-be-testing-the-complete-guide-to-google-website-optimizer",
         "title": "Always Be Testing: The Complete Guide to Google Website Optimizer",
-        "author": "Bryan Eisenberg, John Quarto-von Tividar",
-        "story": null,
-        "assets": {
-          "items": [
-
-          ]
-        },
-        "language": null,
-        "id": 17936,
-        "date_read": "01-15-2010",
-        "published_at": null,
-        "identifier": null,
-        "permalink_url": "https://readmill.com/books/always-be-testing-the-complete-guide-to-google-website-optimizer",
-        "cover_url": "https://d15fum6h02z48v.cloudfront.net/assets/default-cover-medium-783d4f50bcee0684bace309dd29c7929.png"
+        "author": "Bryan Eisenberg and John Quarto-vonTivadar",
+        "story": "Take the guesswork out of your online marketing efforts. Let Always Be Testing: The Complete Guide to Google Website Optimizer show you why you should test, how to test, and what to test on your site, and ultimately, help you discover what is best for your site and your bottom line.",
+        "date_read": "2010-01-15",
+        "published_at": "",
+        "permalink_url": "http://www.amazon.com/Always-Be-Testing-Complete-Optimizer/dp/0470290633/",
+        "cover_url": "http://javiergodoy2.files.wordpress.com/2008/06/00099906_medium.jpeg"
       },
       {
         "club": "sf",
@@ -512,7 +595,7 @@
         },
         "language": "en",
         "id": 1640,
-        "date_read": "11-15-2009",
+        "date_read": "2009-11-15",
         "published_at": "2010",
         "identifier": "0321620062",
         "permalink_url": "https://readmill.com/books/content-strategy-for-the-web",
@@ -531,7 +614,7 @@
         },
         "language": null,
         "id": 16573,
-        "date_read": "10-15-2009",
+        "date_read": "2009-10-15",
         "published_at": null,
         "identifier": null,
         "permalink_url": "https://readmill.com/books/the-back-of-the-napkin-solving-problems-and-selling-ideas-with-pictures",
@@ -550,7 +633,7 @@
         },
         "language": null,
         "id": 11977,
-        "date_read": "08-15-2009",
+        "date_read": "2009-08-15",
         "published_at": null,
         "identifier": null,
         "permalink_url": "https://readmill.com/books/web-analytics-an-hour-a-day",
@@ -564,6 +647,18 @@
       {
         "title": "Tenth of December",
         "author": "George Saunders",
+        "custom_content": {
+          "book": {
+            "club": "nyc",
+            "title": "Tenth of December",
+            "author": "George Saunders",
+            "story": "Writing brilliantly and profoundly about class, sex, love, loss, work, despair, and war, Saunders cuts to the core of the contemporary experience. These stories take on the big questions and explore the fault lines of our own morality, delving into the questions of what makes us good and what makes us human. Unsettling, insightful, and hilarious, the stories in Tenth of December—through their manic energy, their focus on what is redeemable in human beings, and their generosity of spirit—not only entertain and delight; they fulfill Chekhov’s dictum that art should “prepare us for tenderness.”",
+            "date_read": "2013-04-15",
+            "published_at": "",
+            "permalink_url": "http://www.amazon.com/Tenth-December-Stories-George-Saunders/dp/0812993802/",
+            "cover_url": "http://img2-1.timeinc.net/ew/i/2013/01/02/Tenth-of-December.jpg"
+          }
+        },
         "date": "04-15-2013"
       },
       {
@@ -582,13 +677,25 @@
         "date": "08-15-2012"
       },
       {
-        "title": "Design Patterns Reader",
-        "author": "techbookclub",
+        "title": "A Pattern Language",
+        "author": "Christopher Alexander",
         "date": "06-15-2012"
       },
       {
         "title": "Piano: The Making of a Steinway Concert Grand",
         "author": "James Barron",
+        "custom_content": {
+          "book": {
+            "club": "nyc",
+            "title": "Piano: The Making of a Steinway Concert Grand",
+            "author": "James Barron",
+            "story": "In this captivating narrative, James Barron of The New York Times tells the story of one Steinway piano, from raw lumber to finished instrument. Barron follows that brand-new piano--known by its number, K0862--on its journey through the factory, where time-honored traditions vie with modern-day efficiency. He also explores the art and science of developing a piano's timbre and character before its debut, when the essential question will be answered: Does K0862 live up to the Steinway legend? From start to finish, Piano will charm and enlighten music and book lovers alike.",
+            "date_read": "2012-03-15",
+            "published_at": "",
+            "permalink_url": "http://www.amazon.com/Piano-Making-Steinway-Concert-Grand/dp/0805083049/",
+            "cover_url": "http://jacketupload.macmillanusa.com/jackets/high_res/jpgs/9780805083040.jpg"
+          }
+        },
         "date": "03-15-2012"
       },
       {
@@ -599,16 +706,52 @@
       {
         "title": "Lapham's Quarterly: The Future",
         "author": "Lewis H. Lapham",
+        "custom_content": {
+          "book": {
+            "club": "nyc",
+            "title": "Lapham's Quarterly: The Future",
+            "author": "Lewis H. Lapham",
+            "story": "By way of lifting the siege of dismal prophecy, this issue of Lapham’s Quarterly draws on the teaching of history to show the future as a land of make-believe, a work of the imagination, shaped by the emotion of the present and situated somewhere over the rainbow of a deconstructed past. Time flows upstream as well as down, which is the message brought to Oedipus by blind Tiresias and by St. Augustine’s noticing that both past and future, “wherever they are, whatever they are,” exist nowhere else except in the minds of their beholders. John Crowley completes the thought sixteen centuries further along the road to who knows where, finding that “the future, as always, is now,” a reflection in the mirror as opposed to a sighting in a crystal ball.",
+            "date_read": "2011-10-15",
+            "published_at": "",
+            "permalink_url": "http://laphamsquarterly.org/magazine/the-future.php",
+            "cover_url": "http://25.media.tumblr.com/tumblr_lqe1hxa0HC1qcl7wao1_500.jpg"
+          }
+        },
         "date": "10-15-2011"
       },
       {
         "title": "River of Shadows",
         "author": "Rebecca Solnit",
+        "custom_content": {
+          "book": {
+            "club": "nyc",
+            "title": "River of Shadows: Eadweard Muybridge and the Technological Wild West",
+            "author": "Rebecca Solnit",
+            "story": "The world as we know it today began in California in the late 1800s, and Eadweard Muybridge had a lot to do with it. This striking assertion is at the heart of Rebecca Solnit’s new book, which weaves together biography, history, and fascinating insights into art and technology to create a boldly original portrait of America on the threshold of modernity. The story of Muybridge—who in 1872 succeeded in capturing high-speed motion photographically—becomes a lens for a larger story about the acceleration and industrialization of everyday life. Solnit shows how the peculiar freedoms and opportunities of post–Civil War California led directly to the two industries—Hollywood and Silicon Valley—that have most powerfully defined contemporary society.",
+            "date_read": "2011-09-15",
+            "published_at": "",
+            "permalink_url": "http://www.amazon.com/River-Shadows-Eadweard-Muybridge-Technological/dp/0142004103/",
+            "cover_url": "http://ecx.images-amazon.com/images/I/51WQQ8CCEBL._SL500_.jpg"
+          }
+        },
         "date": "09-15-2011"
       },
       {
         "title": "Newsgames: Journalism at Play",
         "author": "Ian Bogost",
+        "custom_content": {
+          "book": {
+            "club": "nyc",
+            "title": "Newsgames: Journalism at Play",
+            "author": "Ian Bogost, Simon Ferrari, and Bobby Schweizer",
+            "story": "Journalism has embraced digital media in its struggle to survive. But most online journalism just translates existing practices to the Web: stories are written and edited as they are for print; video and audio features are produced as they would be for television and radio. The authors of Newsgames propose a new way of doing good journalism: videogames. Videogames are native to computers rather than a digitized form of prior media. Games simulate how things work by constructing interactive models; journalism as game involves more than just revisiting old forms of news production. Wired magazine's game Cutthroat Capitalism, for example, explains the economics of Somali piracy by putting the player in command of a pirate ship, offering choices for hostage negotiation strategies. Videogames do not offer a panacea for the ills of contemporary news organizations. But if the industry embraces them as a viable method of doing journalism—not just an occasional treat for online readers—newsgames can make a valuable contribution.",
+            "date_read": "2011-07-15",
+            "published_at": "",
+            "permalink_url": "http://www.amazon.com/Newsgames-Journalism-Play-Ian-Bogost/dp/0262518074/",
+            "cover_url": "http://mitpress.mit.edu/covers/9780262518079.jpg"
+          }
+        },
         "date": "07-15-2011"
       },
       {
@@ -620,22 +763,13 @@
     "readmill_books": [
       {
         "club": "nyc",
-        "permalink": "tenth-of-december-1",
-        "title": "TENTH OF DECEMBER",
+        "title": "Tenth of December",
         "author": "George Saunders",
-        "story": null,
-        "assets": {
-          "items": [
-
-          ]
-        },
-        "language": null,
-        "id": 75190,
-        "date_read": "04-15-2013",
-        "published_at": null,
-        "identifier": null,
-        "permalink_url": "https://readmill.com/books/tenth-of-december-1",
-        "cover_url": "https://d15fum6h02z48v.cloudfront.net/assets/default-cover-medium-783d4f50bcee0684bace309dd29c7929.png"
+        "story": "Writing brilliantly and profoundly about class, sex, love, loss, work, despair, and war, Saunders cuts to the core of the contemporary experience. These stories take on the big questions and explore the fault lines of our own morality, delving into the questions of what makes us good and what makes us human. Unsettling, insightful, and hilarious, the stories in Tenth of December—through their manic energy, their focus on what is redeemable in human beings, and their generosity of spirit—not only entertain and delight; they fulfill Chekhov’s dictum that art should “prepare us for tenderness.”",
+        "date_read": "2013-04-15",
+        "published_at": "",
+        "permalink_url": "http://www.amazon.com/Tenth-December-Stories-George-Saunders/dp/0812993802/",
+        "cover_url": "http://img2-1.timeinc.net/ew/i/2013/01/02/Tenth-of-December.jpg"
       },
       {
         "club": "nyc",
@@ -656,7 +790,7 @@
         },
         "language": "",
         "id": 33736,
-        "date_read": "02-15-2013",
+        "date_read": "2013-02-15",
         "published_at": "",
         "identifier": "9780374708832",
         "permalink_url": "https://readmill.com/books/mr-penumbras-24-hour-bookstore-a-novel",
@@ -675,7 +809,7 @@
         },
         "language": null,
         "id": 29667,
-        "date_read": "12-15-2012",
+        "date_read": "2012-12-15",
         "published_at": null,
         "identifier": "0872863328",
         "permalink_url": "https://readmill.com/books/close-to-the-machine",
@@ -700,11 +834,40 @@
         },
         "language": null,
         "id": 5187,
-        "date_read": "08-15-2012",
+        "date_read": "2012-08-15",
         "published_at": null,
         "identifier": "0345404475",
         "permalink_url": "https://readmill.com/books/do-androids-dream-of-electric-sheep",
         "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/98e712e3ca8cd2bd45aad1cf5ad66c7e-original.png?1352909636"
+      },
+      {
+        "club": "nyc",
+        "permalink": "a-pattern-language",
+        "title": "A Pattern Language",
+        "author": "Christopher Alexander",
+        "story": null,
+        "assets": {
+          "items": [
+
+          ]
+        },
+        "language": null,
+        "id": 13398,
+        "date_read": "2012-06-15",
+        "published_at": null,
+        "identifier": "0195019199",
+        "permalink_url": "https://readmill.com/books/a-pattern-language",
+        "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/4bbebfe057b2be0d624529d76eed33a2-original.png?1344331472"
+      },
+      {
+        "club": "nyc",
+        "title": "Piano: The Making of a Steinway Concert Grand",
+        "author": "James Barron",
+        "story": "In this captivating narrative, James Barron of The New York Times tells the story of one Steinway piano, from raw lumber to finished instrument. Barron follows that brand-new piano--known by its number, K0862--on its journey through the factory, where time-honored traditions vie with modern-day efficiency. He also explores the art and science of developing a piano's timbre and character before its debut, when the essential question will be answered: Does K0862 live up to the Steinway legend? From start to finish, Piano will charm and enlighten music and book lovers alike.",
+        "date_read": "2012-03-15",
+        "published_at": "",
+        "permalink_url": "http://www.amazon.com/Piano-Making-Steinway-Concert-Grand/dp/0805083049/",
+        "cover_url": "http://jacketupload.macmillanusa.com/jackets/high_res/jpgs/9780805083040.jpg"
       },
       {
         "club": "nyc",
@@ -725,11 +888,41 @@
         },
         "language": "en",
         "id": 193,
-        "date_read": "01-15-2012",
+        "date_read": "2012-01-15",
         "published_at": "2011-03-01",
         "identifier": "0375423729",
         "permalink_url": "https://readmill.com/books/the-information-a-history-a-theory-a-flood",
         "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/ad17d59c749819636dc7827df56c585d-original.png?1351869276"
+      },
+      {
+        "club": "nyc",
+        "title": "Lapham's Quarterly: The Future",
+        "author": "Lewis H. Lapham",
+        "story": "By way of lifting the siege of dismal prophecy, this issue of Lapham’s Quarterly draws on the teaching of history to show the future as a land of make-believe, a work of the imagination, shaped by the emotion of the present and situated somewhere over the rainbow of a deconstructed past. Time flows upstream as well as down, which is the message brought to Oedipus by blind Tiresias and by St. Augustine’s noticing that both past and future, “wherever they are, whatever they are,” exist nowhere else except in the minds of their beholders. John Crowley completes the thought sixteen centuries further along the road to who knows where, finding that “the future, as always, is now,” a reflection in the mirror as opposed to a sighting in a crystal ball.",
+        "date_read": "2011-10-15",
+        "published_at": "",
+        "permalink_url": "http://laphamsquarterly.org/magazine/the-future.php",
+        "cover_url": "http://25.media.tumblr.com/tumblr_lqe1hxa0HC1qcl7wao1_500.jpg"
+      },
+      {
+        "club": "nyc",
+        "title": "River of Shadows: Eadweard Muybridge and the Technological Wild West",
+        "author": "Rebecca Solnit",
+        "story": "The world as we know it today began in California in the late 1800s, and Eadweard Muybridge had a lot to do with it. This striking assertion is at the heart of Rebecca Solnit’s new book, which weaves together biography, history, and fascinating insights into art and technology to create a boldly original portrait of America on the threshold of modernity. The story of Muybridge—who in 1872 succeeded in capturing high-speed motion photographically—becomes a lens for a larger story about the acceleration and industrialization of everyday life. Solnit shows how the peculiar freedoms and opportunities of post–Civil War California led directly to the two industries—Hollywood and Silicon Valley—that have most powerfully defined contemporary society.",
+        "date_read": "2011-09-15",
+        "published_at": "",
+        "permalink_url": "http://www.amazon.com/River-Shadows-Eadweard-Muybridge-Technological/dp/0142004103/",
+        "cover_url": "http://ecx.images-amazon.com/images/I/51WQQ8CCEBL._SL500_.jpg"
+      },
+      {
+        "club": "nyc",
+        "title": "Newsgames: Journalism at Play",
+        "author": "Ian Bogost, Simon Ferrari, and Bobby Schweizer",
+        "story": "Journalism has embraced digital media in its struggle to survive. But most online journalism just translates existing practices to the Web: stories are written and edited as they are for print; video and audio features are produced as they would be for television and radio. The authors of Newsgames propose a new way of doing good journalism: videogames. Videogames are native to computers rather than a digitized form of prior media. Games simulate how things work by constructing interactive models; journalism as game involves more than just revisiting old forms of news production. Wired magazine's game Cutthroat Capitalism, for example, explains the economics of Somali piracy by putting the player in command of a pirate ship, offering choices for hostage negotiation strategies. Videogames do not offer a panacea for the ills of contemporary news organizations. But if the industry embraces them as a viable method of doing journalism—not just an occasional treat for online readers—newsgames can make a valuable contribution.",
+        "date_read": "2011-07-15",
+        "published_at": "",
+        "permalink_url": "http://www.amazon.com/Newsgames-Journalism-Play-Ian-Bogost/dp/0262518074/",
+        "cover_url": "http://mitpress.mit.edu/covers/9780262518079.jpg"
       },
       {
         "club": "nyc",
@@ -744,7 +937,7 @@
         },
         "language": "en",
         "id": 4385,
-        "date_read": "06-15-2011",
+        "date_read": "2011-06-15",
         "published_at": "2010-10-31",
         "identifier": "0262014866",
         "permalink_url": "https://readmill.com/books/living-with-complexity",

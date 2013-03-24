@@ -1,14 +1,16 @@
 ---
 layout: book_sf
 category: sf
-date_read: "01-15-2010"
+date_read: "2010-01-15"
 title: "Always Be Testing: The Complete Guide to Google Website Optimizer"
-author: "Bryan Eisenberg, John Quarto-von Tividar"
+author: "Bryan Eisenberg and John Quarto-vonTivadar"
 summary: "Another techbookclub selection..."
-cover_url: https://d15fum6h02z48v.cloudfront.net/assets/default-cover-medium-783d4f50bcee0684bace309dd29c7929.png
-permalink_url: https://readmill.com/books/always-be-testing-the-complete-guide-to-google-website-optimizer
+cover_url: http://javiergodoy2.files.wordpress.com/2008/06/00099906_medium.jpeg
+permalink_url: http://www.amazon.com/Always-Be-Testing-Complete-Optimizer/dp/0470290633/
 ---
 
 # Why?
-This book, on the whole, is not what we're into anymore
+A little bit about why we read this book.
 
+# Summary
+Take the guesswork out of your online marketing efforts. Let Always Be Testing: The Complete Guide to Google Website Optimizer show you why you should test, how to test, and what to test on your site, and ultimately, help you discover what is best for your site and your bottom line.

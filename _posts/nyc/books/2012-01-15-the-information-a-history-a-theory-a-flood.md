@@ -1,7 +1,7 @@
 ---
 layout: book_nyc
 category: nyc
-date_read: "01-15-2012"
+date_read: "2012-01-15"
 title: "The Information: A History, a Theory, a Flood"
 author: "James Gleick"
 summary: "Another techbookclub selection..."

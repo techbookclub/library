@@ -1,7 +1,7 @@
 ---
 layout: book_sf
 category: sf
-date_read: "07-15-2010"
+date_read: "2010-07-15"
 title: "Proust Was a Neuroscientist"
 author: "Jonah Lehrer"
 summary: "Another techbookclub selection..."
