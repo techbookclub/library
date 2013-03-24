@@ -84,7 +84,17 @@
       {
         "title": "Powering the Dream: The History and Promise of Green Technology",
         "author": "Alexis Madrigal",
-        "date": "05-15-2011"
+        "date": "05-15-2011",
+        "custom_content": {
+          "book": {
+            "title": "Powering the Dream: The History and Promise of Green Technology",
+            "author": "Alexis Madrigal",
+            "story": "Few today realize that electric cabs dominated Manhattan's streets in the 1890s; that Boise, Idaho, had a geothermal heating system in 1910; or that the first megawatt turbine in the world was built in 1941 by the son of publishing magnate G. P. Putnam—a feat that would not be duplicated for another forty years. Likewise, while many remember the oil embargo of the 1970s, few are aware that it led to a corresponding explosion in green-technology research that was only derailed when energy prices later dropped. In other words: We've been here before. Although we may have failed, America has had the chance to put our world on a more sustainable path. Americans have, in fact, been inventing green for more than a century. Half compendium of lost opportunities, half hopeful look toward the future, Powering the Dream tells the stories of the brilliant, often irascible inventors who foresaw our current problems, tried to invent cheap and energy renewable solutions, and drew the blueprint for a green future.",
+            "published_at": "",
+            "permalink_url": "http://www.amazon.com/Powering-Dream-History-Promise-Technology/dp/B006CDDHOK/",
+            "cover_url": "http://lindseyhoshaw.files.wordpress.com/2011/04/madrigal_9780306818851_3001.jpg"
+          }
+        }
       },
       {
         "title": "Extraordinary Perception",
@@ -119,7 +129,17 @@
       {
         "title": "Toyota Production System: Beyond Large-Scale Production",
         "author": "Taiichi Ohno",
-        "date": "09-15-2010"
+        "date": "09-15-2010",
+        "custom_content": {
+          "book": {
+            "title": "Toyota Production System: Beyond Large-Scale Production",
+            "author": "Taiichi Ohno",
+            "story": "In this classic text, Taiichi Ohno—inventor of the Toyota Production System and Lean manufacturing—shares the genius that sets him apart as one of the most disciplined and creative thinkers of our time. Combining his candid insights with a rigorous analysis of Toyota's attempts at Lean production, Ohno's book explains how Lean principles can improve any production endeavor. A historical and philosophical description of just-in-time and Lean manufacturing, this work is a must read for all students of human progress. On a more practical level, it continues to provide inspiration and instruction for those seeking to improve efficiency through the elimination of waste.",
+            "published_at": "",
+            "permalink_url": "http://www.amazon.com/Toyota-Production-System-Beyond-Large-Scale/dp/0915299143/",
+            "cover_url": "http://www.doubleday.com.au/image.aspx?isbn=9780915299140&size=L"
+          }
+        }
       },
       {
         "title": "Delivering Happiness: A Path to Profits, Passion, and Purpose",
@@ -134,7 +154,17 @@
       {
         "title": "The Culture Code: An Ingenious Way to Understand Why People Around the World Live and Buy as They Do",
         "author": "Clotaire Rapaille",
-        "date": "05-15-2010"
+        "date": "05-15-2010",
+        "custom_content": {
+          "book": {
+            "title": "The Culture Code: An Ingenious Way to Understand Why People Around the World Live and Buy as They Do",
+            "author": "Clotaire Rapaille",
+            "story": "In The Culture Code, Dr. Rapaille decodes two dozen of our most fundamental archetypes—ranging from sex to money to health to America itself—to give us “a new set of glasses” with which to view our actions and motivations. Why are we so often disillusioned by love? Why is fat a solution rather than a problem? Why do we reject the notion of perfection? Why is fast food in our lives to stay? The answers are in the Codes. Understanding the Codes gives us unprecedented freedom over our lives. It lets us do business in dramatically new ways. And it finally explains why people around the world really are different, and reveals the hidden clues to understanding us all.",
+            "published_at": "",
+            "permalink_url": "http://www.amazon.com/Culture-Code-Ingenious-Understand-People/dp/0767920570/",
+            "cover_url": "http://torquelaunch.com/wp-content/uploads/2012/06/The-Culture-Code.png"
+          }
+        }
       },
       {
         "title": "Story: Substance, Structure, Style, and the Principles of Screenwriting",
@@ -149,7 +179,17 @@
       {
         "title": "Always Be Testing: The Complete Guide to Google Website Optimizer",
         "author": "Bryan Eisenberg and John Quarto-vonTivadar",
-        "date": "01-15-2010"
+        "date": "01-15-2010",
+        "custom_content": {
+          "book": {
+            "title": "Always Be Testing: The Complete Guide to Google Website Optimizer",
+            "author": "Bryan Eisenberg and John Quarto-vonTivadar",
+            "story": "Take the guesswork out of your online marketing efforts. Let Always Be Testing: The Complete Guide to Google Website Optimizer show you why you should test, how to test, and what to test on your site, and ultimately, help you discover what is best for your site and your bottom line.",
+            "published_at": "",
+            "permalink_url": "http://www.amazon.com/Always-Be-Testing-Complete-Optimizer/dp/0470290633/",
+            "cover_url": "http://javiergodoy2.files.wordpress.com/2008/06/00099906_medium.jpeg"
+          }
+        }
       },
       {
         "title": "Content Strategy for the Web",
