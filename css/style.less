@@ -262,7 +262,7 @@ header {
   & .books {
     text-align: right;
     position: absolute;
-    right: 0;
+    right: 10px;
     bottom: 0;
     margin: 0;
     padding: 0;
@@ -319,7 +319,7 @@ header {
         -ms-transition-delay: 250ms;
         transition-delay: 250ms;  
       }
-      &:hover .title-page {
+      &:not(.selected):hover .title-page {
         -webkit-transition: background @bookCoverOpenTime;
         -moz-transition: background @bookCoverOpenTime;
         -ms-transition: background @bookCoverOpenTime;
@@ -361,7 +361,7 @@ header {
         -ms-transform-origin: 0 50%;
         transform-origin: 0 50%;
       }
-      &:hover img {
+      &:not(.selected):hover img {
         -webkit-transition: -webkit-transform @bookCoverOpenTime;
         -moz-transition: -moz-transform @bookCoverOpenTime;
         -ms-transition: -ms-transform @bookCoverOpenTime;
@@ -376,6 +376,16 @@ header {
         -moz-transform: rotateY(-50deg);
         -ms-transform: rotateY(-50deg);
         transform: rotateY(-50deg);
+      }
+      &.cover.selected::after {
+        content: '';
+        position: absolute;
+        z-index: 99;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        background: fadeout(@coverHighlightColor, 50%);
       }
     }
   }
