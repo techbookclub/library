@@ -6,7 +6,6 @@
 
 @headerBookWidth: 60px;
 @headerBookHeight: 100px;
-@headerBookCurrentHeight: 150px;
 
 @headerBookDistance: 10px;
 
@@ -190,29 +189,6 @@ header::before {
   background: black;
 }
 
-header.floating {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-
-  -webkit-transition: -webkit-transform 250ms;
-  -webkit-transform: translateY(@headerHideMove);
-  -webkit-transition-delay: @headerHideDelay;
-
-  -moz-transition: -moz-transform 250ms;
-  -moz-transform: translateY(@headerHideMove);
-  -moz-transition-delay: @headerHideDelay;
-
-  -ms-transition: -ms-transform 250ms;
-  -ms-transform: translateY(@headerHideMove);
-  -ms-transition-delay: @headerHideDelay;
-
-  transition: transform 250ms;
-  transform: translateY(@headerHideMove);
-  transition-delay: @headerHideDelay;
-}
-
 header {
   position: relative;
   font-size: 0;
@@ -229,6 +205,29 @@ header {
     linear-gradient(fadeout(@background, 100%) 0%, @background 70%);
 
   height: @headerHeight;
+
+  &.floating {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    -webkit-transition: -webkit-transform 250ms;
+    -webkit-transform: translateY(@headerHideMove);
+    -webkit-transition-delay: @headerHideDelay;
+
+    -moz-transition: -moz-transform 250ms;
+    -moz-transform: translateY(@headerHideMove);
+    -moz-transition-delay: @headerHideDelay;
+
+    -ms-transition: -ms-transform 250ms;
+    -ms-transform: translateY(@headerHideMove);
+    -ms-transition-delay: @headerHideDelay;
+
+    transition: transform 250ms;
+    transform: translateY(@headerHideMove);
+    transition-delay: @headerHideDelay;
+  }
 
   & h1 {
     font-family: @sansSerif;
@@ -283,6 +282,7 @@ header {
       -ms-perspective: 500;
       perspective: 500;
     }
+
     & .cover {
       position: relative;
       top: @headerHeight - @headerBookHeight - @headerBookBaseline;
