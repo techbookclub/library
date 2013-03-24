@@ -1,4 +1,4 @@
-var viewportHeight;
+/*var viewportHeight;
 var documentHeight;
 var footerHeight;
 
@@ -7,8 +7,6 @@ var FOOTER_DELTA = 80;
 function onBodyResize() {
   viewportHeight = window.innerHeight;
   documentHeight = document.body.scrollHeight;
-
-
 
   //console.log(documentHeight);
 }
@@ -33,10 +31,12 @@ function onBodyScroll() {
     //console.log('+');
   }
 }
+*/
 
 function hideHeader() {
   document.querySelector('header').classList.remove('fixed-hover');  
 }
+
 
 function main() {
   document.querySelector('header').classList.add('floating');
