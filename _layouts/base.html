@@ -13,7 +13,7 @@
   <script src='/scripts/libs/less-1.3.3.min.js'></script>
 </head>
 
-<body>
+<body {% if page.url == '/index.html' %}class="homepage"{% endif %}>  
   {{content}}
 
   <script>

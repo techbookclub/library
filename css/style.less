@@ -18,6 +18,8 @@
 
 @bookInfoWidth: 900px;
 
+@bookCoverWidth: 380px;
+
 @verticalRhythm: 30px;
 
 @serif: 'Skolar', Georgia, serif;
@@ -29,6 +31,8 @@
 @captionColor: rgb(128, 128, 128);
 
 @coverHighlightColor: #478cb6;
+
+@homepageRatio: .5;
 
 body {
   margin: 0;
@@ -45,6 +49,31 @@ a {
     text-shadow: 0 0 1px rgba(0, 0, 0, .5);
   }
 }
+
+/* Homepage */
+
+.nyc-vs-sf {
+  width: @bookInfoWidth + @verticalRhythm * 2 + 1;  
+
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+}
+.nyc-vs-sf li {
+  width: @bookInfoWidth / 2;
+
+  float: left;
+
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.nyc-vs-sf li:first-child {
+  padding-right: @verticalRhythm;
+  margin-right: @verticalRhythm;
+  border-right: 1px solid fadeout(@coverHighlightColor, 80%);
+}
+
 
 /* Book info */
 
@@ -66,14 +95,15 @@ a {
 
   & .book-cover {
     display: table-cell;
-    width: 380px;
+    width: @bookCoverWidth;
     margin-right: 20px;
 
     & img {
-      width: 380px;
+      width: 100%;
       border: 1px solid fadeout(@coverHighlightColor, 80%);
     }
   }
+
   & .metadata {
     display: table-cell;
 
@@ -84,11 +114,11 @@ a {
     & .title {
       padding: 0;
       margin: 0;
-      line-height: 68px;
 
       margin-top: @verticalRhythm;
 
       font-size: 72px;
+      line-height: 0.94;
       font-weight: 500;
 
       color: @coverHighlightColor;
@@ -96,9 +126,9 @@ a {
     & .subtitle {
       padding: 0;
       margin: 0;
-      margin-top: 10px;
-      line-height: 42px;
+      margin-top: .14em;
       font-size: 36px;
+      line-height: 1.1667;
       font-weight: 600;
 
       font-style: italic;
@@ -121,6 +151,29 @@ a {
     }
   }
 }
+
+.nyc-vs-sf {
+  .book-info {
+    width: @bookInfoWidth * @homepageRatio;
+
+    & .book-cover {
+      width: @bookCoverWidth * @homepageRatio;
+    }
+    & .metadata {
+      & .title {
+        font-size: 72px * @homepageRatio;
+      }
+      & .subtitle {
+        font-size: 36px * @homepageRatio;
+      }
+      & .author {
+        font-size: 18px * @homepageRatio;
+        letter-spacing: 4px * @homepageRatio;
+      }
+    }
+  }
+}
+
 
 .book-subinfo {
   font-weight: 300;
