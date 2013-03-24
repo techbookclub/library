@@ -40,17 +40,24 @@ body {
 }
 a {
   color: inherit;
+
+  &:hover {
+    text-shadow: 0 0 1px rgba(0, 0, 0, .5);
+  }
 }
 
 /* Book info */
 
 .main {
   margin: @verticalRhythm auto;
-  width: @bookInfoWidth;
+  width: @bookInfoWidth;  
+
+  margin-bottom: @verticalRhythm * 5;
 }
 
 .book-info {
-  margin: @verticalRhythm auto;
+  margin: 0;
+  margin-bottom: @verticalRhythm;
   width: @bookInfoWidth;
 
   overflow: hidden;
@@ -64,6 +71,7 @@ a {
 
     & img {
       width: 380px;
+      border: 1px solid fadeout(@coverHighlightColor, 80%);
     }
   }
   & .metadata {
@@ -117,17 +125,19 @@ a {
 .book-subinfo {
   font-weight: 300;
   font-size: 18px;
-  line-height: 26px;
+  line-height: 28px;
+
+  position: relative;
 
   & h1 {
+    overflow: hidden;
+
     position: absolute;
     margin: 0;
-    padding: 0;
+    padding: 0 10px;
+    margin-top: 3px + @verticalRhythm;
 
     color: @coverHighlightColor;
-    padding: 0 10px;
-
-    padding-top: 3px;
 
     font-family: @sansSerif;
     font-size: 18px;
@@ -138,13 +148,11 @@ a {
   & p,
   & ul {
     padding-left: 150px;
-    padding-bottom: @verticalRhythm;
+    padding-top: @verticalRhythm;
     margin-bottom: @verticalRhythm;
+    border-top: 1px solid fadeout(@coverHighlightColor, 80%);    
   }
-  & p:not(:last-child),
-  & u:not(:last-child) {
-    border-bottom: 1px solid fadeout(@coverHighlightColor, 80%);
-  }
+
   & .story {
     -webkit-columns: 2;
     -webkit-column-gap: @verticalRhythm * 2;
@@ -166,29 +174,6 @@ a {
 
 /* Header */
 
-header.floating:hover,
-header.floating.fixed-hover {
-  -webkit-transform: translateY(0);
-  -moz-transform: translateY(0);
-  -ms-transform: translateY(0);
-  transform: translateY(0);
-
-  -webkit-transition-delay: 0;
-  -moz-transition-delay: 0;
-  -ms-transition-delay: 0;
-  transition-delay: 0;
-}
-
-header::before {
-  content: '';
-  bottom: 0;
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: @headerShelfHeight;
-  background: black;
-}
-
 header {
   position: relative;
   font-size: 0;
@@ -205,6 +190,16 @@ header {
     linear-gradient(fadeout(@background, 100%) 0%, @background 70%);
 
   height: @headerHeight;
+
+  &::before {
+    content: '';
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: @headerShelfHeight;
+    background: black;
+  }
 
   &.floating {
     position: fixed;
@@ -227,6 +222,18 @@ header {
     transition: transform 250ms;
     transform: translateY(@headerHideMove);
     transition-delay: @headerHideDelay;
+  }
+  &.floating:hover,
+  &.floating.fixed-hover {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+
+    -webkit-transition-delay: 0;
+    -moz-transition-delay: 0;
+    -ms-transition-delay: 0;
+    transition-delay: 0;  
   }
 
   & h1 {
@@ -256,7 +263,7 @@ header {
   & .books {
     text-align: right;
     position: absolute;
-    right: 0;
+    right: 10px;
     bottom: 0;
     margin: 0;
     padding: 0;
@@ -272,8 +279,6 @@ header {
       padding: 0;
 
       margin-right: @headerBookDistance;
-
-      cursor: pointer;
 
       position: relative;
 
@@ -314,7 +319,10 @@ header {
         -ms-transition-delay: 250ms;
         transition-delay: 250ms;
       }
-      &:hover .title-page {
+      &:not(.selected) {
+        cursor: pointer;    
+      }
+      &:not(.selected):hover .title-page {
         -webkit-transition: background @bookCoverOpenTime;
         -moz-transition: background @bookCoverOpenTime;
         -ms-transition: background @bookCoverOpenTime;
@@ -356,7 +364,7 @@ header {
         -ms-transform-origin: 0 50%;
         transform-origin: 0 50%;
       }
-      &:hover img {
+      &:not(.selected):hover img {
         -webkit-transition: -webkit-transform @bookCoverOpenTime;
         -moz-transition: -moz-transform @bookCoverOpenTime;
         -ms-transition: -ms-transform @bookCoverOpenTime;
@@ -372,6 +380,20 @@ header {
         -ms-transform: rotateY(-50deg);
         transform: rotateY(-50deg);
       }
+      &.cover.selected::after {
+        content: '';
+        position: absolute;
+        z-index: 99;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        background: fadeout(@coverHighlightColor, 50%);
+      }
     }
   }
+}
+
+::selection {
+  background: fadeout(@coverHighlightColor, 75%);
 }
