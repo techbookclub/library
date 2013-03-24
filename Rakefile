@@ -1,9 +1,8 @@
 #!/usr/bin/env ruby
 PROJECT_ROOT = File.dirname(__FILE__)
-require File.join(PROJECT_ROOT + '/ext.rb')
-# require 'active_support/core_ext'
+require File.join(PROJECT_ROOT + '/lib/ext.rb')
 require 'httparty'
-require_relative 'helpers'
+require_relative 'lib/helpers'
 
 include Helpers
 
@@ -51,11 +50,12 @@ task :build_markdown do
   markdown_template = File.read('markdown_template.mustache')
 
   book_data.each do |club|
-    pp club['readmill_books'].first
-    puts
     club['readmill_books'].each do |book|
-      File.open book_filepath(PROJECT_ROOT, book), 'w' do |file|
-        file << Mustache.render(markdown_template, book)
+      path = book_filepath(PROJECT_ROOT, book)
+      unless File.exist? path
+        File.open path, 'w' do |file|
+          file << Mustache.render(markdown_template, book)
+        end
       end
     end
   end
