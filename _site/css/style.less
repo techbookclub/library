@@ -39,16 +39,15 @@ body {
   margin: 0;
   padding: 0;
 
-  background: @background;
+  background: -webkit-linear-gradient(darken(@background, 10%) 10%, darken(@background, 5%) 20%, @background);
+  background-size: 100% 300px;
+  background-repeat: no-repeat;
+  background-color: @background;
 
   font-family: @serif;
 }
 a {
   color: inherit;
-
-  &:hover {
-    text-shadow: 0 0 1px rgba(0, 0, 0, .5);
-  }
 }
 
 /* Homepage */
@@ -104,7 +103,6 @@ a {
 
     & img {
       width: 100%;
-      border: 1px solid fadeout(@coverHighlightColor, 80%);
     }
   }
 
@@ -374,6 +372,13 @@ header {
         width: @headerBookWidth;
         height: @headerBookHeight;
       }
+
+      &:hover img {
+        -webkit-transform: rotateY(-50deg);
+        -moz-transform: rotateY(-50deg);
+        -ms-transform: rotateY(-50deg);
+        transform: rotateY(-50deg);
+      }
     }
   }
 }
@@ -388,6 +393,8 @@ header {
     padding: 0;
 
     letter-spacing: -2px;
+
+    text-shadow: 0 1px 0 white;
 
     & span:nth-child(1) {
       color: rgb(150, 150, 150);
@@ -432,7 +439,16 @@ header {
   background: white;
 
   & .title-page {
-    content: '';
+    color: black;
+
+    text-align: left;
+
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 10px;
+
+    -webkit-font-smoothing: antialiased;
 
     position: absolute;
     z-index: 20;
@@ -470,6 +486,8 @@ header {
   }
 
   & img {
+    background: white;
+
     position: absolute;
     left: 0;
     top: 0;
@@ -508,10 +526,10 @@ header {
     -ms-transition-delay: 0;
     transition-delay: 0;
 
-    -webkit-transform: rotateY(-50deg);
-    -moz-transform: rotateY(-50deg);
-    -ms-transform: rotateY(-50deg);
-    transform: rotateY(-50deg);
+    -webkit-transform: rotateY(-110deg);
+    -moz-transform: rotateY(-110deg);
+    -ms-transform: rotateY(-110deg);
+    transform: rotateY(-110deg);
   }
   &.cover.selected::after {
     content: '';
