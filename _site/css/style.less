@@ -69,6 +69,8 @@ a {
   margin: 0;
 }
 .nyc-vs-sf li:first-child {
+  text-align: right;
+
   padding-right: @verticalRhythm;
   margin-right: @verticalRhythm;
   border-right: 1px solid fadeout(@coverHighlightColor, 80%);
@@ -162,6 +164,8 @@ a {
       width: @bookCoverWidth * @homepageRatio;
     }
     & .metadata {
+      padding-left: 0;
+
       & .title {
         font-size: 72px * @homepageRatio;
       }
@@ -367,14 +371,51 @@ header {
 }
 
 
-.homepage .book-cover {
-  -webkit-perspective: 1200;
-  -moz-perspective: 1200;
-  -ms-perspective: 1200;
-  perspective: 1200;
+.homepage {
+  & > h1 {
+    text-align: center;
+    font-size: 72px;
+
+    margin: @verticalRhythm;
+    padding: 0;
+
+    letter-spacing: -2px;
+
+    & span:nth-child(1) {
+      color: rgb(150, 150, 150);
+      font-weight: 400;
+    }
+    & span:nth-child(2) {
+      color: rgb(80, 80, 80);
+      font-weight: 400;
+    }
+    & span:nth-child(3) {
+      color: rgb(20, 20, 20);
+      font-weight: 600;
+    }
+  }
+
+  .book-info {
+    display: block;
+
+    & .book-cover {
+      display: inline-block;
+
+      -webkit-perspective: 1200;
+      -moz-perspective: 1200;
+      -ms-perspective: 1200;
+      perspective: 1200;
+
+      margin-right: 0;
+    }
+
+    & .metadata {
+      display: block;
+    }
+  }  
 }
 .cover {
-  display: block;
+  display: inline-block;
   position: relative;
 
   width: @bookCoverWidth * @homepageRatio;

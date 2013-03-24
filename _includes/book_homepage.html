@@ -1,27 +1,25 @@
-<section class='main'>
-  <section class='book-info'>
-    <div class='book-cover'>
-      <a class='cover' href="{{page.url}}">
-        <div class='title-page'></div>
-        <img src="{{page.cover_url}}">
+<section class='book-info'>
+  <div class='book-cover'>
+    <a class='cover' href="{{page.url}}">
+      <div class='title-page'></div>
+      <img src="{{page.cover_url}}">
+    </a>
+  </div>
+  <div class='metadata'>
+    <h2 class='author'>
+      {{page.author}}
+    </h2>
+    <h1 class='title'>
+      <a href="{{page.url}}">
+        {{page.title}}
       </a>
-    </div>
-    <div class='metadata'>
-      <h2 class='author'>
-        {{page.author}}
-      </h2>
-      <h1 class='title'>
-        <a href="{{page.url}}">
-          {{page.title}}
-        </a>
-      </h1>
-      {% if page.subtitle %}
-      <h1 class='subtitle'>
-        <a href="{{page.url}}">
-          {{page.subtitle}}
-        </a>
-      </h1>
-      {% endif %}
-    </div>
-  </section>
+    </h1>
+    {% if page.subtitle %}
+    <h1 class='subtitle'>
+      <a href="{{page.url}}">
+        {{page.subtitle}}
+      </a>
+    </h1>
+    {% endif %}
+  </div>
 </section>
