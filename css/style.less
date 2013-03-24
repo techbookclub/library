@@ -54,7 +54,7 @@ a {
 /* Homepage */
 
 .nyc-vs-sf {
-  width: @bookInfoWidth + @verticalRhythm * 2 + 1;  
+  width: @bookInfoWidth + @verticalRhythm * 2 + 1;
 
   padding: 0;
   margin: 0 auto;
@@ -81,7 +81,7 @@ a {
 
 .main {
   margin: @verticalRhythm auto;
-  width: @bookInfoWidth;  
+  width: @bookInfoWidth;
 
   margin-bottom: @verticalRhythm * 5;
 }
@@ -167,14 +167,16 @@ a {
       padding-left: 0;
 
       & .title {
+        margin-top: 0;
         font-size: 72px * @homepageRatio;
       }
       & .subtitle {
         font-size: 36px * @homepageRatio;
       }
       & .author {
-        font-size: 18px * @homepageRatio;
-        letter-spacing: 4px * @homepageRatio;
+        margin-top: @verticalRhythm;
+        font-size: 18px;
+        letter-spacing: 4px;
       }
     }
   }
@@ -210,7 +212,7 @@ a {
     padding-left: 150px;
     padding-top: @verticalRhythm;
     margin-bottom: @verticalRhythm;
-    border-top: 1px solid fadeout(@coverHighlightColor, 80%);    
+    border-top: 1px solid fadeout(@coverHighlightColor, 80%);
   }
   & > section {
     -webkit-columns: 2;
@@ -246,13 +248,13 @@ header {
   z-index: 999;
 
   background:
-    -webkit-linear-gradient(fadeout(@background, 100%) 0%, @background 70%);
+    -webkit-linear-gradient(fadeout(@background, 100%) 0%, @background 50%);
   background:
-    -moz-linear-gradient(fadeout(@background, 100%) 0%, @background 70%);
+    -moz-linear-gradient(fadeout(@background, 100%) 0%, @background 50%);
   background:
-    -ms-linear-gradient(fadeout(@background, 100%) 0%, @background 70%);
+    -ms-linear-gradient(fadeout(@background, 100%) 0%, @background 50%);
   background:
-    linear-gradient(fadeout(@background, 100%) 0%, @background 70%);
+    linear-gradient(fadeout(@background, 100%) 0%, @background 50%);
 
   height: @headerHeight;
 
@@ -298,7 +300,7 @@ header {
     -webkit-transition-delay: 0;
     -moz-transition-delay: 0;
     -ms-transition-delay: 0;
-    transition-delay: 0;  
+    transition-delay: 0;
   }
 
   & h1 {
@@ -324,6 +326,12 @@ header {
     & span:nth-child(3) {
       color: rgb(250, 250, 250);
       font-weight: 600;
+    }
+    & span.city {
+      font-size: 12px;
+      text-transform: uppercase;
+      margin-left: 5px;
+      color: #999;
     }
   }
 
@@ -445,7 +453,7 @@ header {
     transition-delay: 250ms;
   }
   &:not(.selected) {
-    cursor: pointer;    
+    cursor: pointer;
   }
   &:not(.selected):hover .title-page {
     -webkit-transition: background @bookCoverOpenTime;
