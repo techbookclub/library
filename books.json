@@ -3,25 +3,126 @@
     "location": "sf",
     "books": [
       {
-        "title": "Mr. Penumbra's 24-Hour Book Shop",
-        "author": "Robin Sloan",
-        "date": "10-15-2012",
-        "readmill_id": 9780374708832
-      },
-      {
-        "title": "Cybernetic Revolutionaries",
+        "title": "Cybernetic Revolutionaries: Technology and Politics in Allende's Chile",
         "author": "Eden Medina",
-        "date": "11-15-2012"
+        "date": "04-15-2013"
       },
       {
-        "title": "Close to the Machine",
+        "title": "Close to the Machine: Technophilia and its Discontents",
         "author": "Ellen Ullman",
+        "date": "01-15-2013"
+      },
+      {
+        "title": "The Signal and the Noise",
+        "author": "Nate Silver",
         "date": "12-15-2012"
       },
       {
-        "title": "Story",
+        "title": "Mr. Penumbra's 24-Hour Book Shop",
+        "author": "Robin Sloan",
+        "date": "10-15-2012",
+        "custom_content": {"book":{"id":33736,"title":"Mr. Penumbra's 24-Hour Bookstore: A Novel","author":"Robin Sloan","identifier":"9780374708832","story":"A gleeful and exhilarating tale of global conspiracy, complex code-breaking, high-tech data visualization, young love, rollicking adventure, and the secret to eternal life\u2014mostly set in a hole-in-the-wall San Francisco bookstore. The Great Recession has shuffled Clay Jannon out of his life as a San Francisco Web-design drone\u2014and serendipity, sheer curiosity, and the ability to climb a ladder like a monkey has landed him a new gig working the night shift at Mr. Penumbra\u2019s 24-Hour Bookstore. But after just a few days on the job, Clay begins to realize that this store is even more curious than the name suggests. With irresistible brio and dazzling intelligence, Robin Sloan has crafted a literary adventure story for the twenty-first century, evoking both the fairy-tale charm of Haruki Murakami and the enthusiastic novel-of-ideas wizardry of Neal Stephenson or a young Umberto Eco, but with a unique and feisty sensibility that\u2019s rare to the world of literary fiction. ","published_at":"","language":"","permalink":"mr-penumbras-24-hour-bookstore-a-novel","permalink_url":"https://readmill.com/books/mr-penumbras-24-hour-bookstore-a-novel","cover_url":"https://readmill-assets.s3.amazonaws.com/covers/d0ec737f9fbdc5de731f2bfedae9a763-medium.png?1349203108","assets":{"items":[{"asset":{"vendor":"","uri":"http://www.kobobooks.com/ebook/Mr-Penumbras-24-Hour-Bookstore/book-5bwHdRkof0umnzPWgQUBIQ/page1.html?s=RDSX2Dx6nkepv1QO2Af0Og&r=1","acquisition_type":"store"}}]}}}
+      },
+      {
+        "title": "Hackers: Heroes of the Computer Revolution",
+        "author": "Steven Levy",
+        "date": "07-15-2012"
+      },
+      {
+        "title": "How to Do Things With Videogames",
+        "author": "Ian Bogost",
+        "date": "03-15-2012"
+      },
+      {
+        "title": "Fordlandia: The Rise and Fall of Henry Ford's Forgotten Jungle City",
+        "author": "Greg Grandin",
+        "date": "01-15-2012"
+      },
+      {
+        "title": "Design Patterns Reader",
+        "author": "techbookclub",
+        "date": "10-15-2011"
+      },
+      {
+        "title": "The Filter Bubble: What the Internet is Hiding From You",
+        "author": "Eli Pariser",
+        "date": "07-15-2011"
+      },
+      {
+        "title": "Powering the Dream: The History and Promise of Green Technology",
+        "author": "Alexis Madrigal",
+        "date": "05-15-2011"
+      },
+      {
+        "title": "Extraordinary Perception",
+        "author": "techbookclub",
+        "date": "04-15-2011",
+        "link": "http://extraordinaryperception.tumblr.com/"
+      },
+      {
+        "title": "Reality is Broken: Why Games Make Us Better and How They Can Change the World",
+        "author": "Jane McGonigal",
+        "date": "03-15-2011"
+      },
+      {
+        "title": "The Architecture Machine",
+        "author": "Nicholas Negroponte",
+        "date": "01-15-2011"
+      },
+      {
+        "title": "Where Good Ideas Come From: The Natural History of Innovation",
+        "author": "Steven Johnson",
+        "date": "11-15-2010"
+      },
+      {
+        "title": "Toyota Production System: Beyond Large-Scale Production",
+        "author": "Taiichi Ohno",
+        "date": "09-15-2010"
+      },
+      {
+        "title": "Delivering Happiness: A Path to Profits, Passion, and Purpose",
+        "author": "Tony Hsieh",
+        "date": "08-15-2010"
+      },
+      {
+        "title": "Proust Was a Neuroscientist",
+        "author": "Jonah Lehrer",
+        "date": "07-15-2010"
+      },
+      {
+        "title": "The Culture Code: An Ingenious Way to Understand Why People Around the World Live and Buy as They Do",
+        "author": "Clotaire Rapaille",
+        "date": "05-15-2010"
+      },
+      {
+        "title": "Story: Substance, Structure, Style, and the Principles of Screenwriting",
         "author": "Robert McKee",
-        "date": "12-15-2011"
+        "date": "03-15-2010"
+      },
+      {
+        "title": "A Theory of Fun for Game Design",
+        "author": "Raph Koster",
+        "date": "02-15-2010"
+      },
+      {
+        "title": "Always Be Testing: The Complete Guide to Google Website Optimizer",
+        "author": "Bryan Eisenberg and John Quarto-vonTivadar",
+        "date": "01-15-2010"
+      },
+      {
+        "title": "Content Strategy for the Web",
+        "author": "Kristina Halvorson",
+        "date": "11-15-2009"
+      },
+      {
+        "title": "The Back of the Napkin: Solving Problems and Selling Ideas With Pictures",
+        "author": "Dan Roam",
+        "date": "10-15-2009"
+      },
+      {
+        "title": "Web Analytics: An Hour A Day",
+        "author": "Avinash Kaushik",
+        "date": "08-15-2009"
       }
     ]
   },
@@ -30,19 +131,59 @@
     "location": "nyc",
     "books": [
       {
-        "title": "These Days",
-        "author": "Jack Cheng",
-        "date": "10-15-2012"
+        "title": "Tenth of December",
+        "author": "George Saunders",
+        "date": "04-15-2013"
       },
       {
-        "title": "The Information",
-        "author": "James Gleick",
-        "date": "11-15-2012"
+        "title": "Mr. Penumbra's 24-Hour Bookstore",
+        "author": "Robin Sloan",
+        "date": "02-15-2013"
       },
       {
-        "title": "Close to the machine",
+        "title": "Close to the Machine: Technophilia and its Discontents",
         "author": "Ellen Ullman",
-        "date": "01-15-2013"
+        "date": "12-15-2012"
+      },
+      {
+        "title": "Do Androids Dream of Electric Sheep",
+        "author": "Philip K. Dick",
+        "date": "08-15-2012"
+      },
+      {
+        "title": "Design Patterns Reader",
+        "author": "techbookclub",
+        "date": "06-15-2012"
+      },
+      {
+        "title": "Piano: The Making of a Steinway Concert Grand",
+        "author": "James Barron",
+        "date": "03-15-2012"
+      },
+      {
+        "title": "The Information: A History, A Theory, A Flood",
+        "author": "James Gleick",
+        "date": "01-15-2012"
+      },
+      {
+        "title": "Lapham's Quarterly: The Future",
+        "author": "Lewis H. Lapham",
+        "date": "10-15-2011"
+      },
+      {
+        "title": "River of Shadows",
+        "author": "Rebecca Solnit",
+        "date": "09-15-2011"
+      },
+      {
+        "title": "Newsgames: Journalism at Play",
+        "author": "Ian Bogost",
+        "date": "07-15-2011"
+      },
+      {
+        "title": "Living With Complexity",
+        "author": "Don Norman",
+        "date": "06-15-2011"
       }
     ]
   }

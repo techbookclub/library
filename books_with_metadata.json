@@ -3,48 +3,153 @@
     "location": "sf",
     "books": [
       {
-        "title": "Mr. Penumbra's 24-Hour Book Shop",
-        "author": "Robin Sloan",
-        "date": "10-15-2012",
-        "readmill_id": 9780374708832
-      },
-      {
-        "title": "Cybernetic Revolutionaries",
+        "title": "Cybernetic Revolutionaries: Technology and Politics in Allende's Chile",
         "author": "Eden Medina",
-        "date": "11-15-2012"
+        "date": "04-15-2013"
       },
       {
-        "title": "Close to the Machine",
+        "title": "Close to the Machine: Technophilia and its Discontents",
         "author": "Ellen Ullman",
+        "date": "01-15-2013"
+      },
+      {
+        "title": "The Signal and the Noise",
+        "author": "Nate Silver",
         "date": "12-15-2012"
       },
       {
-        "title": "Story",
+        "title": "Mr. Penumbra's 24-Hour Book Shop",
+        "author": "Robin Sloan",
+        "custom_content": {
+          "book": {
+            "permalink": "mr-penumbras-24-hour-bookstore-a-novel",
+            "title": "Mr. Penumbra's 24-Hour Bookstore: A Novel",
+            "author": "Robin Sloan",
+            "story": "A gleeful and exhilarating tale of global conspiracy, complex code-breaking, high-tech data visualization, young love, rollicking adventure, and the secret to eternal life—mostly set in a hole-in-the-wall San Francisco bookstore. The Great Recession has shuffled Clay Jannon out of his life as a San Francisco Web-design drone—and serendipity, sheer curiosity, and the ability to climb a ladder like a monkey has landed him a new gig working the night shift at Mr. Penumbra’s 24-Hour Bookstore. But after just a few days on the job, Clay begins to realize that this store is even more curious than the name suggests. With irresistible brio and dazzling intelligence, Robin Sloan has crafted a literary adventure story for the twenty-first century, evoking both the fairy-tale charm of Haruki Murakami and the enthusiastic novel-of-ideas wizardry of Neal Stephenson or a young Umberto Eco, but with a unique and feisty sensibility that’s rare to the world of literary fiction. ",
+            "assets": {
+              "items": [
+                {
+                  "asset": {
+                    "uri": "http://www.kobobooks.com/ebook/Mr-Penumbras-24-Hour-Bookstore/book-5bwHdRkof0umnzPWgQUBIQ/page1.html?s=RDSX2Dx6nkepv1QO2Af0Og&r=1",
+                    "acquisition_type": "store",
+                    "vendor": ""
+                  }
+                }
+              ]
+            },
+            "language": "",
+            "id": 33736,
+            "published_at": "",
+            "identifier": "9780374708832",
+            "permalink_url": "https://readmill.com/books/mr-penumbras-24-hour-bookstore-a-novel",
+            "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/d0ec737f9fbdc5de731f2bfedae9a763-medium.png?1349203108"
+          }
+        },
+        "date": "10-15-2012"
+      },
+      {
+        "title": "Hackers: Heroes of the Computer Revolution",
+        "author": "Steven Levy",
+        "date": "07-15-2012"
+      },
+      {
+        "title": "How to Do Things With Videogames",
+        "author": "Ian Bogost",
+        "date": "03-15-2012"
+      },
+      {
+        "title": "Fordlandia: The Rise and Fall of Henry Ford's Forgotten Jungle City",
+        "author": "Greg Grandin",
+        "date": "01-15-2012"
+      },
+      {
+        "title": "Design Patterns Reader",
+        "author": "techbookclub",
+        "date": "10-15-2011"
+      },
+      {
+        "title": "The Filter Bubble: What the Internet is Hiding From You",
+        "author": "Eli Pariser",
+        "date": "07-15-2011"
+      },
+      {
+        "title": "Powering the Dream: The History and Promise of Green Technology",
+        "author": "Alexis Madrigal",
+        "date": "05-15-2011"
+      },
+      {
+        "title": "Extraordinary Perception",
+        "author": "techbookclub",
+        "date": "04-15-2011",
+        "link": "http://extraordinaryperception.tumblr.com/"
+      },
+      {
+        "title": "Reality is Broken: Why Games Make Us Better and How They Can Change the World",
+        "author": "Jane McGonigal",
+        "date": "03-15-2011"
+      },
+      {
+        "title": "The Architecture Machine",
+        "author": "Nicholas Negroponte",
+        "date": "01-15-2011"
+      },
+      {
+        "title": "Where Good Ideas Come From: The Natural History of Innovation",
+        "author": "Steven Johnson",
+        "date": "11-15-2010"
+      },
+      {
+        "title": "Toyota Production System: Beyond Large-Scale Production",
+        "author": "Taiichi Ohno",
+        "date": "09-15-2010"
+      },
+      {
+        "title": "Delivering Happiness: A Path to Profits, Passion, and Purpose",
+        "author": "Tony Hsieh",
+        "date": "08-15-2010"
+      },
+      {
+        "title": "Proust Was a Neuroscientist",
+        "author": "Jonah Lehrer",
+        "date": "07-15-2010"
+      },
+      {
+        "title": "The Culture Code: An Ingenious Way to Understand Why People Around the World Live and Buy as They Do",
+        "author": "Clotaire Rapaille",
+        "date": "05-15-2010"
+      },
+      {
+        "title": "Story: Substance, Structure, Style, and the Principles of Screenwriting",
         "author": "Robert McKee",
-        "date": "12-15-2011"
+        "date": "03-15-2010"
+      },
+      {
+        "title": "A Theory of Fun for Game Design",
+        "author": "Raph Koster",
+        "date": "02-15-2010"
+      },
+      {
+        "title": "Always Be Testing: The Complete Guide to Google Website Optimizer",
+        "author": "Bryan Eisenberg and John Quarto-vonTivadar",
+        "date": "01-15-2010"
+      },
+      {
+        "title": "Content Strategy for the Web",
+        "author": "Kristina Halvorson",
+        "date": "11-15-2009"
+      },
+      {
+        "title": "The Back of the Napkin: Solving Problems and Selling Ideas With Pictures",
+        "author": "Dan Roam",
+        "date": "10-15-2009"
+      },
+      {
+        "title": "Web Analytics: An Hour A Day",
+        "author": "Avinash Kaushik",
+        "date": "08-15-2009"
       }
     ],
     "readmill_books": [
-      {
-        "book": {
-          "permalink": "cybernetic-revolutionaries",
-          "title": "Cybernetic Revolutionaries",
-          "author": "Eden Medina",
-          "story": null,
-          "assets": {
-            "items": [
-
-            ]
-          },
-          "language": null,
-          "id": 78131,
-          "published_at": null,
-          "identifier": null,
-          "permalink_url": "https://readmill.com/books/cybernetic-revolutionaries",
-          "cover_url": "https://d15fum6h02z48v.cloudfront.net/assets/default-cover-medium-783d4f50bcee0684bace309dd29c7929.png"
-        },
-        "status": 200
-      },
       {
         "book": {
           "permalink": "close-to-the-machine",
@@ -62,6 +167,409 @@
           "identifier": "0872863328",
           "permalink_url": "https://readmill.com/books/close-to-the-machine",
           "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/3642b90b9be51db488093b66e5587875-medium.png?1346003695"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "the-signal-and-the-noise",
+          "title": "The Signal and the Noise",
+          "author": "Nate Silver",
+          "story": "\"Nate Silver's The Signal and the Noise is The Soul of a New Machine for the 21st century.\"—Rachel Maddow, author of *Drift*Nate Silver built an innovative system for predicting baseball performance, predicted the 2008 election within a hair’s breadth, and became a national sensation as a blogger—all by the time he was thirty. The New York Times now publishes FiveThirtyEight.com, where Silver is one of the nation’s most influential political forecasters.Drawing on his own groundbreaking work, Silver examines the world of prediction, investigating how we can distinguish a true signal from a universe of noisy data. Most predictions fail, often at great cost to society, because most of us have a poor understanding of probability and uncertainty. Both experts and laypeople mistake more confident predictions for more accurate ones. But overconfidence is often the reason for failure. If our appreciation of uncertainty improves, our predictions can get better too. This is the “prediction paradox”: The more humility we have about our ability to make predictions, the more successful we can be in planning for the future.In keeping with his own aim to seek truth from data, Silver visits the most successful forecasters in a range of areas, from hurricanes to baseball, from the poker table to the stock market, from Capitol Hill to the NBA. He explains and evaluates how these forecasters think and what bonds they share. What lies behind their success? Are they good—or just lucky? What patterns have they unraveled? And are their forecasts really right? He explores unanticipated commonalities and exposes unexpected juxtapositions. And sometimes, it is not so much how good a prediction is in an absolute sense that matters but how good it is relative to the competition. In other cases, prediction is still a very rudimentary—and dangerous—science.Silver observes that the most accurate forecasters tend to have a superior command of probability, and they tend to be both humble and hardworking. They distinguish the predictable from the unpredictable, and they notice a thousand little details that lead them closer to the truth. Because of their appreciation of probability, they can distinguish the signal from the noise.With everything from the health of the global economy to our ability to fight terrorism dependent on the quality of our predictions, Nate Silver’s insights are an essential read.Amazon.com ReviewAmazon Best Books of the Month, September 2012: People love statistics. Statistics, however, do not always love them back. The Signal and the Noise, Nate Silver's brilliant and elegant tour of the modern science-slash-art of forecasting, shows what happens when Big Data meets human nature. Baseball, weather forecasting, earthquake prediction, economics, and polling: In all of these areas, Silver finds predictions gone bad thanks to biases, vested interests, and overconfidence. But he also shows where sophisticated forecasters have gotten it right (and occasionally been ignored to boot). In today's metrics-saturated world, Silver's book is a timely and readable reminder that statistics are only as good as the people who wield them. --Darryl CampbellReview\"Nate Silver is the Kurt Cobain of statistics... His ambitious new book, The Signal and the Noise, is a practical handbook and a philosophical manifesto in one, following the theme of prediction through a series of case studies ranging from hurricane tracking to professional poker to counterterrorism. It will be a supremely valuable resource for anyone who wants to make good guesses about the future, or who wants to assess the guesses made by others. In other words, everyone.\"—The Boston Globe\"Silver delivers an improbably breezy read on what is essentially a primer on making predictions.\"—Washington Post\"Silver explores our attempts at forecasting stocks, storms, sports, and anything else not set in stone.\"—Wired \"Mr. Silver's breezy style makes even the most difficult statistical material accessible. What is more, his arguments and examples are painstakingly researched...\"—Wall Street Journal“Nate Silver’s The Signal and the Noise is The Soul of a New Machine for the 21st century (a century we thought we’d be a lot better at predicting than we actually are). Our political discourse is already better informed and more data-driven because of Nate’s influence. But here he shows us what he has always been able to see in the numbers—the heart and the ethical imperative of getting the quantitative questions right.  A wonderful read—totally engrossing.”—Rachel Maddow, author of Drift “Yogi Berra was right: ‘forecasting is hard, especially about the future.’ In this important book, Nate Silver explains why the performance of experts varies from prescient to useless and why we must plan for the unexpected. Must reading for anyone who cares about what might happen next.”—Richard Thaler, co-author of Nudge  “Making predictions in the era of ‘big data’ is not what you might imagine. Nate Silver's refreshing and original book provides unpredictably illuminating insights differentiating objective and subjective realities in forecasting our future. He reminds us that the human element is still essential in predicting advances in science, technology and even politics... if we were only wise enough to learn from our mistakes.”—Governor Jon Huntsman “Here's a prediction: after you read The Signal and the Noise, you'll have much more insight into why some models work well—and also why many don't.  You'll learn to pay more attention to weather forecasts for the coming week—and none at all for weather forecasts beyond that.  Nate Silver takes a complex, difficult subject and makes it fun, interesting, and relevant.”—Peter Orszag, former director of the Office of Management and Budget“Projection, prediction, assumption, trepidation, anticipation, expectation, estimation… we wouldn’t have 80 words like this in the English language if it wasn’t central to our lives. We tend not to take prediction seriously because, on some level, we know that we don’t know. Silver shows us how this inevitable part of life goes awry when projected on a grand scale into the murky worlds of politics, science and economics. Dancing through chess, sports, snowstorms, global warming and the McLaughlin Group, he makes a serious and systematic effort to show us how to clean the noise off the signal.”—Bill James, author of The Bill James Baseball Abstracts ",
+          "assets": {
+            "items": [
+
+            ]
+          },
+          "language": null,
+          "id": 37097,
+          "published_at": null,
+          "identifier": "9781101595954",
+          "permalink_url": "https://readmill.com/books/the-signal-and-the-noise",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/8f930796eeeafbe23fe09dec9523496b-medium.png?1352767765"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "mr-penumbras-24-hour-bookstore-a-novel",
+          "title": "Mr. Penumbra's 24-Hour Bookstore: A Novel",
+          "author": "Robin Sloan",
+          "story": "A gleeful and exhilarating tale of global conspiracy, complex code-breaking, high-tech data visualization, young love, rollicking adventure, and the secret to eternal life—mostly set in a hole-in-the-wall San Francisco bookstore. The Great Recession has shuffled Clay Jannon out of his life as a San Francisco Web-design drone—and serendipity, sheer curiosity, and the ability to climb a ladder like a monkey has landed him a new gig working the night shift at Mr. Penumbra’s 24-Hour Bookstore. But after just a few days on the job, Clay begins to realize that this store is even more curious than the name suggests. With irresistible brio and dazzling intelligence, Robin Sloan has crafted a literary adventure story for the twenty-first century, evoking both the fairy-tale charm of Haruki Murakami and the enthusiastic novel-of-ideas wizardry of Neal Stephenson or a young Umberto Eco, but with a unique and feisty sensibility that’s rare to the world of literary fiction. ",
+          "assets": {
+            "items": [
+              {
+                "asset": {
+                  "uri": "http://www.kobobooks.com/ebook/Mr-Penumbras-24-Hour-Bookstore/book-5bwHdRkof0umnzPWgQUBIQ/page1.html?s=RDSX2Dx6nkepv1QO2Af0Og&r=1",
+                  "acquisition_type": "store",
+                  "vendor": ""
+                }
+              }
+            ]
+          },
+          "language": "",
+          "id": 33736,
+          "published_at": "",
+          "identifier": "9780374708832",
+          "permalink_url": "https://readmill.com/books/mr-penumbras-24-hour-bookstore-a-novel",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/d0ec737f9fbdc5de731f2bfedae9a763-medium.png?1349203108"
+        }
+      },
+      {
+        "book": {
+          "permalink": "hackers-heroes-of-the-computer-revolution-1",
+          "title": "Hackers: Heroes of the Computer Revolution",
+          "author": "Steven Levy",
+          "story": null,
+          "assets": {
+            "items": [
+
+            ]
+          },
+          "language": null,
+          "id": 58239,
+          "published_at": null,
+          "identifier": null,
+          "permalink_url": "https://readmill.com/books/hackers-heroes-of-the-computer-revolution-1",
+          "cover_url": "https://d15fum6h02z48v.cloudfront.net/assets/default-cover-medium-783d4f50bcee0684bace309dd29c7929.png"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "how-to-do-things-with-videogames",
+          "title": "How to Do Things With Videogames",
+          "author": "Ian Bogost",
+          "story": null,
+          "assets": {
+            "items": [
+
+            ]
+          },
+          "language": null,
+          "id": 5345,
+          "published_at": null,
+          "identifier": null,
+          "permalink_url": "https://readmill.com/books/how-to-do-things-with-videogames",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/80296dc2fe19ec9d1d584ad5ebe5aee3-medium.png?1332521624"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "fordlandia-the-rise-and-fall-of-henry-fords-forgotten-jungle-city",
+          "title": "Fordlandia: The Rise and Fall of Henry Ford's Forgotten Jungle City",
+          "author": "Greg Grandin",
+          "story": "Amazon.com ReviewFordlandia is the story of Henry Ford's ill-advised attempt to transform raw Brazilian rainforest into homespun slices of Americana. With sales of his Model-T booming, the automotive tycoon saw an opportunity to expand his reach further by exploiting a downtrodden Brazilian rubber industry. His vision, the laughably-named Amazonian outpost of Fordlandia, would become an enviable symbol of efficiency and mark the Ford Motor Company as a player on the global stage. Or so he thought. With thoughtful and meticulous research, author Greg Grandin explores the astounding oversights (no botanists were consulted to confirm the colony's agricultural viability) and painful arrogance (little thought was paid to how native Brazilians would react to an American way of life) that hamstrung the project from the start. Instead of ushering in a new era of commerce, Fordlandia became a cautionary tale of a dream destroyed by hubris. --_Dave Callanan_ Take a Closer Look at Images from Fordlandia: The Rise and Fall of Henry Ford's Forgotten Jungle City(Click on images to enlarge) From Publishers WeeklyStarred Review. Gandin, an NYU professor of Latin American history, offers the thoroughly remarkable story of Henry Ford's attempt, from the 1920s through 1945, to transform part of Brazil's Amazon River basin into a rubber plantation and eponymous American-style company town: Fordlandia. Gandin has found a fascinating vehicle to illuminate the many contradictory parts of Henry Ford: the pacifist, the internationalist, the virulent anti-Semite, the $5-a-day friend of the workingman, the anti-union crusader, the man who ushered America into the industrial age yet rejected the social changes that followed urbanization. Both infuriating and fascinating, Ford is only a piece of the Fordlandia story. The follies of colonialism and the testing of the belief that the Amazon—where 7,882 organisms could be found on any given five square miles—could be made to produce rubber with the reliability of an auto assembly line makes a surprisingly dramatic tale. Although readers know that Fordlandia will return to the jungle, the unfolding of this unprecedented experiment is compelling. Grandin concludes that Fordlandia represents in crystalline form the utopianism that powered Fordism—and by extension Americanism. Readers may find it a cautionary tale for the 21st century. 54 b&amp;w photos. (June) Copyright © Reed Business Information, a division of Reed Elsevier Inc. All rights reserved.",
+          "assets": {
+            "items": [
+
+            ]
+          },
+          "language": null,
+          "id": 12267,
+          "published_at": null,
+          "identifier": "9780312429621",
+          "permalink_url": "https://readmill.com/books/fordlandia-the-rise-and-fall-of-henry-fords-forgotten-jungle-city",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/287de74f71f6bfb952ebcdd34bf7b524-medium.png?1344247237"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "the-filter-bubble-what-the-internet-is-hiding-from-you",
+          "title": "The Filter Bubble: What the Internet Is Hiding From You",
+          "author": "Eli Pariser",
+          "story": null,
+          "assets": {
+            "items": [
+
+            ]
+          },
+          "language": null,
+          "id": 4866,
+          "published_at": null,
+          "identifier": "9780141969923",
+          "permalink_url": "https://readmill.com/books/the-filter-bubble-what-the-internet-is-hiding-from-you",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/4422305a143b67c9749b2efabc8497ab-medium.png?1363265901"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "powering-the-dream-the-history-and-promise-of-green-technology",
+          "title": "Powering the Dream: The History and Promise of Green Technology",
+          "author": "Alexis Madrigal",
+          "story": null,
+          "assets": {
+            "items": [
+
+            ]
+          },
+          "language": null,
+          "id": 12275,
+          "published_at": null,
+          "identifier": null,
+          "permalink_url": "https://readmill.com/books/powering-the-dream-the-history-and-promise-of-green-technology",
+          "cover_url": "https://d15fum6h02z48v.cloudfront.net/assets/default-cover-medium-783d4f50bcee0684bace309dd29c7929.png"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "reality-is-broken-why-games-make-us-better-and-how-they-can-change-the-world",
+          "title": "Reality Is Broken: Why Games Make Us Better and How They Can Change the World",
+          "author": "Jane McGonigal",
+          "story": "Visionary game designer Jane McGonigal reveals how we can harness the power of games to solve real-world problems and boost global happiness.   More than 174 million Americans are gamers, and the average young person in the United States will spend ten thousand hours gaming by the age of twenty-one. According to world-renowned game designer Jane McGonigal, the reason for this mass exodus to virtual worlds is that videogames are increasingly fulfilling genuine human needs. In this groundbreaking exploration of the power and future of gaming, McGonigal reveals how we can use the lessons of game design to fix what is wrong with the real world.  Drawing on positive psychology, cognitive science, and sociology, Reality Is Broken uncovers how game designers have hit on core truths about what makes us happy and utilized these discoveriesto astonishing effect in virtual environments. Videogames consistently provide the exhilarating rewards, stimulating challenges, and epic victories that are so often lacking in the real world. But why, McGonigal asks, should we use the power of games for escapist entertainment alone? Her research suggests that gamers are expert problem solvers and collaborators because they regularly cooperate with other players to overcome daunting virtual challenges, and she helped pioneer a fast-growing genre of games that aims to turn gameplay to socially positive ends.  In Reality Is Broken, she reveals how these new alternate reality games are already improving the quality of our daily lives, fighting social problems such as depression and obesity, and addressing vital twenty-first-century challenges-and she forecasts the thrilling possibilities that lie ahead. She introduces us to games like World Without Oil, a simulation designed to brainstorm-and therefore avert- the challenges of a worldwide oil shortage, and Evoke, a game commissioned by the World Bank Institute that sends players on missions to address issues from poverty to climate change.  McGonigal persuasively argues that those who continue to dismiss games will be at a major disadvantage in the coming years. Gamers, on the other hand, will be able to leverage the collaborative and motivational power of games in their own lives, communities, and businesses. Written for gamers and nongamers alike, Reality Is Broken shows us that the future will belong to those who can understand, design, and play games.",
+          "assets": {
+            "items": [
+              {
+                "asset": {
+                  "uri": "http://www.feedbooks.com/item/287335/reality-is-broken-why-games-make-us-better-and-how-they-can-change-the-world",
+                  "acquisition_type": "store",
+                  "vendor": ""
+                }
+              }
+            ]
+          },
+          "language": "en",
+          "id": 425,
+          "published_at": "2011-01-20",
+          "identifier": "9780143120612",
+          "permalink_url": "https://readmill.com/books/reality-is-broken-why-games-make-us-better-and-how-they-can-change-the-world",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/5df66799a99ac3a57efb10564002e3ce-medium.png?1332519058"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "where-good-ideas-come-from-the-natural-history-of-innovation",
+          "title": "Where Good Ideas Come From: The Natural History of Innovation",
+          "author": "Steven Johnson",
+          "story": "Johnson addresses an urgent and universal question: What sparks the flash of brilliance? How does groundbreaking innovation happen? He provides the complete, exciting, and encouraging story of how the ideas are born that push careers, lives, society, and culture forward.",
+          "assets": {
+            "items": [
+              {
+                "asset": {
+                  "uri": "http://www.kobobooks.com/ebook/Where-Good-Ideas-Come-From/book-8lUP_yEUX0ymBIEWp24UPQ/page1.html?s=Lp7Qk-4rLU6oEEWm-yrfRQ&r=1",
+                  "acquisition_type": "store",
+                  "vendor": ""
+                }
+              }
+            ]
+          },
+          "language": "en",
+          "id": 304,
+          "published_at": "2010-10-05",
+          "identifier": "1594487715",
+          "permalink_url": "https://readmill.com/books/where-good-ideas-come-from-the-natural-history-of-innovation",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/cf1ba66b09de27c253354484115135a7-medium.png?1332518987"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "toyota-production-system-beyond-large-scale-production",
+          "title": "Toyota Production System: Beyond Large-Scale Production",
+          "author": "Taiichi Ohno, Norman Bodek, Norman Bodek",
+          "story": null,
+          "assets": {
+            "items": [
+
+            ]
+          },
+          "language": null,
+          "id": 78133,
+          "published_at": null,
+          "identifier": null,
+          "permalink_url": "https://readmill.com/books/toyota-production-system-beyond-large-scale-production",
+          "cover_url": "https://d15fum6h02z48v.cloudfront.net/assets/default-cover-medium-783d4f50bcee0684bace309dd29c7929.png"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "delivering-happiness",
+          "title": "Delivering Happiness",
+          "author": "Tony Hsieh",
+          "story": "In his first book, Tony Hsieh - the hip, iconoclastic, and widely-admired CEO of Zappos, the online shoe retailer - - explains how he created a corporate culture with a commitment to service that aims to improve the lives of its employees, customers, vendors, and backers. Using anecdotes and stories from his own life experiences, and from other companies, Hsieh provides concrete ways that companies can achieve unprecedented success. He details many of the unique practices at Zappos, such as their philosophy of allocating marketing money into the customer experience, the importance of Zappos's Core Values (\"Deliver WOW through Service\"), and the reason why Zappos's number one priority is company culture and his belief that once you get the culture right, everything else - great customer service, long-term branding - will happen on its own. Finally, Delivering Happiness explains how Zappos employees actually apply the Core Values to improving their lives outside of work, proving that creating happiness and record results go hand-in-hand.",
+          "assets": {
+            "items": [
+
+            ]
+          },
+          "language": "en",
+          "id": 455,
+          "published_at": "2012-01-24",
+          "identifier": "9780446576314",
+          "permalink_url": "https://readmill.com/books/delivering-happiness",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/2ce799b998224911bcedcf3d47ebc045-medium.png?1351869501"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "proust-was-a-neuroscientist",
+          "title": "Proust Was a Neuroscientist",
+          "author": "Jonah Lehrer",
+          "story": "In this technology-driven age, it's tempting to believe that science can solve every mystery. After all, science has cured countless diseases and even sent humans into space. But as Jonah Lehrer argues in this sparkling debut, science is not the only path to knowledge. In fact, when it comes to understanding the brain, art got there first.Taking a group of artists — a painter, a poet, a chef, a composer, and a handful of novelists — Lehrer shows how each one discovered an essential truth about the mind that science is only now rediscovering. We learn, for example, how Proust first revealed the fallibility of memory; how George Eliot discovered the brain's malleability; how the French chef Escoffier discovered umami (the fifth taste); how Cézanne worked out the subtleties of vision; and how Gertrude Stein exposed the deep structure of language — a full half-century before the work of Noam Chomsky and other linguists. It's the ultimate tale of art trumping science.More broadly, Lehrer shows that there's a cost to reducing everything to atoms and acronyms and genes. Measurement is not the same as understanding, and art knows this better than science does. An ingenious blend of biography, criticism, and first-rate science writing, Proust Was a Neuroscientist urges science and art to listen more closely to each other, for willing minds can combine the best of both, to brilliant effect.",
+          "assets": {
+            "items": [
+
+            ]
+          },
+          "language": null,
+          "id": 7332,
+          "published_at": null,
+          "identifier": "9780547394282",
+          "permalink_url": "https://readmill.com/books/proust-was-a-neuroscientist",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/51bdd6b2ecd07e9e58fbea31cb12db6d-medium.png?1332951719"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "the-culture-code-an-ingenious-way-to-understand-why-people-around-the-world-live-and-buy-as-they-do",
+          "title": "The Culture Code: An Ingenious Way to Understand Why People Around the World Live and Buy as They Do",
+          "author": "Clotaire Rapaille",
+          "story": null,
+          "assets": {
+            "items": [
+
+            ]
+          },
+          "language": null,
+          "id": 18092,
+          "published_at": null,
+          "identifier": null,
+          "permalink_url": "https://readmill.com/books/the-culture-code-an-ingenious-way-to-understand-why-people-around-the-world-live-and-buy-as-they-do",
+          "cover_url": "https://d15fum6h02z48v.cloudfront.net/assets/default-cover-medium-783d4f50bcee0684bace309dd29c7929.png"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "story-style-structure-substance-and-the-principles-of-screenwriting",
+          "title": "Story: Style, Structure, Substance, and the Principles of Screenwriting",
+          "author": "Robert McKee",
+          "story": "Book Last Read: 2013-02-21 21:00:21Percentage Read: 0%",
+          "assets": {
+            "items": [
+
+            ]
+          },
+          "language": null,
+          "id": 11786,
+          "published_at": null,
+          "identifier": "9780062039828",
+          "permalink_url": "https://readmill.com/books/story-style-structure-substance-and-the-principles-of-screenwriting",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/93f5dc51404721d63eda1e5af5e53652-medium.png?1340542708"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "theory-of-fun-for-game-design",
+          "title": "Theory of Fun for Game Design",
+          "author": "Raph Koster",
+          "story": "A \"Theory of Fun for Game Design is not your typical how-to book. It features a novel way of teaching interactive designers how to create and improve their designs to incorporate the highest degree of fun. As the book shows, designing for fun is all about making interactive products like games highly entertaining, engaging, and addictive. The book's unique approach of providing a highly visual storyboard approach combined with a narrative on the art and practice of designing for fun is sure to be a hit with game and interactive designers, At first glance A \"Theory of Fun for Game Design is a book that will truly inspire and challenge game designers to think in new was; however, its universal message will influence designers from all walks of life. This book captures the real essence of what drives us to seek out products and experiences that are truly fun and entertaining. The author masterfully presents his engaging theory by showing readers how many designs are lacking because they are predictable and not engaging enough. He then explains how great designers use different types of elements in new ways to make designs more fun and compelling. Anyone who is interested in design will enjoy how the book works on two levels--as a quick inspiration guide to game design, or as an informative discussion that details the insightful thinking from a great mind in the game industry.",
+          "assets": {
+            "items": [
+
+            ]
+          },
+          "language": "en",
+          "id": 795,
+          "published_at": "2005",
+          "identifier": "1932111972",
+          "permalink_url": "https://readmill.com/books/theory-of-fun-for-game-design",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/f883ad2590a1debd1904038b2f1ddd6e-medium.png?1332519210"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "always-be-testing-the-complete-guide-to-google-website-optimizer",
+          "title": "Always Be Testing: The Complete Guide to Google Website Optimizer",
+          "author": "Bryan Eisenberg, John Quarto-von Tividar",
+          "story": null,
+          "assets": {
+            "items": [
+
+            ]
+          },
+          "language": null,
+          "id": 17936,
+          "published_at": null,
+          "identifier": null,
+          "permalink_url": "https://readmill.com/books/always-be-testing-the-complete-guide-to-google-website-optimizer",
+          "cover_url": "https://d15fum6h02z48v.cloudfront.net/assets/default-cover-medium-783d4f50bcee0684bace309dd29c7929.png"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "content-strategy-for-the-web",
+          "title": "Content strategy for the web",
+          "author": "Kristina Halvorson",
+          "story": "If your website content is out of date, off-brand, and out of control, you're missing a huge opportunity to engage, convert, and retain customers online. Redesigning your home page won't help. Investing in a new content management system won't fix it, either. So, where do you start?  Without meaningful content, your website isn't worth much to your key audiences. But creating (and caring for) \"meaningful\" content is far more complicated than we're often willing to acknowledge. Content Strategy for the Web explains how to create and deliver useful, usable content for your online audiences, when and where they need it most. It also shares content best practices so you can get your next website redesign right, on time and on budget. For the first time, you'll: See content strategy (and its business value) explained in plain language  Find out why so many web projects implode in the content development phase ... and how to avoid the associated, unnecessary costs and delays  Learn how to audit and analyze your content Make smarter, achievable decisions about which content to create and howFind out how to maintain consistent, accurate, compelling content over timeGet solid, practical advice on staffing for content-related roles and responsibilities  ",
+          "assets": {
+            "items": [
+              {
+                "asset": {
+                  "uri": "http://www.kobobooks.com/ebook/Content-Strategy-for-the-Web/book-WHc8cEV86EGzOD0AUoYzWw/page1.html?s=cwZjJ-UG_EubeXC-rtY2-w&r=1",
+                  "acquisition_type": "store",
+                  "vendor": ""
+                }
+              }
+            ]
+          },
+          "language": "en",
+          "id": 1640,
+          "published_at": "2010",
+          "identifier": "0321620062",
+          "permalink_url": "https://readmill.com/books/content-strategy-for-the-web",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/736e591a2c002441b6ea9cb6e1631225-medium.png?1352910470"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "the-back-of-the-napkin-solving-problems-and-selling-ideas-with-pictures",
+          "title": "The Back of the Napkin: Solving Problems and Selling Ideas with Pictures",
+          "author": "Dan Roam",
+          "story": null,
+          "assets": {
+            "items": [
+
+            ]
+          },
+          "language": null,
+          "id": 16573,
+          "published_at": null,
+          "identifier": null,
+          "permalink_url": "https://readmill.com/books/the-back-of-the-napkin-solving-problems-and-selling-ideas-with-pictures",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/1089d1b82f3f553e6747a21fb5cd3021-medium.png?1344007128"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "web-analytics-an-hour-a-day",
+          "title": "Web Analytics: An Hour a Day",
+          "author": "Avinash Kaushik",
+          "story": null,
+          "assets": {
+            "items": [
+
+            ]
+          },
+          "language": null,
+          "id": 11977,
+          "published_at": null,
+          "identifier": null,
+          "permalink_url": "https://readmill.com/books/web-analytics-an-hour-a-day",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/29666efc4797a41e55cecebd2c742132-medium.png?1332954483"
         },
         "status": 200
       }
@@ -71,27 +579,67 @@
     "location": "nyc",
     "books": [
       {
-        "title": "These Days",
-        "author": "Jack Cheng",
-        "date": "10-15-2012"
+        "title": "Tenth of December",
+        "author": "George Saunders",
+        "date": "04-15-2013"
       },
       {
-        "title": "The Information",
-        "author": "James Gleick",
-        "date": "11-15-2012"
+        "title": "Mr. Penumbra's 24-Hour Bookstore",
+        "author": "Robin Sloan",
+        "date": "02-15-2013"
       },
       {
-        "title": "Close to the machine",
+        "title": "Close to the Machine: Technophilia and its Discontents",
         "author": "Ellen Ullman",
-        "date": "01-15-2013"
+        "date": "12-15-2012"
+      },
+      {
+        "title": "Do Androids Dream of Electric Sheep",
+        "author": "Philip K. Dick",
+        "date": "08-15-2012"
+      },
+      {
+        "title": "Design Patterns Reader",
+        "author": "techbookclub",
+        "date": "06-15-2012"
+      },
+      {
+        "title": "Piano: The Making of a Steinway Concert Grand",
+        "author": "James Barron",
+        "date": "03-15-2012"
+      },
+      {
+        "title": "The Information: A History, A Theory, A Flood",
+        "author": "James Gleick",
+        "date": "01-15-2012"
+      },
+      {
+        "title": "Lapham's Quarterly: The Future",
+        "author": "Lewis H. Lapham",
+        "date": "10-15-2011"
+      },
+      {
+        "title": "River of Shadows",
+        "author": "Rebecca Solnit",
+        "date": "09-15-2011"
+      },
+      {
+        "title": "Newsgames: Journalism at Play",
+        "author": "Ian Bogost",
+        "date": "07-15-2011"
+      },
+      {
+        "title": "Living With Complexity",
+        "author": "Don Norman",
+        "date": "06-15-2011"
       }
     ],
     "readmill_books": [
       {
         "book": {
-          "permalink": "these-days",
-          "title": "These Days",
-          "author": "Cheng, Jack",
+          "permalink": "tenth-of-december",
+          "title": "TENTH OF DECEMBER",
+          "author": "George Saunders",
           "story": null,
           "assets": {
             "items": [
@@ -99,31 +647,37 @@
             ]
           },
           "language": null,
-          "id": 77273,
+          "id": 75189,
           "published_at": null,
           "identifier": null,
-          "permalink_url": "https://readmill.com/books/these-days",
-          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/3d989e35122f357f223c8b7e8c7ea975-medium.png?1363386909"
+          "permalink_url": "https://readmill.com/books/tenth-of-december",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/b780d31f30f5da70552802883cc7adeb-medium.png?1363057655"
         },
         "status": 200
       },
       {
         "book": {
-          "permalink": "the-information",
-          "title": "The Information",
-          "author": "James Gleick",
-          "story": "James Gleick, the author of the bestsellers Chaos and Genius, brings us his crowning work: a revelatory chronicle that shows how information has become the modern era’s defining quality—the blood, the fuel, the vital principle of our world.The story of information begins in a time profoundly unlike our own, when every thought and utterance vanished as soon as it was born. From the invention of scripts and alphabets to the long misunderstood “talking drums” of Africa, James Gleick tells the story of information technologies that changed the very nature of human consciousness. He provides portraits of the key figures contributing to the inexorable development of our modern understanding of information: Charles Babbage, the idiosyncratic inventor of the first great mechanical computer; Ada Byron, the poet’s brilliant and doomed daughter, who became the first true programmer; pivotal figures like Samuel Morse and Alan Turing; and Claude Shannon, the creator of information theory itself.An then the information age comes upon us. Citizens of this world become experts willy-nilly: aficionados of bits and bytes. And they sometimes feel they are drowning, swept by a deluge of signs and signals, news and images, blogs and tweets. The Information is the story of how we got here and where we are heading. It will transform readers’ view of its subject.James Gleick is our leading chronicler of science and modern technology. His first book, Chaos, a National Book Award finalist, has been translated into twenty-five languages. His best-selling biographies, Genius: The Life and Science of Richard Feynman and Isaac Newton, were short-listed for the Pulitzer Prize. The Information was seven years in the making. Gleick divides his time between New York and Florida.",
+          "permalink": "mr-penumbras-24-hour-bookstore-a-novel",
+          "title": "Mr. Penumbra's 24-Hour Bookstore: A Novel",
+          "author": "Robin Sloan",
+          "story": "A gleeful and exhilarating tale of global conspiracy, complex code-breaking, high-tech data visualization, young love, rollicking adventure, and the secret to eternal life—mostly set in a hole-in-the-wall San Francisco bookstore. The Great Recession has shuffled Clay Jannon out of his life as a San Francisco Web-design drone—and serendipity, sheer curiosity, and the ability to climb a ladder like a monkey has landed him a new gig working the night shift at Mr. Penumbra’s 24-Hour Bookstore. But after just a few days on the job, Clay begins to realize that this store is even more curious than the name suggests. With irresistible brio and dazzling intelligence, Robin Sloan has crafted a literary adventure story for the twenty-first century, evoking both the fairy-tale charm of Haruki Murakami and the enthusiastic novel-of-ideas wizardry of Neal Stephenson or a young Umberto Eco, but with a unique and feisty sensibility that’s rare to the world of literary fiction. ",
           "assets": {
             "items": [
-
+              {
+                "asset": {
+                  "uri": "http://www.kobobooks.com/ebook/Mr-Penumbras-24-Hour-Bookstore/book-5bwHdRkof0umnzPWgQUBIQ/page1.html?s=RDSX2Dx6nkepv1QO2Af0Og&r=1",
+                  "acquisition_type": "store",
+                  "vendor": ""
+                }
+              }
             ]
           },
-          "language": "en",
-          "id": 1043,
-          "published_at": "2011-03-03",
-          "identifier": "0007432526",
-          "permalink_url": "https://readmill.com/books/the-information",
-          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/af84a9dd8b24a7125fd8c2d3dde1eec7-medium.png?1351859456"
+          "language": "",
+          "id": 33736,
+          "published_at": "",
+          "identifier": "9780374708832",
+          "permalink_url": "https://readmill.com/books/mr-penumbras-24-hour-bookstore-a-novel",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/d0ec737f9fbdc5de731f2bfedae9a763-medium.png?1349203108"
         },
         "status": 200
       },
@@ -144,6 +698,78 @@
           "identifier": "0872863328",
           "permalink_url": "https://readmill.com/books/close-to-the-machine",
           "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/3642b90b9be51db488093b66e5587875-medium.png?1346003695"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "do-androids-dream-of-electric-sheep",
+          "title": "Do Androids Dream of Electric Sheep?",
+          "author": "Philip K. Dick",
+          "story": "\"The most consistently brilliant science fiction writer in the world.\"--John Brunner. Do Androids Dream of Electric Sheep? was published in 1968. Grim and foreboding, even today it is a masterpiece ahead of its time.By 2021, the World War had killed millions, driving entire species into extinction and sending mankind off-planet. Those who remained coveted any living creature, and for people who couldn't afford one, companies built incredibly realistic simulacrae: horses, birds, cats, sheep. . . They even built humans.Emigrees to Mars received androids so sophisticated it was impossible to tell them from true men or women. Fearful of the havoc these artificial humans could wreak, the government banned them from Earth. But when androids didn't want to be identified, they just blended in. Rick Deckard was an officially sanctioned bounty hunter whose job was to find rogue androids, and to retire them. But cornered, androids tended to fight back, with deadly results.\"[Dick] sees all the sparkling and terrifying possibilities. . . that other authors shy away from.\"--Paul Williams Rolling Stone",
+          "assets": {
+            "items": [
+              {
+                "asset": {
+                  "uri": "http://www.kobobooks.com/ebook/Do-Androids-Dream-Of-Electric/book-4c0IWWqcxUukUiYuQ6eJ4Q/page1.html?s=8BnWjluqaU6a96HXYup9rg&r=4",
+                  "acquisition_type": "store",
+                  "vendor": ""
+                }
+              }
+            ]
+          },
+          "language": null,
+          "id": 5187,
+          "published_at": null,
+          "identifier": "0345404475",
+          "permalink_url": "https://readmill.com/books/do-androids-dream-of-electric-sheep",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/98e712e3ca8cd2bd45aad1cf5ad66c7e-medium.png?1352909636"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "the-information-a-history-a-theory-a-flood",
+          "title": "The Information: A History, a Theory, a Flood",
+          "author": "James Gleick",
+          "story": "James Gleick, the author of the bestsellers Chaos and Ge­nius, brings us his crowning work: a revelatory chronicle that shows how information has become the modern era’s defining quality—the blood, the fuel, the vital principle of our world.  The story of information begins in a time profoundly unlike our own, when every thought and utterance vanished as soon as it was born. From the invention of scripts and alphabets to the long misunderstood “talk­ing drums” of Africa, James Gleick tells the story of information technologies that changed the very nature of human consciousness. He provides portraits of the key figures contributing to the inexorable develop­ment of our modern understanding of information: Charles Babbage, the idiosyncratic inventor of the first great mechanical computer; Ada Byron, the po­et’s brilliant and doomed daughter, who became the first true programmer; pivotal figures like Samuel Morse and Alan Turing; and Claude Shannon, the cre­ator of information theory itself.  And then the information age comes upon us. Citi­zens of this world become experts willy-nilly: aficiona­dos of bits and bytes. And they sometimes feel they are drowning, swept by a deluge of signs and signals, news and images, blogs and tweets. The Information is the story of how we got here and where we are heading. It will transform readers’ view of its subject.",
+          "assets": {
+            "items": [
+              {
+                "asset": {
+                  "uri": "http://www.kobobooks.com/ebook/The-Information-History-Theory-Flood/book-BHloEUx4hk2OsFVxmh9Jdg/page1.html",
+                  "acquisition_type": "store",
+                  "vendor": "amazon.com"
+                }
+              }
+            ]
+          },
+          "language": "en",
+          "id": 193,
+          "published_at": "2011-03-01",
+          "identifier": "0375423729",
+          "permalink_url": "https://readmill.com/books/the-information-a-history-a-theory-a-flood",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/ad17d59c749819636dc7827df56c585d-medium.png?1351869276"
+        },
+        "status": 200
+      },
+      {
+        "book": {
+          "permalink": "living-with-complexity",
+          "title": "Living with Complexity",
+          "author": "Donald A. Norman",
+          "story": "If only today’s technology were simpler! It’s the universal lament, but it’s wrong. We don't want simplicity. Simple tools are not up to the task. The world is complex; our tools need to match that complexity.Simplicity turns out to be more complex than we thought. In this provocative and informative book, Don Norman writes that the complexity of our technology must mirror the complexity and richness of our lives. It’s not complexity that’s the problem, it’s bad design. Bad design complicates things unnecessarily and confuses us. Good design can tame complexity.Norman gives us a crash course in the virtues of complexity. But even such simple things as salt and pepper shakers, doors, and light switches become complicated when we have to deal with many of them, each somewhat different. Managing complexity, says Norman, is a partnership. Designers have to produce things that tame complexity. But we too have to do our part: we have to take the time to learn the structure and practice the skills. This is how we mastered reading and writing, driving a car, and playing sports, and this is how we can master our complex tools.Complexity is good. Simplicity is misleading. The good life is complex, rich, and rewarding—but only if it is understandable, sensible, and meaningful.",
+          "assets": {
+            "items": [
+
+            ]
+          },
+          "language": "en",
+          "id": 4385,
+          "published_at": "2010-10-31",
+          "identifier": "0262014866",
+          "permalink_url": "https://readmill.com/books/living-with-complexity",
+          "cover_url": "https://readmill-assets.s3.amazonaws.com/covers/b35cd35e1ded99f110daf351a386e3f0-medium.png?1332521022"
         },
         "status": 200
       }
