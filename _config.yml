@@ -1,0 +1,9 @@
+title: "techbookclub"
+description: "A bicoastal book club for technology people."
+url: http://techbookclub.org
+layout: base
+permalink: /:categories/books/:title
+lsi: false
+multiviews: false
+exclude: ['Gemfile', 'Gemfile.lock', 'books.json', 'books_with_metadata.json', 'build', 'ext.rb', 'readme.md']
+dateformat: "%b %e %Y, %H:%M (%z)"
