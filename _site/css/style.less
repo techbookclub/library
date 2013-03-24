@@ -358,50 +358,9 @@ header {
       height: @headerBookHeight;
       top: @headerHeight - @headerBookHeight - @headerBookBaseline;
 
-<<<<<<< HEAD
-      background: white;
-
-      & .title-page {
-        content: '';
-
-        position: absolute;
-        z-index: 20;
-        box-shadow: @headerBookShadow;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        background: rgb(200, 200, 200);
-        -webkit-transition: background @bookCoverCloseTime;
-        -moz-transition: background @bookCoverCloseTime;
-        -ms-transition: background @bookCoverCloseTime;
-        transition: background @bookCoverCloseTime;
-
-        -webkit-transition-delay: 250ms;
-        -moz-transition-delay: 250ms;
-        -ms-transition-delay: 250ms;
-        transition-delay: 250ms;
-      }
-      &:not(.selected) {
-        cursor: pointer;
-      }
-      &:not(.selected):hover .title-page {
-        -webkit-transition: background @bookCoverOpenTime;
-        -moz-transition: background @bookCoverOpenTime;
-        -ms-transition: background @bookCoverOpenTime;
-        transition: background @bookCoverOpenTime;
-
-        -webkit-transition-delay: 0;
-        -moz-transition-delay: 0;
-        -ms-transition-delay: 0;
-        transition-delay: 0;
-
-        background: white;
-=======
       & img {
         width: @headerBookWidth;
         height: @headerBookHeight;
->>>>>>> b2c2d64429562c6a5bfcf5975680aa822f1890a8
       }
     }
   }
@@ -445,7 +404,7 @@ header {
     transition-delay: 250ms;
   }
   &:not(.selected) {
-    cursor: pointer;    
+    cursor: pointer;
   }
   &:not(.selected):hover .title-page {
     -webkit-transition: background @bookCoverOpenTime;
