@@ -10,5 +10,5 @@ permalink_url: https://readmill.com/books/always-be-testing-the-complete-guide-t
 ---
 
 # Why?
-A little bit about why we read this book.
+This book, on the whole, is not what we're into anymore
 

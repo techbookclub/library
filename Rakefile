@@ -7,6 +7,7 @@ require_relative 'lib/helpers'
 include Helpers
 
 task :build_book_metadata do
+  puts "Fetching new book data from Readmill..."
   clubs = JSON.load(File.read("books.json"))
   readmillified = clubs.clone
   client_id = "816981c8deb50ddeae9502182e683b1e"
@@ -43,11 +44,12 @@ task :build_book_metadata do
   end
 end
 
+
 task :build_markdown do
   require 'mustache'
-
+  puts "Rendering JSON to markdown for Jekyll..."
   book_data = JSON.parse(File.read('books_with_metadata.json'))
-  markdown_template = File.read('markdown_template.mustache')
+  markdown_template = File.read('lib/markdown_template.mustache')
 
   book_data.each do |club|
     club['readmill_books'].each do |book|
@@ -59,5 +61,12 @@ task :build_markdown do
       end
     end
   end
-
 end
+
+task :build_jekyll do
+  puts "Building static site with jekyll"
+  `jekyll`
+end
+
+desc "Poll Readmill for "
+task :add_new_book => [:build_book_metadata, :build_markdown, :build_jekyll]

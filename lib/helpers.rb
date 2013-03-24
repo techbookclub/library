@@ -24,7 +24,11 @@ module Helpers
   end
 
   def format_book_date(datestring)
-    DateTime.strptime(datestring, "%m-%d-%Y").strftime("%Y-%m-%d")
+    begin
+      DateTime.strptime(datestring, "%m-%d-%Y").strftime("%Y-%m-%d")
+    rescue ArgumentError => e
+      return datestring
+    end
   end
 
   def book_filepath(root, book_hash)
