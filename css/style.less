@@ -169,16 +169,14 @@ a {
 
 header.floating:hover {
   -webkit-transform: translateY(0);
-  -webkit-transition-delay: 0;
-
   -moz-transform: translateY(0);
-  -moz-transition-delay: 0;
-
   -ms-transform: translateY(0);
-  -ms-transition-delay: 0;
-
   transform: translateY(0);
-  transition-delay: 0;
+
+  -webkit-transition-delay: 0;
+  -moz-transition-delay: 0;
+  -ms-transition-delay: 0;
+  transition-delay: 0;  
 }
 
 header::before {
@@ -284,12 +282,23 @@ header {
         -moz-transition: background @bookCoverCloseTime;
         -ms-transition: background @bookCoverCloseTime;
         transition: background @bookCoverCloseTime;
+
+        -webkit-transition-delay: 250ms;
+        -moz-transition-delay: 250ms;
+        -ms-transition-delay: 250ms;
+        transition-delay: 250ms;  
       }
       &:hover .title-page {
         -webkit-transition: background @bookCoverOpenTime;
         -moz-transition: background @bookCoverOpenTime;
         -ms-transition: background @bookCoverOpenTime;
         transition: background @bookCoverOpenTime;
+
+        -webkit-transition-delay: 0;
+        -moz-transition-delay: 0;
+        -ms-transition-delay: 0;
+        transition-delay: 0;  
+
         background: white;
       }
 
@@ -311,6 +320,11 @@ header {
         -ms-transition: -ms-transform @bookCoverCloseTime;
         transition: transform @bookCoverCloseTime;
 
+        -webkit-transition-delay: 250ms;
+        -moz-transition-delay: 250ms;
+        -ms-transition-delay: 250ms;
+        transition-delay: 250ms;  
+
         -webkit-transform-origin: 0 50%;
         -moz-transform-origin: 0 50%;
         -ms-transform-origin: 0 50%;
@@ -321,6 +335,11 @@ header {
         -moz-transition: -moz-transform @bookCoverOpenTime;
         -ms-transition: -ms-transform @bookCoverOpenTime;
         transition: transform @bookCoverOpenTime;
+
+        -webkit-transition-delay: 0;
+        -moz-transition-delay: 0;
+        -ms-transition-delay: 0;
+        transition-delay: 0;  
 
         -webkit-transform: rotateY(-50deg);
         -moz-transform: rotateY(-50deg);
