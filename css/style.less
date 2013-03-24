@@ -33,6 +33,8 @@
 
 @coverHighlightColor: #478cb6;
 
+@coverOverlayColor: #333;
+
 @homepageRatio: .5;
 
 body {
@@ -94,6 +96,13 @@ a {
 
   & a {
     text-decoration: none;
+  }
+
+  & p {
+    font-family: @sansSerif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #999;
   }
 
   & .book-cover {
@@ -428,7 +437,7 @@ header {
     & .metadata {
       display: block;
     }
-  }  
+  }
 }
 .cover {
   display: inline-block;
@@ -540,7 +549,7 @@ header {
     top: 0;
     bottom: 0;
     right: 0;
-    background: fadeout(@coverHighlightColor, 50%);
+    background: fadeout(@coverOverlayColor, 25%);
   }
 }
 
