@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-# gem 'hashie'
-gem 'ruby-debug'
+gem 'rake'
 gem 'jekyll'
-gem 'turbolinks'
 gem 'httparty'
 gem 'json'
+gem 'mustache'
+gem 'ruby-debug'
