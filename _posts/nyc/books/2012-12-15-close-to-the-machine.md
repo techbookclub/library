@@ -1,7 +1,7 @@
 ---
 layout: book_nyc
 category: nyc
-date_read: "12-15-2012"
+date_read: "2012-12-15"
 title: "Close to the machine"
 author: "Ellen Ullman"
 summary: "Another techbookclub selection..."

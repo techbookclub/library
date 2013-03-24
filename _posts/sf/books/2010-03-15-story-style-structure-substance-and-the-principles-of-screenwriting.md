@@ -1,7 +1,7 @@
 ---
 layout: book_sf
 category: sf
-date_read: "03-15-2010"
+date_read: "2010-03-15"
 title: "Story: Style, Structure, Substance, and the Principles of Screenwriting"
 author: "Robert McKee"
 summary: "Another techbookclub selection..."

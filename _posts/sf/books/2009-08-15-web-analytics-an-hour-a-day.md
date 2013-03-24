@@ -1,7 +1,7 @@
 ---
 layout: book_sf
 category: sf
-date_read: "08-15-2009"
+date_read: "2009-08-15"
 title: "Web Analytics: An Hour a Day"
 author: "Avinash Kaushik"
 summary: "Another techbookclub selection..."

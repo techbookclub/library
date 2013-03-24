@@ -1,7 +1,7 @@
 ---
 layout: book_sf
 category: sf
-date_read: "08-15-2010"
+date_read: "2010-08-15"
 title: "Delivering Happiness"
 author: "Tony Hsieh"
 summary: "Another techbookclub selection..."

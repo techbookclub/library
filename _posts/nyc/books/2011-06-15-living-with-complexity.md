@@ -1,7 +1,7 @@
 ---
 layout: book_nyc
 category: nyc
-date_read: "06-15-2011"
+date_read: "2011-06-15"
 title: "Living with Complexity"
 author: "Donald A. Norman"
 summary: "Another techbookclub selection..."

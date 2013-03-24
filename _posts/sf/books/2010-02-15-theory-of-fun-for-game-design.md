@@ -1,7 +1,7 @@
 ---
 layout: book_sf
 category: sf
-date_read: "02-15-2010"
+date_read: "2010-02-15"
 title: "Theory of Fun for Game Design"
 author: "Raph Koster"
 summary: "Another techbookclub selection..."

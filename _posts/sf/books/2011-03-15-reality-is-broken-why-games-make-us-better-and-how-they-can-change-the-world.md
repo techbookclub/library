@@ -1,7 +1,7 @@
 ---
 layout: book_sf
 category: sf
-date_read: "03-15-2011"
+date_read: "2011-03-15"
 title: "Reality Is Broken: Why Games Make Us Better and How They Can Change the World"
 author: "Jane McGonigal"
 summary: "Another techbookclub selection..."

@@ -1,7 +1,7 @@
 ---
 layout: book_sf
 category: sf
-date_read: "01-15-2012"
+date_read: "2012-01-15"
 title: "Fordlandia: The Rise and Fall of Henry Ford's Forgotten Jungle City"
 author: "Greg Grandin"
 summary: "Another techbookclub selection..."

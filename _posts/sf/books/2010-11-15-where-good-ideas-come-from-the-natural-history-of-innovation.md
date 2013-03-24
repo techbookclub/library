@@ -1,7 +1,7 @@
 ---
 layout: book_sf
 category: sf
-date_read: "11-15-2010"
+date_read: "2010-11-15"
 title: "Where Good Ideas Come From: The Natural History of Innovation"
 author: "Steven Johnson"
 summary: "Another techbookclub selection..."

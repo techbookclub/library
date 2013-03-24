@@ -1,7 +1,7 @@
 ---
 layout: book_sf
 category: sf
-date_read: "03-15-2012"
+date_read: "2012-03-15"
 title: "How to Do Things With Videogames"
 author: "Ian Bogost"
 summary: "Another techbookclub selection..."

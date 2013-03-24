@@ -23,12 +23,12 @@ task :build_book_metadata do
           "title" => book['title'], "author" => book['author'], "client_id" => client_id
         }
         if readmill_response.code == 200
-          puts "Successfully found #{book['title']} on Readmill"
+          puts "Successfully found '#{book['title']}'"
           readmill_object = JSON.parse(readmill_response.body)
 
           readmill_object['book']['cover_url'].gsub! /-medium\./, '-original.'
         else
-          puts and "Trouble finding #{book['title']} on Readmill. Try putting the data you want in a books.json custom_response field?"
+          puts and "Trouble finding '#{book['title']}'' on Readmill. Try putting the data you want in a books.json custom_response field?"
           puts readmill_response.inspect
           next
         end

@@ -1,7 +1,7 @@
 ---
 layout: book_nyc
 category: nyc
-date_read: "02-15-2013"
+date_read: "2013-02-15"
 title: "Mr. Penumbra's 24-Hour Bookstore: A Novel"
 author: "Robin Sloan"
 summary: "Another techbookclub selection..."
