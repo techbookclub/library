@@ -50,7 +50,8 @@ a {
 }
 
 .book-info {
-  margin: @verticalRhythm auto;
+  margin: 0;
+  margin-bottom: @verticalRhythm;
   width: @bookInfoWidth;
 
   overflow: hidden;
@@ -119,15 +120,17 @@ a {
   font-size: 18px;
   line-height: 28px;
 
+  position: relative;
+
   & h1 {
+    overflow: hidden;
+
     position: absolute;
     margin: 0;
-    padding: 0;
+    padding: 0 10px;
+    margin-top: 3px + @verticalRhythm;
 
     color: @coverHighlightColor;
-    padding: 0 10px;
-
-    padding-top: 3px;
 
     font-family: @sansSerif;
     font-size: 18px;
@@ -138,13 +141,11 @@ a {
   & p,
   & ul {
     padding-left: 150px;
-    padding-bottom: @verticalRhythm;
+    padding-top: @verticalRhythm;
     margin-bottom: @verticalRhythm;
+    border-top: 1px solid fadeout(@coverHighlightColor, 80%);    
   }
-  & p:not(:last-child),
-  & u:not(:last-child) {
-    border-bottom: 1px solid fadeout(@coverHighlightColor, 80%);    
-  }
+
   & .story {
     -webkit-columns: 2;
     -webkit-column-gap: @verticalRhythm * 2;
