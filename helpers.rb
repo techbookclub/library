@@ -23,9 +23,13 @@ module Helpers
     value
   end
 
+  def format_book_date(datestring)
+    DateTime.strptime(datestring, "%m-%d-%Y").strftime("%Y-%m-%d")
+  end
+
   def book_filepath(root, book_hash)
-    date_read = book_hash['date_read']
     club = book_hash['club']
+    date_read = format_book_date(book_hash['date_read'])
     slug = to_slug(book_hash['title'])
 
     "#{root}/_posts/#{club}/books/#{date_read}-#{slug}.md"

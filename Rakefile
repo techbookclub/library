@@ -1,16 +1,16 @@
 #!/usr/bin/env ruby
 PROJECT_ROOT = File.dirname(__FILE__)
 require File.join(PROJECT_ROOT + '/ext.rb')
+# require 'active_support/core_ext'
+require 'httparty'
 require_relative 'helpers'
 
-CLIENT_ID = "816981c8deb50ddeae9502182e683b1e"
+include Helpers
 
 task :build_book_metadata do
-  require 'httparty'
-
   clubs = JSON.load(File.read("books.json"))
   readmillified = clubs.clone
-
+  client_id = "816981c8deb50ddeae9502182e683b1e"
 
   clubs.each_with_index do |club, index|
     club["books"].each do |book|
@@ -20,7 +20,7 @@ task :build_book_metadata do
         readmill_object = book["custom_content"]
       else
         readmill_response = HTTParty.get "https://api.readmill.com/v2/books/match", :query => {
-          "title" => book['title'], "author" => book['author'], "client_id" => CLIENT_ID
+          "title" => book['title'], "author" => book['author'], "client_id" => client_id
         }
         if readmill_response.code == 200
           puts "Successfully found #{book['title']} on Readmill"
@@ -33,7 +33,7 @@ task :build_book_metadata do
           next
         end
       end
-      readmill_object['book'].merge! :club => club['location'], :date_read => book['date']
+      readmill_object['book'].merge! :club => club['location'], :date_read => format_book_date(book['date'])
       readmillified[index]['readmill_books'] ||= []
       readmillified[index]['readmill_books'].push(readmill_object['book'])
     end
@@ -46,7 +46,6 @@ end
 
 task :build_markdown do
   require 'mustache'
-  include Helpers
 
   book_data = JSON.parse(File.read('books_with_metadata.json'))
   markdown_template = File.read('markdown_template.mustache')
