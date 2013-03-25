@@ -1,0 +1,28 @@
+<section class='main {{page.categories}}'>
+  <h1>
+    {% include site_title_header.html %}
+  </h1>
+
+  <section class='city-info'>
+
+    <div class="city-photo">
+      <a href="{{page.photo_src}}"><img src="{{page.photo_url}}"></a>
+    </div>
+
+    <div class="metadata">
+      <h2 class="founded">
+        Founded {{page.founded |date: '%B %Y'}}
+      </h2>
+      <h1 class="title">
+        {{page.title}}
+      </h1>
+      <p class="contact">
+        <a href="mailto:{{page.contact}}" title="Inquire within" class="email"><img src="/images/mail.png" width=20 height 14></a>
+        <a href="https://twitter.com/techbookclub" title="techbookclub on Twitter" class="twitter"><img src="/images/twitter-bird.png" width=20 height=20/></a>
+      </p>
+    </div>
+  </section>
+  <section class='city-story body-text'>
+    {% if content %}{{content}}{% else %}{{page.content}}{% endif %}
+  </section>
+</section>
