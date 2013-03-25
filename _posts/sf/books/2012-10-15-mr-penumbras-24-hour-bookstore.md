@@ -6,7 +6,7 @@ title: "Mr. Penumbra's 24-Hour Bookstore"
 subtitle: " A Novel"
 author: "Robin Sloan"
 summary: "Another techbookclub selection..."
-cover_url: https://readmill-assets.s3.amazonaws.com/covers/d0ec737f9fbdc5de731f2bfedae9a763-medium.png?1349203108
+cover_url: https://readmill-assets.s3.amazonaws.com/covers/d0ec737f9fbdc5de731f2bfedae9a763-original.png?1349203108
 permalink_url: https://readmill.com/books/mr-penumbras-24-hour-bookstore-a-novel
 ---
 

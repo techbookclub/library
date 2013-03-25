@@ -6,7 +6,7 @@ title: "Always Be Testing"
 subtitle: " The Complete Guide to Google Website Optimizer"
 author: "Bryan Eisenberg and John Quarto-vonTivadar"
 summary: "Another techbookclub selection..."
-cover_url: http://javiergodoy2.files.wordpress.com/2008/06/00099906_medium.jpeg
+cover_url: http://javiergodoy2.files.wordpress.com/2008/06/00099906_original.jpeg
 permalink_url: http://www.amazon.com/Always-Be-Testing-Complete-Optimizer/dp/0470290633/
 ---
 

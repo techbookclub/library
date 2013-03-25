@@ -8,8 +8,7 @@ include Helpers
 
 task :build_book_metadata do
   puts "Fetching new book data from Readmill..."
-  clubs = JSON.load(File.read("books.json"))
-  readmillified = clubs.clone
+  clubs = JSON.load(File.read("books_with_metadata.json"))
   client_id = "816981c8deb50ddeae9502182e683b1e"
 
   clubs.each_with_index do |club, index|
@@ -53,8 +52,9 @@ task :build_book_metadata do
 end
 
 
-task :build_markdown do
+task :build_markdown, :overwrite do |t, args|
   require 'mustache'
+  puts arg
   puts "Rendering JSON to markdown for Jekyll..."
   book_data = JSON.parse(File.read('books_with_metadata.json'))
   markdown_template = File.read('lib/markdown_template.mustache')
@@ -62,11 +62,11 @@ task :build_markdown do
   book_data.each do |club|
     club['readmill_books'].each do |book|
       path = book_filepath(PROJECT_ROOT, book)
-      # unless File.exist? path
+      if File.exist? path && !args[:overwrite]
         File.open path, 'w' do |file|
           file << Mustache.render(markdown_template, book)
         end
-      # end
+      end
     end
   end
 end
