@@ -4,20 +4,21 @@
 <head>
 
   <meta charset="utf-8">
-  <title>{% if page.title %}{{page.title}} – {% endif %}tech book club</title>
+  <title>{% if page.title %}{{page.title}} – {% endif %}techbookclub</title>
 
   <script src="/scripts/script.js"></script>
   <script type="text/javascript" src="//use.typekit.net/vyl2awp.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <link href='/css/style.less' rel='stylesheet/less' type='text/css'>
   <script src='/scripts/libs/less-1.3.3.min.js'></script>
+  <script src='/scripts/libs/jquery-1.9.1.min.js'></script>
 </head>
 
-<body {% if page.url == '/index.html' %}class="homepage"{% endif %}>  
+<body class="{% if page.url == '/index.html' %}homepage{% endif %} {{page.categories}}">
   {{content}}
 
   <script>
-    main();
+    Bookshelf.init();
   </script>
 </body>
 

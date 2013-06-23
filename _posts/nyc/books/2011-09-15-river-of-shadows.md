@@ -10,7 +10,7 @@ cover_url: http://ecx.images-amazon.com/images/I/51WQQ8CCEBL._SL500_.jpg
 permalink_url: http://www.amazon.com/River-Shadows-Eadweard-Muybridge-Technological/dp/0142004103/
 ---
 
-# TBC:
+# TBC
 A little bit about why we read this book.
 
 # About

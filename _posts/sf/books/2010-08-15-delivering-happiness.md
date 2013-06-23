@@ -10,7 +10,7 @@ cover_url: https://readmill-assets.s3.amazonaws.com/covers/2ce799b998224911bcedc
 permalink_url: https://readmill.com/books/delivering-happiness
 ---
 
-# TBC:
+# TBC
 A little bit about why we read this book.
 
 # About

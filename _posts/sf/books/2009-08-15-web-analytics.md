@@ -10,6 +10,6 @@ cover_url: https://readmill-assets.s3.amazonaws.com/covers/29666efc4797a41e55cec
 permalink_url: https://readmill.com/books/web-analytics-an-hour-a-day
 ---
 
-# TBC:
-A little bit about why we read this book.
+# TBC
+[Amit](http://www.amitgupta.com/) suggested this as our inaugural book. Perhaps the most overtly techie book we've read.
 

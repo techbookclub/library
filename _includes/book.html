@@ -8,17 +8,20 @@
         {{page.author}}
       </h2>
       <h1 class='title'>
-        {{page.title}}
+        <a href="{{page.permalink_url}}">{{page.title}}</a>
       </h1>
       {% if page.subtitle %}
       <h1 class='subtitle'>
-        {{page.subtitle}}
+        <a href="{{page.permalink_url}}">{{page.subtitle}}</a>
       </h1>
       {% endif %}
+      <h2 class="date-read">
+        {{page.date_read |date: '%B %Y'}} &middot; <a href="/{{page.categories}}/">{{page.categories}}</a>
+      </h2>
     </div>
   </section>
 
-  <section class='book-subinfo'>
+  <section class='book-subinfo body-text'>
     {% if content %}{{content}}{% else %}{{page.content}}{% endif %}
   </section>
 </section>

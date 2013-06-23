@@ -10,7 +10,7 @@ cover_url: http://www.cyberneticrevolutionaries.com/wp-content/uploads/2011/10/c
 permalink_url: http://www.amazon.com/Cybernetic-Revolutionaries-Technology-Politics-Allendes/dp/0262016494/
 ---
 
-# TBC:
+# TBC
 A little bit about why we read this book.
 
 # About

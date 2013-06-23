@@ -10,7 +10,7 @@ cover_url: https://readmill-assets.s3.amazonaws.com/covers/287de74f71f6bfb952ebc
 permalink_url: https://readmill.com/books/fordlandia-the-rise-and-fall-of-henry-fords-forgotten-jungle-city
 ---
 
-# TBC:
+# TBC
 A little bit about why we read this book.
 
 # About

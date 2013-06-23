@@ -10,7 +10,7 @@ cover_url: https://readmill-assets.s3.amazonaws.com/covers/ad17d59c749819636dc78
 permalink_url: https://readmill.com/books/the-information-a-history-a-theory-a-flood
 ---
 
-# TBC:
+# TBC
 A little bit about why we read this book.
 
 # About

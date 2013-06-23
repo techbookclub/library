@@ -1,0 +1,11 @@
+<header class="floating fixed-hover">
+  {% include site_title_footer.html %}
+  <div class="shelf">
+    {% include book_nav_buttons.html %}
+    <ul class="books">
+      {% for post in site.categories.nyc reversed %}
+        {% include book_nav_item.html %}
+      {% endfor %}
+    </ul>
+  </div>
+</header>

@@ -10,7 +10,7 @@ cover_url: http://25.media.tumblr.com/tumblr_lqe1hxa0HC1qcl7wao1_500.jpg
 permalink_url: http://laphamsquarterly.org/magazine/the-future.php
 ---
 
-# TBC:
+# TBC
 A little bit about why we read this book.
 
 # About

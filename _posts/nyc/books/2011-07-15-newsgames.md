@@ -10,7 +10,7 @@ cover_url: http://mitpress.mit.edu/covers/9780262518079.jpg
 permalink_url: http://www.amazon.com/Newsgames-Journalism-Play-Ian-Bogost/dp/0262518074/
 ---
 
-# TBC:
+# TBC
 A little bit about why we read this book.
 
 # About

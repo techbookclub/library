@@ -10,7 +10,7 @@ cover_url: http://ecx.images-amazon.com/images/I/41g6Qle4jML.jpg
 permalink_url: http://www.amazon.com/The-Architecture-Machine-Toward-Environment/dp/0262640104
 ---
 
-# TBC:
+# TBC
 A little bit about why we read this book.
 
 # About

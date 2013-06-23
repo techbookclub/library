@@ -10,7 +10,7 @@ cover_url: http://torquelaunch.com/wp-content/uploads/2012/06/The-Culture-Code.p
 permalink_url: http://www.amazon.com/Culture-Code-Ingenious-Understand-People/dp/0767920570/
 ---
 
-# TBC:
+# TBC
 A little bit about why we read this book.
 
 # About

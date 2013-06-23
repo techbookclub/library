@@ -10,7 +10,7 @@ cover_url: http://www.brainpickings.org/wp-content/uploads/2011/05/thefilterbubb
 permalink_url: http://www.amazon.com/The-Filter-Bubble-Internet-Hiding/dp/1594203008/
 ---
 
-# TBC:
+# TBC
 A little bit about why we read this book.
 
 # About
