@@ -10,7 +10,7 @@ cover_url: https://readmill-assets.s3.amazonaws.com/covers/98e712e3ca8cd2bd45aad
 permalink_url: https://readmill.com/books/do-androids-dream-of-electric-sheep
 ---
 
-# TBC:
+# TBC
 A little bit about why we read this book.
 
 # About

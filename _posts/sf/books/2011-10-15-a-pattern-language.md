@@ -10,6 +10,6 @@ cover_url: https://readmill-assets.s3.amazonaws.com/covers/4bbebfe057b2be0d62452
 permalink_url: https://readmill.com/books/a-pattern-language
 ---
 
-# TBC:
+# TBC
 A little bit about why we read this book.
 

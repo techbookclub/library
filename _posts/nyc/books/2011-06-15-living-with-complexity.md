@@ -10,7 +10,7 @@ cover_url: https://readmill-assets.s3.amazonaws.com/covers/b35cd35e1ded99f110daf
 permalink_url: https://readmill.com/books/living-with-complexity
 ---
 
-# TBC:
+# TBC
 A little bit about why we read this book.
 
 # About

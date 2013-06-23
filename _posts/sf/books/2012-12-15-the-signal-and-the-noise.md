@@ -10,7 +10,7 @@ cover_url: https://readmill-assets.s3.amazonaws.com/covers/8f930796eeeafbe23fe09
 permalink_url: https://readmill.com/books/the-signal-and-the-noise
 ---
 
-# TBC:
+# TBC
 We chose this book just after the 2012 presidential election, in which Nate Silver blew everyone away with his accuracy and panache. Well done, Mr. Silver, though even after reading this book we still think you might be guilt of witchcraft.
 
 # About

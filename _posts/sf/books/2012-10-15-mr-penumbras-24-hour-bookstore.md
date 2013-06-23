@@ -10,7 +10,7 @@ cover_url: https://readmill-assets.s3.amazonaws.com/covers/d0ec737f9fbdc5de731f2
 permalink_url: https://readmill.com/books/mr-penumbras-24-hour-bookstore-a-novel
 ---
 
-# TBC:
+# TBC
 How could we not read [Robin's](http://www.robinsloan.com/) debut novel (or at least, his first for a major publisher)?!
 
 This also marked the first edition of the [24 Hour Book Club](24hourbookclub.com/), in which groups of readers (and people following along on Twitter) gathered to read the whole book, together, in a single day.

@@ -10,6 +10,6 @@ cover_url: https://readmill-assets.s3.amazonaws.com/covers/3642b90b9be51db488093
 permalink_url: https://readmill.com/books/close-to-the-machine
 ---
 
-# TBC:
+# TBC
 A little bit about why we read this book.
 

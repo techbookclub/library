@@ -10,7 +10,7 @@ cover_url: http://www.doubleday.com.au/image.aspx?isbn=9780915299140&amp;size=L
 permalink_url: http://www.amazon.com/Toyota-Production-System-Beyond-Large-Scale/dp/0915299143/
 ---
 
-# TBC:
+# TBC
 A little bit about why we read this book.
 
 # About

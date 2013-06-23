@@ -10,7 +10,7 @@ cover_url: http://img2-1.timeinc.net/ew/i/2013/01/02/Tenth-of-December.jpg
 permalink_url: http://www.amazon.com/Tenth-December-Stories-George-Saunders/dp/0812993802/
 ---
 
-# TBC:
+# TBC
 A little bit about why we read this book.
 
 # About

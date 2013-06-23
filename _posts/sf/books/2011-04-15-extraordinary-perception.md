@@ -10,6 +10,6 @@ cover_url: https://readmill-assets.s3.amazonaws.com/covers/31e27c71513599703de0c
 permalink_url: https://readmill.com/books/extraordinary-perception
 ---
 
-# TBC:
+# TBC
 A little bit about why we read this book.
 

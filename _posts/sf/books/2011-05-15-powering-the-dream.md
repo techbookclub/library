@@ -10,7 +10,7 @@ cover_url: http://lindseyhoshaw.files.wordpress.com/2011/04/madrigal_97803068188
 permalink_url: http://www.amazon.com/Powering-Dream-History-Promise-Technology/dp/B006CDDHOK/
 ---
 
-# TBC:
+# TBC
 A little bit about why we read this book.
 
 # About

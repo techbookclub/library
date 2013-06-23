@@ -10,7 +10,7 @@ cover_url: https://readmill-assets.s3.amazonaws.com/covers/5df66799a99ac3a57efb1
 permalink_url: https://readmill.com/books/reality-is-broken-why-games-make-us-better-and-how-they-can-change-the-world
 ---
 
-# TBC:
+# TBC
 A little bit about why we read this book.
 
 # About

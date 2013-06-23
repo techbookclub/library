@@ -10,7 +10,7 @@ cover_url: https://readmill-assets.s3.amazonaws.com/covers/cf1ba66b09de27c253354
 permalink_url: https://readmill.com/books/where-good-ideas-come-from-the-natural-history-of-innovation
 ---
 
-# TBC:
+# TBC
 A little bit about why we read this book.
 
 # About
