@@ -6,7 +6,7 @@ title: "Toyota Production System"
 subtitle: " Beyond Large-Scale Production"
 author: "Taiichi Ohno"
 summary: "Another techbookclub selection..."
-cover_url: http://www.doubleday.com.au/image.aspx?isbn=9780915299140&amp;size=L
+cover_url: http://www.leanglobal.org/uploads/publications/091529914301LZZZZZZZ.jpg
 permalink_url: http://www.amazon.com/Toyota-Production-System-Beyond-Large-Scale/dp/0915299143/
 ---
 
