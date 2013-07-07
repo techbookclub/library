@@ -3,7 +3,7 @@ layout: book_nyc
 category: nyc
 date_read: "2013-06-23"
 title: "These Days"
-subtitle: " "
+subtitle: "A Novel"
 author: "Jack Cheng"
 summary: "Another techbookclub selection..."
 cover_url: http://d.gr-assets.com/books/1365800626l/17664652.jpg
